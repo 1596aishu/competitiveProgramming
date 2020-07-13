@@ -15,9 +15,4 @@ def handtodice(hand):
 		if(x != len(num)-1):
 			s+=(",")
 	s+=(")")
-	print(s)
-handtodice(123)
-handtodice(214)
-handtodice(422)
-handtodice(400)
-handtodice(101)
+	return s
