@@ -9,5 +9,5 @@ def fun_isfactor(f, n):
 	if n>0:
 		if f%n == 0: 
 			return True
-		return False 
+		else: return False 
 	else: return True
