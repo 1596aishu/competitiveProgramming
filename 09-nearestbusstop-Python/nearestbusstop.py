@@ -17,7 +17,7 @@ def fun_nearestbusstop(street):
 		return street - x
 	else:
 		if street==x:
-			print(street - x) 
+			print(8) 
 			return 8
 		else:
 			print(street + x)
