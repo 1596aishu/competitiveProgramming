@@ -15,5 +15,7 @@ def isrighttriangle(x1, y1, x2, y2, x3, y3):
 	C = distance(x3,y3,x2,y2)
 
 	if A**2 + B**2 == C**2:
-		return 
+		return True
+	else:
+		return False
 
