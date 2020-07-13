@@ -7,6 +7,14 @@
 class getinrange {
 	public int fun_getinrange(int x, int bound1, int bound2){
 		// Your code goes here
-		return -1;
+		int a = bound1;
+		int b = bound2;
+		if(b<a){
+			a=bound2;
+			b=bound1;
+		}
+		if(x>a && x<b) return x;
+		elif(x<a) return a;
+		else return b;
 	}
 }
