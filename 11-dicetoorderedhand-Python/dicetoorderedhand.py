@@ -15,3 +15,5 @@ def dicetoorderedhand(a, b, c):
 	num = [a,b,c]
 	num = num.sort()
 	return [str(x) for x in num] 
+	for x in num:
+		s +=str(x)
