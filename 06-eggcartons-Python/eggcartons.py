@@ -9,5 +9,5 @@ def fun_eggcartons(eggs):
 	if eggs>0 :
 		a = eggs%12
 		if a == 0 : return eggs//12
-		return (eggs//12) +1
+	return (eggs//12) +1
 	return 0
