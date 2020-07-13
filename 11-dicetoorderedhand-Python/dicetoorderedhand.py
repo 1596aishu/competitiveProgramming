@@ -18,7 +18,4 @@ def dicetoorderedhand(a, b, c):
 	lst = num[::-1]
 	for x in lst:
 		s += str(x)
-	# for x in num:
-	# 	s +=str
-	print(s)
-dicetoorderedhand(7,2,3)
+	return s
