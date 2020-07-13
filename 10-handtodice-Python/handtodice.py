@@ -8,7 +8,7 @@
 def handtodice(hand):
 	# your code goes here
 	
-	num = (int(d) for d in str(hand))
+	num = [int(d) for d in str(hand)]
 	print(num)
 
 handtodice(123)
