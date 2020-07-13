@@ -5,6 +5,11 @@
 
 class eggcartons {
 	public int fun_eggcartons(int eggs){
-		return 0;
+		int n;
+		while(eggs>0){
+			if(eggs<12) return 1;
+			n = 1 + eggs/12;
+		}
+		return n;
 	}
 }
