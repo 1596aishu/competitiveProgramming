@@ -19,4 +19,4 @@ def dicetoorderedhand(a, b, c):
 	lst = num[::-1]
 	for x in lst:
 		s += str(x)
-	return s
+	return int(s)
