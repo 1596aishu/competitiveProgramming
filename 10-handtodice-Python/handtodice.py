@@ -10,9 +10,7 @@ def handtodice(hand):
 	# print(num)
 	num = [int(d) for d in str(hand)]
 	s = ""
-	num = sorted([int(x) for x in num])
-	lst = num[::-1]
-	for x in lst:
+	for x in num:
 		s += str(x)
 	# print(int(s))
 	return int(s)
