@@ -9,5 +9,5 @@ def isevenpositiveint(x):
 	if(type(x)==int):
 		if x>0:
 			if x%2==0:
-				print(x)
-isevenpositiveint(-2)
+				return True
+	return False
