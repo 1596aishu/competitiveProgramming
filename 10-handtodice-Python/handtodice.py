@@ -7,5 +7,4 @@
 
 def handtodice(hand):
 	# your code goes here
-	arr = split(hand)
-	return arr
+	return int(char for char in hand)
