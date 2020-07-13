@@ -13,7 +13,7 @@
 
 def dicetoorderedhand(a, b, c):
 	num = [a,b,c]
-	print(num)
+	# print(num)
 	s = ""
 	num = sorted([int(x) for x in num])
 	lst = num[::-1]
