@@ -6,6 +6,7 @@
 
 def isevenpositiveint(x):
 	# your code goes here
+	print(type(9))
 	if(type(x)==int):
 		if x>0:
 			if x%2==0:
@@ -16,6 +17,6 @@ def isevenpositiveint(x):
 			return False
 	else: 
 		return False
-	print(type(9))
+	
 
 isevenpositiveint(9)
