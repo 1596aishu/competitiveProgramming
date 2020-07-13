@@ -7,7 +7,7 @@
 import math
 
 def distance(x, y, a, b):
-	dist = math.sqrt((x-a)**2 + (y-b)**2)
+	dist = math.sqrt((a-x)**2 + (y-b)**2)
 	return dist
 def isrighttriangle(x1, y1, x2, y2, x3, y3):
 	A = distance(x1,y1,x2,y2)
