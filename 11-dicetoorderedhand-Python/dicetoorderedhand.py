@@ -12,9 +12,6 @@
 # min(a,b,c) to find the smallest.
 
 def dicetoorderedhand(a, b, c):
-	# your code goes here
-	hand = a*100+b*10+c
-	r = ""
-	while hand!=0:
-		r +=str(hand%10)
-	print(r)
+
+	print(str(c)+str(b)+str(a)) 
+dicetoorderedhand(1,2,3)
