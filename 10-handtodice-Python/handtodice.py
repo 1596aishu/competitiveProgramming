@@ -13,7 +13,7 @@ def handtodice(hand):
 	for x in range(len(num)):
 		s+=(str(num[x]))
 		if(x != len(num)-1):
-			print(",")
-	print(")")
+			s+=(",")
+	s+=(")")
 
 handtodice(123)
