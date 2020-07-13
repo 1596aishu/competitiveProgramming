@@ -13,4 +13,8 @@
 
 def dicetoorderedhand(a, b, c):
 	# your code goes here
-	pass
+	hand = a*100+b*10+c
+	r = ""
+	while hand!=0:
+		r +=str(hand%10)
+	print(r)
