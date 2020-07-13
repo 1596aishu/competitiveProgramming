@@ -8,7 +8,7 @@
 def handtodice(hand):
 	# your code goes here
 	# print(num)
-	[int(d) for d in str(hand)]
+	num = [int(d) for d in str(hand)]
 	s = ""
 	num = sorted([int(x) for x in num])
 	lst = num[::-1]
