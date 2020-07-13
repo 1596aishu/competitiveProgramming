@@ -6,6 +6,9 @@
 
 class circlesintersect {
 	public boolean fun_circlesintersect(int x1, int y1, int r1, int x2, int y2, int r2){
+		int rad = r1+r2;
+		int dist = math.sqrt(((x2-x1)^2)+((y2-y1)^2));
+		if(dist>rad) return true;		
 		return false;
 	}
 }
