@@ -7,4 +7,12 @@
 
 def handtodice(hand):
 	# your code goes here
-	pass
+	num = [a,b,c]
+	# print(num)
+	s = ""
+	num = sorted([int(x) for x in num])
+	lst = num[::-1]
+	for x in lst:
+		s += str(x)
+	# print(int(s))
+	return int(s)
