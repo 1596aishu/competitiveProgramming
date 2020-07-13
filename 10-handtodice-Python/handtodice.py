@@ -7,7 +7,6 @@
 
 def handtodice(hand):
 	# your code goes here
-	num = [a,b,c]
 	# print(num)
 	s = ""
 	num = sorted([int(x) for x in num])
