@@ -28,7 +28,7 @@ def isrighttriangle(x1, y1, x2, y2, x3, y3):
 	# 	n2 = A
 	num = [A,B,C]
 	x,y,z = sorted(num)
-	if x**2+y**2==z**2:
+	if x**2+y**2 == z**2:
 		return True
 	else:
 		return False
