@@ -20,7 +20,7 @@ def isrighttriangle(x1, y1, x2, y2, x3, y3):
 		largest = B
 	else:
 		largest = C
-	if A**2 + B**2 == C**2:
+	if A**2 + B**2 == largest**2:
 		return True
 	else:
 		return False
