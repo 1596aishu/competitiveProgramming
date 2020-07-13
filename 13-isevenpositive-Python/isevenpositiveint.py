@@ -8,4 +8,4 @@ def isevenpositiveint(x):
 	# your code goes here
 	if(type(x)==float):
 		print(type(x))
-isevenpositiveint(9.0)
+isevenpositiveint(9)
