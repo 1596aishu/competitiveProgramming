@@ -8,4 +8,6 @@
 
 
 def fun_nearestbusstop(street):
+	st = 0
+	x = street%8
 	return -1
