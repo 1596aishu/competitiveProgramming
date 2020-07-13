@@ -16,3 +16,8 @@ def fun_nearestbusstop(street):
 		return street - x
 	else: 
 		return street + x
+
+fun_nearestbusstop(4)
+fun_nearestbusstop(8)
+fun_nearestbusstop(12)
+fun_nearestbusstop(5)
