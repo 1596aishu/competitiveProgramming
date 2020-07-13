@@ -6,5 +6,6 @@
 
 def isevenpositiveint(x):
 	# your code goes here
-	print(type(x))
+	if(type(x)==float):
+		print(type(x))
 isevenpositiveint(9.0)
