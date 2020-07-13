@@ -8,6 +8,10 @@
 
 
 def fun_nearestbusstop(street):
+	if street == 0: 
+		return 0
 	x = street%8
-	if x<=4: return street - x
-	else: return street + x
+	if x<=4: 
+		return street - x
+	else: 
+		return street + x
