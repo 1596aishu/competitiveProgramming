@@ -13,4 +13,4 @@ def handtodice(hand):
 		a = a+ (int(b[i]),)
 		i += 1
 	return a
-
+    
