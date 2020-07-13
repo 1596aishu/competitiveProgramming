@@ -7,7 +7,4 @@ import math
 def fun_distance(x1, y1, x2, y2):
 	# your code goes here
 	dist = int(math.sqrt((x2 - x1)**2 + (y2 - y1)**2))
-	print(dist)
 	return dist
-
-fun_distance(0, 0, 0, -2)
