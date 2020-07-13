@@ -13,6 +13,7 @@ def fun_nearestbusstop(street):
 	x = street%8
 	# print(x)
 	if x<=4: 
+		print("LESS: ")
 		print(street - x)
 		return street - x
 	else:
@@ -20,10 +21,11 @@ def fun_nearestbusstop(street):
 			print(8) 
 			return 8
 		else:
+			print("add: ")
 			print(street + x)
 			return street + x
 
-# fun_nearestbusstop(4)
-# fun_nearestbusstop(8)
-# fun_nearestbusstop(12)
-# fun_nearestbusstop(6)
+fun_nearestbusstop(4)
+fun_nearestbusstop(8)
+fun_nearestbusstop(12)
+fun_nearestbusstop(6)
