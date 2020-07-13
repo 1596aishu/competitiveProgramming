@@ -19,3 +19,14 @@ def isevenpositiveint(x):
 	
 
 isevenpositiveint(9)
+isevenpositiveint(-1)
+isevenpositiveint(-2)
+isevenpositiveint(-3)
+isevenpositiveint(2)
+isevenpositiveint(3)
+isevenpositiveint(1.0)
+isevenpositiveint("yikes!")
+isevenpositiveint(None)
+isevenpositiveint((12))
+isevenpositiveint([12])
+isevenpositiveint(123456)
