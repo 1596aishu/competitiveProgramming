@@ -13,5 +13,4 @@
 
 def dicetoorderedhand(a, b, c):
 
-	print(str(c)+str(b)+str(a)) 
-dicetoorderedhand(1,2,3)
+	return (str(c)+str(b)+str(a)) 
