@@ -20,4 +20,4 @@ def fun_nearestbusstop(street):
 fun_nearestbusstop(4)
 fun_nearestbusstop(8)
 fun_nearestbusstop(12)
-fun_nearestbusstop(5)
+fun_nearestbusstop(6)
