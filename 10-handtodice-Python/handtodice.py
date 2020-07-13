@@ -12,5 +12,6 @@ def handtodice(hand):
 	print("(")
 	for x in num:
 		print(str(x)+",")
+	print(")")
 
 handtodice(123)
