@@ -10,8 +10,9 @@ def handtodice(hand):
 	
 	num = [int(d) for d in str(hand)]
 	print("(")
-	for x in num:
-		print(str(x))
+	for x in len(num):
+		print(str(num[x]))
+		if(x == len(num)-1)
 	print(")")
 
 handtodice(123)
