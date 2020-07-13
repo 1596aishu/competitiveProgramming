@@ -6,7 +6,7 @@
 
 def isevenpositiveint(x):
 	# your code goes here
-	print(type((12)))
+	print(type([12]))
 	if(type(x)==int):
 		if x>0:
 			if x%2==0:
