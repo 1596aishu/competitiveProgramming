@@ -9,7 +9,7 @@ def handtodice(hand):
 	# your code goes here
 	s=""
 	num = [int(d) for d in str(hand)]
-	s+="("
+	s+=("(")
 	for x in range(len(num)):
 		s+=(str(num[x]))
 		if(x != len(num)-1):
