@@ -7,4 +7,10 @@
 
 def handtodice(hand):
 	# your code goes here
-	return int(char for char in hand)
+	while hand!=0:
+		r= str(hand%10)
+		hand = hand//10
+
+	print(r)
+
+
