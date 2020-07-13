@@ -19,10 +19,11 @@ def dicetoorderedhand(a, b, c):
 	lst = num[::-1]
 	for x in lst:
 		s += str(x)
-	print(int(s))
+	# print(int(s))
+	return int(s)
 
-dicetoorderedhand(1, 2, 3)
-dicetoorderedhand(6, 5, 4)
-dicetoorderedhand(1, 4, 2)
-dicetoorderedhand(6, 5, 6)
-dicetoorderedhand(2, 2, 2)
+# dicetoorderedhand(1, 2, 3)
+# dicetoorderedhand(6, 5, 4)
+# dicetoorderedhand(1, 4, 2)
+# dicetoorderedhand(6, 5, 6)
+# dicetoorderedhand(2, 2, 2)
