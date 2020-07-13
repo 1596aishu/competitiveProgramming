@@ -10,4 +10,4 @@ def isevenpositiveint(x):
 		if x>0:
 			if x%2==0:
 				print(x)
-isevenpositiveint(9)
+isevenpositiveint(-2)
