@@ -14,18 +14,23 @@ def isrighttriangle(x1, y1, x2, y2, x3, y3):
 	A = distance(x1,y1,x2,y2)
 	B = distance(x1,y1,x3,y3)
 	C = distance(x3,y3,x2,y2)
-	if (A > B) and (A > C):
-		largest = A
-		n1 = B
-		n2 = C
-	elif (B > A) and (B > C):
-		largest = B
-		n1 = A
-		n2 = C
+	# if (A > B) and (A > C):
+	# 	largest = A
+	# 	n1 = B
+	# 	n2 = C
+	# elif (B > A) and (B > C):
+	# 	largest = B
+	# 	n1 = A
+	# 	n2 = C
+	# else:
+	# 	largest = C
+	# 	n1 = B
+	# 	n2 = A
+	x,y,z = sorted(num)
+	if x**2+y**2==z**2:
+		print('Yes')
 	else:
-		largest = C
-		n1 = B
-		n2 = A
+		print('No')
 	if n1**2 + n2**2 == largest**2:
 		return True
 	else:
