@@ -11,4 +11,4 @@ class circlesintersect {
 		if(dist>rad) return true;		
 		return false;
 	}
-} 
+}
