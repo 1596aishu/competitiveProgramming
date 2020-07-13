@@ -13,7 +13,12 @@ def isrighttriangle(x1, y1, x2, y2, x3, y3):
 	A = distance(x1,y1,x2,y2)
 	B = distance(x1,y1,x3,y3)
 	C = distance(x3,y3,x2,y2)
-
+	if (A > B) and (A > C):
+		largest = A
+	elif (B > A) and (B > C):
+		largest = B
+	else:
+		largest = C
 	if A**2 + B**2 == C**2:
 		return True
 	else:
