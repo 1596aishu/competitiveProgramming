@@ -16,3 +16,6 @@ def isevenpositiveint(x):
 			return False
 	else: 
 		return False
+	print(type(9))
+
+isevenpositiveint(9)
