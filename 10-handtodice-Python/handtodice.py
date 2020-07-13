@@ -7,5 +7,4 @@
 
 def handtodice(hand):
 	# your code goes here
-	hand = String(hand)
 	return int(char for char in hand)
