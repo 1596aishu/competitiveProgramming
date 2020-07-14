@@ -13,7 +13,7 @@ def fun_set_kth_digit(n, k, d):
 			p = n%10
 			N = str(n)
 			N.replace(str(p),str(d))
-		i= i+1
-			
+			return int(N)
+		i= i+1			
 	return 0
 
