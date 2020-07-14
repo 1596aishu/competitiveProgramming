@@ -7,5 +7,14 @@
 
 
 def fun_set_kth_digit(n, k, d):
-		return 0
+	i = 0
+	c = 0
+	while n!=0:
+		if i==k:
+			p = n%10
+			N = str(n)
+			N.replace()
+		i= i+1
+			
+	return 0
 
