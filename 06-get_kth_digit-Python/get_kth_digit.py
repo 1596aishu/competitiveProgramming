@@ -6,7 +6,7 @@
 
 
 def fun_get_kth_digit(digit, k):
-	i = 1
+	i = 0
 	c =0
 	while digit!=0:
 		if i!=k:
