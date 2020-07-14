@@ -9,12 +9,6 @@ class Queue:
         self.storage = [head]
 
     def enqueue(self, new_element):
-        # pass
-        
-        # if len(self.storage) !=0:
-        #     self.storage[length]=new_element
-        # else:
-        #     self.storage[0]=new_element
         self.storage.append = new_element
 
 
