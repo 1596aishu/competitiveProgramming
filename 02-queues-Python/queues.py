@@ -9,7 +9,10 @@ class Queue:
         self.storage = [head]
 
     def enqueue(self, new_element):
-        pass
+        # pass
+        if self.storage.length !=0:
+            self.storage[self.storage.length-1]=new_element
+
 
     def peek(self):
         pass 
