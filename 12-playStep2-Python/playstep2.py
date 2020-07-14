@@ -62,7 +62,7 @@ def removeHand(hand,a):
 
 def playstep2(hand, dice):
 	# hand = handtodice(hand)
-	# dice = handtodice(dice)
+	dice = handtodice(dice)
 	if(len(set(hand))==1):
 		hand = handtodice1(hand)
 		a = [hand,dice]
