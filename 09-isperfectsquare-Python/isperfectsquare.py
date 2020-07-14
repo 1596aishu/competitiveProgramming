@@ -5,4 +5,22 @@
 
 def isperfectsquare(n):
 	# your code goes here
-	pass
+	if type(n)==int:
+		if type(math.sqrt(n)) == int:
+			return True
+		else: 
+			return False
+	else:
+		if type(n) == str:
+			try:
+				n = int(n)
+				if type(math.sqrt(n)) == int:
+					return True
+				else:
+					return False
+			except:
+				return False
+		else:
+			return False
+
+
