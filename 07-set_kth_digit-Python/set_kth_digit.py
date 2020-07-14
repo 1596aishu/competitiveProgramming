@@ -16,10 +16,10 @@ def fun_set_kth_digit(n, k, d):
 			N = str(num)
 			N=N.replace(str(p),str(d))
 			# print(N)
-			print(int(N))
+			return (int(N))
 		elif i!=k:
-			n= n//10
-			
+			n= n//10			
 		i= i+1
-fun_set_kth_digit(468, 0, 1)
+	return 0
+
 
