@@ -13,9 +13,8 @@ def fun_get_kth_digit(digit, k):
 			digit= digit//10
 		else:
 			c = digit % 10
-			print(c)
+			return(c)
 		i= i+1
-		print(0)
+	return(0)
 
-fun_get_kth_digit(789,3)
 
