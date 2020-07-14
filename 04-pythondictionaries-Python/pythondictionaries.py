@@ -40,8 +40,8 @@ locations = {
 def sortUSA(locations):
     for x in locations:
         if x =='North America':
-            print(x)
-            
+            for y in locations[x]:
+                print(y)
 
 
 sortUSA(locations)
