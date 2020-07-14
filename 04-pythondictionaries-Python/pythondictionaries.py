@@ -51,5 +51,6 @@ def alphaAsia(locations):
                 i=i+1
                 print(i)
                 print(sorted(y))
+                return sorted(y)
 sortUSA(locations)
 alphaAsia(locations)
