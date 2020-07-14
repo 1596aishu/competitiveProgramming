@@ -10,7 +10,7 @@ class Queue:
 
     def enqueue(self, new_element):
         # pass
-        if self.storage.length !=0:
+        if len(self.storage) !=0:
             self.storage[self.storage.length-1]=new_element
 
 
