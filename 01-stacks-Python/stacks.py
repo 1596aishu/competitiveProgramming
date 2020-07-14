@@ -47,10 +47,12 @@ class stack(object):
     def push(self, new_element):
         "Push (add) a new element onto the top of the stack"
         # pass
-        top = LinkedList(new_element)
-        if top.next:
+        
+        if top:
             top.next = new_element
-        self.top = new_element 
+            self.top = new_element 
+        else:
+            top = LinkedList(new_element)
             
 
     def pop(self):
