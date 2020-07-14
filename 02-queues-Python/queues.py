@@ -11,13 +11,15 @@ class Queue:
     def enqueue(self, new_element):
         # pass
         if len(self.storage) !=0:
-            self.storage[len(self.storage)-1]=new_element
+            self.storage[len(self.storage)]=new_element
         else:
             self.storage[0]=new_element
 
 
     def peek(self):
-        pass 
+        # pass
+        return self.storage[len(self.storage)]
+         
 
     def dequeue(self):
         pass
