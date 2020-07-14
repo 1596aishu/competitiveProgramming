@@ -49,9 +49,8 @@ class stack(object):
         # pass
         if self.ll:
             self.ll.next = new_element
-            self.ll = new_element 
-        else:
-            top = LinkedList(new_element)
+        self.ll = new_element 
+        
             
 
     def pop(self):
