@@ -17,5 +17,5 @@ def fun_get_kth_digit(digit, k):
 		i= i+1
 	print(0)
 
-fun_get_kth_digit(789,2)
+fun_get_kth_digit(789,1)
 
