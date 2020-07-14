@@ -48,3 +48,4 @@ def alphaAsia(locations):
             for y in locations[x].values():
                 print(sorted(y))
 sortUSA(locations)
+alphaAsia(locations)
