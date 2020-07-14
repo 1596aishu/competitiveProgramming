@@ -17,8 +17,9 @@ def isperfectsquare(n):
 	else:
 		if type(n) == str:
 			try:
-				m = int(math.sqrt(int(n)))
-				if math.sqrt(m) == a and m>0:
+				m = int(n)
+				b = int(math.sqrt(m))
+				if math.sqrt(m) == b and m>0:
 					print("True2")
 					return True
 				else:
