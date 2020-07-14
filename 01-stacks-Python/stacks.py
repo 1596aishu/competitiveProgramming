@@ -48,7 +48,7 @@ class stack(object):
         "Push (add) a new element onto the top of the stack"
         # pass
         
-        if top:
+        if self.top:
             top.next = new_element
             self.top = new_element 
         else:
