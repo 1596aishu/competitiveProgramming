@@ -36,3 +36,9 @@ locations = {
             'China':['Shanghai']},
             'Africa':{'Egypt':['Cairo']}
             }
+
+def sortUSA():
+    for x in locations:
+        if x =='North Amarice':
+            for y in locations[x]:
+                print(y)
