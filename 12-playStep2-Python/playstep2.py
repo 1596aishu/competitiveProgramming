@@ -57,11 +57,11 @@ def notMatched(hand):
 def removeHand(hand,a):
 	for i in range(a,len(hand)-1):
 		hand[i] = hand[i+1]
-	hand[len(hand)-1]= None
+	# hand[len(hand)-1]= None
 	return hand
 
 def playstep2(hand, dice):
-	hand = handtodice(hand)
+	# hand = handtodice(hand)
 	# dice = handtodice(dice)
 	if(len(set(hand))==1):
 		hand = handtodice1(hand)
@@ -81,7 +81,7 @@ def playstep2(hand, dice):
 		hand = handtodice1(hand)
 		a = [hand,dice]
 		a = tuple(a)
-		print(a)
+		# print(a)
 		return a
 	else:
 		hand[0] = max(hand)
@@ -93,5 +93,5 @@ def playstep2(hand, dice):
 		hand = handtodice1(hand)
 		a = [hand,dice]
 		a = tuple(a)
-		print(a)
+		# print(a)
 		return a
