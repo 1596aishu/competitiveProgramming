@@ -10,8 +10,7 @@
 def numberofpoolballs(rows):
 	sum = 0
 	# Your code goes here
-	for x in range(1,rows):
-		sum += x
+	sum = rows*(rows+1)//2
 	return sum
 
 
