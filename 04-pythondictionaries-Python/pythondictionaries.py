@@ -37,11 +37,11 @@ locations = {
             'Africa':{'Egypt':['Cairo']}
             }
 
-def sortUSA():
+def sortUSA(locations):
     for x in locations:
         if x =='North Amarice':
             for y in locations[x]:
                 print(y)
 
 
-sortUSA()
+sortUSA(locations)
