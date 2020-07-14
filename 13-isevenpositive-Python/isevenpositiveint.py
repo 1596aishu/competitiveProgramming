@@ -17,7 +17,4 @@ def isevenpositiveint(x):
 			return False
 	else:
 		return False
-	
-
-
-isevenpositiveint((12))
+		  
