@@ -18,7 +18,7 @@ class Queue:
 
     def peek(self):
         # pass
-        return self.storage[len(self.storage)]
+        return self.storage[len(self.storage)-1]
          
 
     def dequeue(self):
