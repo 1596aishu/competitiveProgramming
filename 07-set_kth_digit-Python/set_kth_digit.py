@@ -19,7 +19,6 @@ def fun_set_kth_digit(n, k, d):
 			print(int(N))
 		elif i!=k:
 			n= n//10
-			
 		i= i+1
-fun_set_kth_digit(468, 1, 1)
+	return 0
 
