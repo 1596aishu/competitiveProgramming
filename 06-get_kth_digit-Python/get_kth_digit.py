@@ -4,17 +4,14 @@
 # if the kth digit is not present return 0 
 
 
-
 def fun_get_kth_digit(digit, k):
-	i = 0
-	c = 0
-	while digit!=0:
-		if i!=k:
-			digit= digit//10
-		else:
-			c = digit % 10
-			return(c)
-		i= i+1
-	return(0)
+	digit = str(digit)
+	digit = digit[::-1]
+	digit = list(digit)
+	if(len(digit)>k):
+		return int(digit[k])
+	else:
+		return 0
+
 
 
