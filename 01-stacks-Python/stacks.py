@@ -47,9 +47,8 @@ class stack(object):
     def push(self, new_element):
         "Push (add) a new element onto the top of the stack"
         # pass
-        a = LinkedList(new_element)
         if self.ll:
-            a.next = new_element
+            ll.next = new_element
             self.top = new_element 
         else:
             top = LinkedList(new_element)
