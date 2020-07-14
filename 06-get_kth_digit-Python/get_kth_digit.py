@@ -12,7 +12,7 @@ def fun_get_kth_digit(digit, k):
 		if i!=k:
 			digit= digit//10
 		else:
-			c = digit%10
+			c = digit % 10
 			print(c)
 		i= i+1
 	print(0)
