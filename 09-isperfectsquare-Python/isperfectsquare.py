@@ -9,10 +9,10 @@ def isperfectsquare(n):
 		# if type(math.sqrt(n)) == int:
 		a = int(math.sqrt(n))
 		if math.sqrt(n) == a:
-			print("True1")
+			# print("True1")
 			return True
 		else: 
-			print("False2")
+			# print("False2")
 			return False
 	else:
 		if type(n) == str:
@@ -20,21 +20,17 @@ def isperfectsquare(n):
 				m = int(n)
 				b = int(math.sqrt(m))
 				if math.sqrt(m) == b and m>0:
-					print("True2")
+					# print("True2")
 					return True
 				else:
-					print("False2")
+					# print("False2")
 					return False
 			except:
-				print("False3")
+				# print("False3")
 				return False
 		else:
-			print("False4")
+			# print("False4")
 			return False
 
-isperfectsquare("hello")
-isperfectsquare("100")
-isperfectsquare(6.25)
-isperfectsquare(100)
 
 
