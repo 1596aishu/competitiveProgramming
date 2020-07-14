@@ -7,19 +7,24 @@
 
 
 def fun_set_kth_digit(n, k, d):
-	i = 0
-	num = n
-	while n!=0:
-		if i==k:
-			p = n%10
-			# print(p)
-			N = str(num)
-			N=N.replace(str(p),str(d))
-			# print(N)
-			return (int(N))
-		elif i!=k:
-			n= n//10			
-		i= i+1
-	return 0
+	flag = False
+	if n<0:
+		flag = True
+	n = str(n)
+	n1 = list(n)
+	if(len(n1)>k):
+		n1[len(n1)-(k+1)] = str(d)
+		n1 = ''.join(n1)
+		if flag:
+			return -int(n1)
+		else:
+			return int(n1)
+	else:
+		n = str(d)+n
+		if flag:
+			return -int(n)
+		else:
+			return int(n)
+
 
 
