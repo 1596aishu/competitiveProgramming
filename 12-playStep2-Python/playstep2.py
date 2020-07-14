@@ -54,7 +54,7 @@ def notMatched(hand):
 		for j in range(len(hand)):
 			if(hand[i] != hand[j]):
 				count += 1
-		if count == 2:  
+		if count == 2:
 			return i
 def removeHand(hand,a):
 	for i in range(a,len(hand)-1):
