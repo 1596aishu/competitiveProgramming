@@ -29,14 +29,12 @@
 # Hint: Also, remember to use % to get the one's digit, and use //= to get rid of the one's digit.
 
 import math
-
-
 def handtodice1(hand):
 	a = ""
-	i = 0
+	i=0
 	while(i<len(hand)):
-		a+= str(hand[i])
-		i+=1
+		a += str(hand[i])
+		i += 1
 	return int(a)
 
 def handtodice(hand):
