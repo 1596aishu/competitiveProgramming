@@ -12,6 +12,7 @@ def fun_set_kth_digit(n, k, d):
 	while n!=0:
 		if i==k:
 			p = n%10
+			print(p)
 			N = str(num)
 			N.replace(str(p),str(d),1)
 			print(int(N))
