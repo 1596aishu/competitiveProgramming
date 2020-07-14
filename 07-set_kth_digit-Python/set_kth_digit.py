@@ -8,13 +8,16 @@
 
 def fun_set_kth_digit(n, k, d):
 	i = 0
+	num = n
 	while n!=0:
 		if i==k:
 			p = n%10
 			N = str(n)
 			N.replace(str(p),str(d),1)
 			print(int(N))
-		else:
+		elif i!=k:
+			n= n//10
 			print(0)
 		i= i+1
+fun_set_kth_digit(468, 0, 1)
 
