@@ -13,8 +13,8 @@ def fun_set_kth_digit(n, k, d):
 			p = n%10
 			N = str(n)
 			N.replace(str(p),str(d),1)
-			return int(N)
+			print(int(N))
 		else:
-			return 0
+			print(0)
 		i= i+1
 
