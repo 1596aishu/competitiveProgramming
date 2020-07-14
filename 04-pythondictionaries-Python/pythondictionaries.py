@@ -30,4 +30,7 @@ American City
 Asian City - Country
 Asian City - Country"""
 
-locations = {'North America': {'USA': ['Mountain View','Atlanta']},'Asia':{'India':['Banglore'],'China':['Shanghai']},'Africa':{'Egypt':['Cairo']}}
+locations = {'North America': {'USA': ['Mountain View','Atlanta']},
+            'Asia':{'India':['Banglore'],
+            'China':['Shanghai']},
+            'Africa':{'Egypt':['Cairo']}}
