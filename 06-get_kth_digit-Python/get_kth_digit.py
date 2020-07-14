@@ -15,7 +15,4 @@ def fun_get_kth_digit(digit, k):
 			c = digit%10
 			return c
 		i= i+1
-
-
-
 	return 0
