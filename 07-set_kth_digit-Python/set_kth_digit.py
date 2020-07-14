@@ -14,6 +14,7 @@ def fun_set_kth_digit(n, k, d):
 			N = str(n)
 			N.replace(str(p),str(d))
 			return int(N)
-		i= i+1			
-	return 0
+		else:
+			return 0
+		i= i+1
 
