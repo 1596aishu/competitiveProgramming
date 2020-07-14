@@ -23,3 +23,4 @@ def isrighttriangle(x1, y1, x2, y2, x3, y3):
 		print(False)
 		return False
 isrighttriangle(13, -1, -9, 3, -3, -9)
+isrighttriangle(-1, 7, 10, -4, 12, -2)
