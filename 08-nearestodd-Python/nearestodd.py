@@ -9,7 +9,7 @@ def fun_nearestodd(n):
 	n = math.floor(n)
 	if ".0" in str(n):
 		if (n%2)==0:
-			return n-1
+			return int(n)-1
 		else:
 			return n
 	else:
