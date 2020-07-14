@@ -6,12 +6,15 @@
 import math
 
 def fun_nearestodd(n):
+	
 	if ".0" in str(n):
+		n = math.floor(n)
 		if (n%2)==0:
 			return n-1
 		else:
 			return n
 	else:
+		n = math.floor(n)
 		if(n%2)==0:
 			return n+1
 		else:
