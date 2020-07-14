@@ -21,4 +21,5 @@ def fun_pascaltrianglevalue(row, col):
       return(b[col])
    else:
       return(0)
+   
         
