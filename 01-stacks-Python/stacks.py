@@ -48,8 +48,8 @@ class stack(object):
         "Push (add) a new element onto the top of the stack"
         # pass
         if self.ll:
-            ll.next = new_element
-            self.top = new_element 
+            self.ll.next = new_element
+            self.ll = new_element 
         else:
             top = LinkedList(new_element)
             
