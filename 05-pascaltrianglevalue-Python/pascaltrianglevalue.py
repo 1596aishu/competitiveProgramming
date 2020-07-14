@@ -16,4 +16,4 @@ def pascal_triangle(n):
 pascal_triangle(6)
 
 def fun_pascaltrianglevalue(row, col):
-	return 1
+	return 
