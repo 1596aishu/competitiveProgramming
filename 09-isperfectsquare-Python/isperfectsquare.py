@@ -30,5 +30,6 @@ def isperfectsquare(n):
 			return False
 
 isperfectsquare(4)
+isperfectsquare(-625)
 
 
