@@ -40,7 +40,7 @@ def sortUSA(locations):
     for x in locations:
         if x =='North America':
             for y in locations[x].values():
-                print(sorted(y))
+                # print(sorted(y))
                 return sorted(y)
 
 def alphaAsia(locations):
@@ -49,7 +49,7 @@ def alphaAsia(locations):
         if x =='Asia':
             for y in locations[x].values():
                 i=i+1
-                print(i)
-                print(sorted(y))
+                # print(i)
+                # print(sorted(y))
                 return sorted(y)
 
