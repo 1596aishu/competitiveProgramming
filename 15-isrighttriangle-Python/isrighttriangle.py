@@ -17,7 +17,9 @@ def isrighttriangle(x1, y1, x2, y2, x3, y3):
 	x,y,z = sorted(num)
 	print(x)
 	if x**2+y**2 == z**2:
+		print(True)
 		return True
 	else:
+		print(False)
 		return False
 isrighttriangle(13, -1, -9, 3, -3, -9)
