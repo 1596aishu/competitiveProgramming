@@ -21,5 +21,5 @@ def fun_set_kth_digit(n, k, d):
 			n= n//10
 			
 		i= i+1
-fun_set_kth_digit(468, 0, 1)
+fun_set_kth_digit(468, 1, 1)
 
