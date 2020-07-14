@@ -14,7 +14,7 @@ def fun_set_kth_digit(n, k, d):
 			p = n%10
 			# print(p)
 			N = str(num)
-			N.replace(str(p),str(d))
+			N=N.replace(str(p),str(d))
 			# print(N)
 			print(int(N))
 		elif i!=k:
