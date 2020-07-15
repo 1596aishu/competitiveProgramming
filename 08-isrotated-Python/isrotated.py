@@ -8,6 +8,9 @@ def isrotated(str1, str2):
 	#Your code goes here
 	# pass
 	str3 = str1[::-1]
-	print(str3)
+	if str2==str3:
+		return True
+	else:
+		return False
 
 isrotated("XYZ","ZYX")
