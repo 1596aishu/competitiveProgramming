@@ -8,4 +8,5 @@ def isrotated(str1, str2):
 	#Your code goes here
 	# pass
 	str3= list(str1)
+	str3[::len(str1)]
   
