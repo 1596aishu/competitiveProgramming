@@ -6,4 +6,7 @@
 
 def isrotated(str1, str2):
 	#Your code goes here
-	pass
+	# pass
+	str3 = str1[::-1]
+	print(str3)
+	
