@@ -25,10 +25,11 @@ def ishappynumber(n):
 		return False
   
 
-def fun_nth_happy_number(n):
+def fun_nth_happy_prime(n):
 	count = 0
 	i = 1
 	if n == 0:
+		print(1)
 		return 1
 	elif n>0:
 		while(count!=n):
@@ -39,7 +40,7 @@ def fun_nth_happy_number(n):
 					break
 
 			count += 1
-		# print(i)
+		print(i)
 		return i
 
 # def prime(n):
@@ -49,21 +50,5 @@ def fun_nth_happy_number(n):
 # 				return False
 # 		else:
 # 			return True
-
-def fun_nth_happy_prime(n):
-	count = 0
-	i = 1
-	if n==0:
-		print("1")
-		return 1
-	elif n>0:
-		while(count!=n):
-			while(True):
-				i+=1
-				if ishappynumber(i):
-					break
-			count+=1
-		print(i)
-		return i
 
 fun_nth_happy_prime(1)
