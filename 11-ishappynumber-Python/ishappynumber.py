@@ -19,6 +19,7 @@ def squares(n):
 		x = n%10
 		sum+=x*x
 		n = n//10
+	return sum
   
 def ishappynumber(n):
 	# your code goes here
