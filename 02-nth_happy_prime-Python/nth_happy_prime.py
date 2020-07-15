@@ -51,4 +51,4 @@ def fun_nth_happy_prime(n):
 # 		else:
 # 			return True
 
-fun_nth_happy_prime(1)
+fun_nth_happy_prime(0)
