@@ -7,3 +7,4 @@ def removeduplicate(text):
 	# Your code goes here
 	# pass
 	lst = list(text)
+	print(lst)
