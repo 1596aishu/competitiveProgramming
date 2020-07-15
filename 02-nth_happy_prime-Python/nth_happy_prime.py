@@ -11,7 +11,6 @@ def squares(n):
 	return sum
   
 def ishappynumber(n):
-	# your code goes here
 	z = []
 	if n ==1:
 		return True
