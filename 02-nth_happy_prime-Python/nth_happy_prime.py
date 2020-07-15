@@ -35,7 +35,7 @@ def fun_nth_happy_prime(n):
 	count = 0
 	i = 1
 	if n == 0:
-		print(7)
+		# print(7)
 		return 7
 	elif n>0:
 		while(count!=n+1):
@@ -45,7 +45,7 @@ def fun_nth_happy_prime(n):
 				if(ishappynumber(i) and isprime(i)):
 					break
 			count += 1
-		print(i)
+		# print(i)
 		return i
 
 
