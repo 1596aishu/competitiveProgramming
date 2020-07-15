@@ -4,6 +4,7 @@ from digitcount import digitcount
 import pytest
 
 
+
 @pytest.mark.parametrize('n, result',[
 	(-24, 2),
 	(0, 1),
