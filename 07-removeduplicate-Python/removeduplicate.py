@@ -14,6 +14,4 @@ def removeduplicate(text):
 			j.append(x)
 	st=""
 	st = st.join(j)
-	print(st)
-
-removeduplicate("HelloWorld")
+	return(st)
