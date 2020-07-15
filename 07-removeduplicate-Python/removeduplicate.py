@@ -6,7 +6,11 @@
 def removeduplicate(text):
 	# Your code goes here
 	# pass
+	j = []
 	lst = list(text)
-	print(lst)
-	
+	for x in lst:
+		if(x not in j):
+			j.append(x)
+		
+
 removeduplicate("JavaPython")
