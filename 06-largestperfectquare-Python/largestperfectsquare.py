@@ -9,4 +9,8 @@
 
 def largestperfectsquare(n):
 	# your code goes here
-	pass
+	# pass
+	if int(math.sqrt(n)) == math.sqrt(n):
+		return n
+	else:
+		return largestperfectsquare(n-1)
