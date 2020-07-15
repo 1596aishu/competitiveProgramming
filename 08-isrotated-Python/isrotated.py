@@ -9,5 +9,5 @@ def isrotated(str1, str2):
 	# pass
 	# str3= list(str1)
 	print(str1[::len(str1)])
-
+isrotated("XYZ","ZXY")
   
