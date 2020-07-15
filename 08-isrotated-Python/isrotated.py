@@ -19,7 +19,7 @@ def isrotated(str1, str2):
 	for y in range(len(str1)):
 		if str1[y]==str3:
 			str4=str1[y::]
-	print(str4)
+	result = str4+str3
 		
 
 
