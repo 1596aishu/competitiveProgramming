@@ -17,3 +17,4 @@ def gcd(m, n):
 		return m
 	else:
 		return gcd(n, m%n)
+  
