@@ -12,7 +12,7 @@ def removeduplicate(text):
 	for x in lst:
 		if(x not in j):
 			j.append(x)
-	st = str(j)
+	st.join(j)
 	print(st)
 
 removeduplicate("JavaPython")
