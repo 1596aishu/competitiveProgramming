@@ -6,10 +6,9 @@
 
 def isrotated(str1, str2):
 	#Your code goes here
-	pass
+	# pass
 	# str3= list(str1)
 	# str3 = str1[len(str1)-1:len(str1):]+str1[:len(str1)-1:]
-	sting=""
 	str3 = str2[:1:]
 	for x in str1:
 		if str3 != x:
@@ -21,11 +20,11 @@ def isrotated(str1, str2):
 			str4=str1[y::]
 	result = str4+sting
 	print(result)
-	# if result==str2:
-	# 	return True
-	# else:
-	# 	return False
+	if result==str2:
+		return True
+	else:
+		return False
   		
-isrotated("ABCDEFGHIJKLMNOPQRSTUVWXYZ","JKLMNOPQRSTUVWXYZABCDEFGHI")
-isrotated('12345', '54321')
+# isrotated("ABCDEFGHIJKLMNOPQRSTUVWXYZ","JKLMNOPQRSTUVWXYZABCDEFGHI")
+# isrotated('12345', '54321')
   
