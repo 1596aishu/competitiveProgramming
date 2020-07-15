@@ -21,10 +21,10 @@ def isrotated(str1, str2):
 			str4=str1[y::]
 	result = str4+sting
 	print(result)
-	if result==str2:
-		return True
-	else:
-		return False
+	# if result==str2:
+	# 	return True
+	# else:
+	# 	return False
   		
 isrotated("ABCDEFGHIJKLMNOPQRSTUVWXYZ","JKLMNOPQRSTUVWXYZABCDEFGHI")
 isrotated('12345', '54321')
