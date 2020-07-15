@@ -7,6 +7,7 @@ def removeduplicate(text):
 	# Your code goes here
 	# pass
 	j = []
+	st=""
 	lst = list(text)
 	for x in lst:
 		if(x not in j):
