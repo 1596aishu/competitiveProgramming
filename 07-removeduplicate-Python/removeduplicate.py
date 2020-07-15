@@ -12,5 +12,6 @@ def removeduplicate(text):
 		if(x not in j):
 			j.append(x)
 	st = str(j)
+	print(st)
 
 removeduplicate("JavaPython")
