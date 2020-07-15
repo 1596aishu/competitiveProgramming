@@ -22,5 +22,5 @@ def isrotated(str1, str2):
 
 
 	
-isrotated("12345","54321")
+isrotated("ABCDEFGHIJKLMNOPQRSTUVWXYZ","JKLMNOPQRSTUVWXYZABCDEFGHI")
   
