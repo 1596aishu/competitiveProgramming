@@ -16,7 +16,11 @@ def isrotated(str1, str2):
 			sting+=x
 		if str3==x:
 			break
-	print(sting)
+	for y in range(len(str1)):
+		if str1[y]==str3:
+			str4=str1[y::]
+	print(str4)
+		
 
 
 
