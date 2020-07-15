@@ -36,15 +36,15 @@ def prime(n):
 			return True
 
 def fun_nth_happy_prime(n):
-	i=1
+	count = 0
+	i = 1
 	if n==0:
-		return 7
-	else:
-		k = 1
-		while(True):
-			if ishappynumber(k) and prime(n):
-				i=i+1
-			if i==n:
-				return k
-			k=k+1
-	return 0
+		return 1
+	elif n>0:
+		while(count!=n):
+			while(True):
+				i+=1
+				if ishappynumber(i) and prime(i):
+					break
+				count+=1
+		return i
