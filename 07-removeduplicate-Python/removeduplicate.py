@@ -13,7 +13,7 @@ def removeduplicate(text):
 		if(x not in j):
 			j.append(x)
 	st=""
-	st.join(j)
+	st = st.join(j)
 	print(st)
 
 removeduplicate("JavaPython")
