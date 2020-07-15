@@ -50,4 +50,4 @@ def fun_nth_happy_prime(n):
 
 
 
-fun_nth_happy_prime(0)
+fun_nth_happy_prime(1)
