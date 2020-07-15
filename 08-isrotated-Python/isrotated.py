@@ -23,6 +23,7 @@ def isrotated(str1, str2):
 	if result==str2:
 		return True
 	else:
-		return False			
+		return False
+  		
 # isrotated("ABCDEFGHIJKLMNOPQRSTUVWXYZ","JKLMNOPQRSTUVWXYZABCDEFGHI")
   
