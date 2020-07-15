@@ -8,6 +8,6 @@ def isrotated(str1, str2):
 	#Your code goes here
 	# pass
 	# str3= list(str1)
-	print(str1[len(str1)::])
+	print(str1[:len(str1):])
 isrotated("XYZ","ZXY")
   
