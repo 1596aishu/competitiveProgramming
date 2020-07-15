@@ -20,6 +20,7 @@ def isrotated(str1, str2):
 		if str1[y]==str3:
 			str4=str1[y::]
 	result = str4+sting
+	print(result)
 	if result==str2:
 		return True
 	else:
