@@ -14,12 +14,14 @@ def isrotated(str1, str2):
 	for x in str1:
 		if str3 != x:
 			sting+=x
-			print(sting)
+			
 		if str3==x:
-			sting1+=x
+			break
+	print(sting)
+
 
 
 
 	
-# isrotated("12345","54321")
+isrotated("12345","54321")
   
