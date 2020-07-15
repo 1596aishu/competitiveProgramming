@@ -5,4 +5,5 @@
 
 def removeduplicate(text):
 	# Your code goes here
-	pass
+	# pass
+	lst = list(text)
