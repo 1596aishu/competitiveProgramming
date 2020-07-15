@@ -42,13 +42,13 @@ def fun_nth_happy_number(n):
 		# print(i)
 		return i
 
-def prime(n):
-	if n>1:
-		for i in range(2,n):
-			if n%i == 0:
-				return False
-		else:
-			return True
+# def prime(n):
+# 	if n>1:
+# 		for i in range(2,n):
+# 			if n%i == 0:
+# 				return False
+# 		else:
+# 			return True
 
 def fun_nth_happy_prime(n):
 	count = 0
