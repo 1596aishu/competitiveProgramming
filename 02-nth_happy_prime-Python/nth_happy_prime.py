@@ -39,7 +39,7 @@ def fun_nth_happy_prime(n):
 	i=1
 	k = 1
 	while(True):
-		if ishappynumber(k):
+		if ishappynumber(k) and prime(n):
 			i=i+1
 		if i==n:
 			return k
