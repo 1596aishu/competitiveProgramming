@@ -11,9 +11,9 @@
 def gcd(m, n):
 	# your code goes here
 	# pass
-	if y == 0:
-		return x
-	elif x%y == 0:
-		return y
+	if n == 0:
+		return n
+	elif m%n == 0:
+		return m
 	else:
-		return gcd(y, x%y)
+		return gcd(n, m%n)
