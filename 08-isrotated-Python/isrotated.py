@@ -10,6 +10,7 @@ def isrotated(str1, str2):
 	# str3= list(str1)
 	# str3 = str1[len(str1)-1:len(str1):]+str1[:len(str1)-1:]
 	str3 = str2[:1:]
+	print(str3)
 	
-# isrotated("12345","54321")
+isrotated("12345","54321")
   
