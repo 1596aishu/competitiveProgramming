@@ -9,12 +9,14 @@ def isrotated(str1, str2):
 	pass
 	# str3= list(str1)
 	# str3 = str1[len(str1)-1:len(str1):]+str1[:len(str1)-1:]
-	# sting=""
-	# str3 = str2[:1:]
-	# for x in str1:
-	# 	if str3 != x:
-	# 		sting+=x
-	# 	if str3==x:
+	sting=""
+	str3 = str2[:1:]
+	for x in str1:
+		if str3 != x:
+			sting+=x
+			print(sting)
+		if str3==x:
+			sting1+=x
 
 
 
