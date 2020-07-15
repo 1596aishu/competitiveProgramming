@@ -4,4 +4,17 @@
 
 def mostfrequentdigit(n):
 	# your code goes here
-	pass
+	# pass
+	p = []
+	dicts={}
+	for i in n:
+		if i in dicts:
+			dicts[i]+=1
+		else:
+			dicts[i]=0
+	a = max(dicts.values())
+	for j in dicts.keys():
+		if dicts[j] == a:
+			p.append(int(j))	
+	return min(p)
+  
