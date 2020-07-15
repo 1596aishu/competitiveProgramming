@@ -8,3 +8,4 @@ def removeduplicate(text):
 	# pass
 	lst = list(text)
 	print(lst)
+removeduplicate("JavaPython")
