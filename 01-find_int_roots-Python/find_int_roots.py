@@ -11,6 +11,6 @@ def fun_find_int_roots(a, b, c):
 	x = (b**2)-(4*a*c)
 	root1 = (-b-math.sqrt(x))/2*a
 	root2 = (-b+math.sqrt(x))/2*a
-	return 0, 0
+	return root1, root2
 
 
