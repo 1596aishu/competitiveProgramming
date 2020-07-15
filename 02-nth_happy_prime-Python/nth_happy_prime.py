@@ -49,5 +49,3 @@ def fun_nth_happy_prime(n):
 		return i
 
 
-
-fun_nth_happy_prime(2)
