@@ -9,10 +9,15 @@ def isrotated(str1, str2):
 	# pass
 	# str3= list(str1)
 	str3 = str1[len(str1)-1:len(str1):]+str1[:len(str1)-1:]
+
 	if str2 == str3:
 		return True
 	else:
-		return False
+		str4 = str1[::-1]
+		if str4 == str2:
+			return True
+		else:
+			return False
   
-isrotated("12345","54321")
+# isrotated("12345","54321")
   
