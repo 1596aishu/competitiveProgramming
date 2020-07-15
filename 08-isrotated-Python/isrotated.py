@@ -14,5 +14,5 @@ def isrotated(str1, str2):
 	else:
 		return False
   
-# isrotated("XYZ","ZXY")
+isrotated("12345","54321")
   
