@@ -27,12 +27,12 @@ def ishappynumber(n):
 		return True
 	elif n>0:
 		while(True):
-			n = squares(n)
-			if n == 1:
+			m = squares(n)
+			if m == 1:
 				return True
-			elif n in z:
+			elif m in z:
 				return False
 			else:
-				z.append(n)
+				z.append(m)
 	else:
 		return False
