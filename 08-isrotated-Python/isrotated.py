@@ -12,5 +12,3 @@ def isrotated(str1, str2):
 		return True
 	else:
 		return False
-
-isrotated("XYZ","ZYX")
