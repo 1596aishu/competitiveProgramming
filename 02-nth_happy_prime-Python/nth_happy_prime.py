@@ -23,7 +23,13 @@ def ishappynumber(n):
 				z.append(n)	
 	else:
 		return False
-  
+def isprime(n):
+	if n>1:
+		for i in range(2,n):
+			if n%i == 0:
+				return False
+		else:
+			return True
 
 def fun_nth_happy_prime(n):
 	count = 0
@@ -36,18 +42,12 @@ def fun_nth_happy_prime(n):
 			
 			while(True):
 				i += 1
-				if(ishappynumber(i) and prime(i)):
+				if(ishappynumber(i) and isprime(i)):
 					break
 			count += 1
 		print(i)
 		return i
 
-# def prime(n):
-# 	if n>1:
-# 		for i in range(2,n):
-# 			if n%i == 0:
-# 				return False
-# 		else:
-# 			return True
+
 
 fun_nth_happy_prime(0)
