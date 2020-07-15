@@ -9,4 +9,5 @@ def isrotated(str1, str2):
 	# pass
 	str3 = str1[::-1]
 	print(str3)
-	
+
+isrotated("XYZ","ZYX")
