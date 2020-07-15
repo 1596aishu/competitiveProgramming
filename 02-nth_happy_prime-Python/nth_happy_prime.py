@@ -29,8 +29,8 @@ def fun_nth_happy_prime(n):
 	count = 0
 	i = 1
 	if n == 0:
-		print(1)
-		return 1
+		print(7)
+		return 7
 	elif n>0:
 		while(count!=n):
 			
