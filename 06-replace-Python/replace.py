@@ -10,13 +10,14 @@ def strings(x,y,z):
 			a += x[i]+ y
 		else:
 			a += x[i]
-	print(a)		
+	# print(a)		
 	return a
+  
 def fun_replace(s1, s2, s3):
 	x = s1.split(s2)
 	print(x)
 	if(len(x[0])==len(s1)):
-		print(s1)
+		# print(s1)
 		return s1
 	else:
 		y=""
@@ -25,5 +26,6 @@ def fun_replace(s1, s2, s3):
 			i = 1
 			y += s3
 		y += strings(x,s3,i)
-		print(y)
+		# print(y)
 		return y
+  
