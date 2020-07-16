@@ -5,7 +5,7 @@
 def strings(x,y,z):
 
 	a=""
-	for i in range(0,len(x)):
+	for i in range(1,len(x)):
 		if i != len(x)-1:
 			a += x[i]+ y
 		else:
