@@ -20,13 +20,9 @@ def matrixadd(L, M):
 	# Your code goes here
 	# pass
 	p = len(L[0])
-	# print(p)
 	q = len(L)
-	# print(q)
-	o = len(M[0])
-	# print(o)
-	u = len(M)
-	# print(u)
+	# o = len(M[0])
+	# u = len(M)
 	result = [[0 for j in range(p)] for i in range(q)]
 	f = True
 	if len(L)== len(M):
@@ -39,10 +35,6 @@ def matrixadd(L, M):
 		for i in range(q):
 			for j in range(p):
 				result[i][j] = L[i][j]+M[i][j]
-			return result
+		return result
 	else:
 		return None
-
-# L=[[1,  2,  3],[4,  5,  6]]
-# M=[[21, 22, 23], [24, 25]]
-# matrixadd(L, M)
