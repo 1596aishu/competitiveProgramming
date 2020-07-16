@@ -22,5 +22,5 @@ def fun_replace(s1, s2, s3):
 		if(len(s4[0])==0):
 			i=1
 			s+=s3
-		s=strings(s4,s3,i)
+		s+=strings(s4,s3,i)
 	return s
