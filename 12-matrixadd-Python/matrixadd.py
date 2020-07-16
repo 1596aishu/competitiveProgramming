@@ -14,15 +14,13 @@
 # may assume only contain numbers, and returns a new 2d list that is the result of adding the two matrices. Return 
 # None if the two matrices 
 # cannot be added because they are of different dimensions.
-# import numpy as np
+
 
 def matrixadd(L, M):
 	# Your code goes here
 	# pass
 	p = len(L[0])
 	q = len(L)
-	# o = len(M[0])
-	# u = len(M)
 	result = [[0 for j in range(p)] for i in range(q)]
 	f = True
 	if len(L)== len(M):
@@ -34,7 +32,7 @@ def matrixadd(L, M):
 	if f:
 		for i in range(q):
 			for j in range(p):
-				result[i][j] = L[i][j]+M[i][j]
+				result[i][j] = L[i][j] + M[i][j]
 		return result
 	else:
 		return None
