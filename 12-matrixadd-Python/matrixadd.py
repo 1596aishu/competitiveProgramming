@@ -20,13 +20,32 @@ def matrixadd(L, M):
 	# Your code goes here
 	# pass
 	p = len(L[0])
+	# print(p)
 	q = len(L)
+	# print(q)
 	o = len(M[0])
+	# print(o)
 	u = len(M)
+	# print(u)
 	result = np.zeros((q,p),dtype = int)
+	print(result)
+
 	if((q==u) and (p==o)):
-		for i in range(len(L[0])):
-			for j in range(len(L)):
-				result[i][j]=L[i][j]+M[i][j]
-		return result
-	return None
+		for i in L:
+			print(i)
+	# 	for i in range(len(L)):
+			
+	# 		for j in range(len(L[i])):
+	# 			if len(L[j])==len(M[j]):
+	# 				result[i][j]=L[i][j]+M[i][j]
+	# 				print(result[i][j])
+	# 			else:
+	# 				None
+	# 	# print(result)
+	# 	# return result
+	# return None
+
+
+L=[[1,  2,  3],[4,  5,  6]]
+M=[[21, 22, 23], [24, 25]]
+matrixadd(M, L)
