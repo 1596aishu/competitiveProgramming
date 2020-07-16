@@ -25,8 +25,8 @@ def matrixadd(L, M):
 	u = len(M)
 	result = np.zeros((q,p),dtype = int)
 	if((q==u) and (p==o)) and (q==p and q==o):
-		for i in range(len(L)):
-			for j in range(len(L[0])):
+		for i in range(len(L[0])):
+			for j in range(len(L)):
 				result[i][j]=L[i][j]+M[i][j]
 		return result
 	return None
