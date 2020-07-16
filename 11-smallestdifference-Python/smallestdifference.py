@@ -15,6 +15,7 @@ def smallestdifference(a):
 		for i in range(1,len(a)-1):
 			if d>a[i+1]-a[i]:
 				d = a[i+1]-a[i]
-			return d
-		else:
-			return -1
+		return d
+	else:
+		return -1
+  
