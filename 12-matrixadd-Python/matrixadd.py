@@ -14,7 +14,7 @@
 # may assume only contain numbers, and returns a new 2d list that is the result of adding the two matrices. Return 
 # None if the two matrices 
 # cannot be added because they are of different dimensions.
-import numpy as np
+# import numpy as np
 
 def matrixadd(L, M):
 	# Your code goes here
@@ -27,25 +27,22 @@ def matrixadd(L, M):
 	# print(o)
 	u = len(M)
 	# print(u)
-	result = np.zeros((q,p),dtype = int)
-	print(result)
+	result = [[0 for j in range(p)] for i in range(q)]
+	f = True
+	if len(L)== len(M):
+		for i in range(len(L)):
+			if(len(L[i])!=len(M[i])):
+				f = False
+	else:
+		f = False
+	if f:
+		for i in range(q):
+			for j in range(p):
+				result[i][j] = L[i][j]+M[i][j]
+			return result
+	else:
+		return None
 
-	if((q==u) and (p==o)):
-		for i in L:
-			print(i)
-	# 	for i in range(len(L)):
-			
-	# 		for j in range(len(L[i])):
-	# 			if len(L[j])==len(M[j]):
-	# 				result[i][j]=L[i][j]+M[i][j]
-	# 				print(result[i][j])
-	# 			else:
-	# 				None
-	# 	# print(result)
-	# 	# return result
-	# return None
-
-
-L=[[1,  2,  3],[4,  5,  6]]
-M=[[21, 22, 23], [24, 25]]
-matrixadd(M, L)
+# L=[[1,  2,  3],[4,  5,  6]]
+# M=[[21, 22, 23], [24, 25]]
+# matrixadd(L, M)
