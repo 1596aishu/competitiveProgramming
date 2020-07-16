@@ -10,7 +10,7 @@ def strings(s4,s,j):
 			a+=s4[i]+s
 		else:
 			a+=s4[i]
-		return a
+	return a
   
 def fun_replace(s1, s2, s3):
 	s4=s1.split(s2)
@@ -23,4 +23,4 @@ def fun_replace(s1, s2, s3):
 			i=1
 			s+=s3
 		s+=strings(s4,s3,i)
-	return s
+		return s
