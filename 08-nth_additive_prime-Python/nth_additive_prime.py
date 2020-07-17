@@ -25,5 +25,5 @@ def fun_nth_additive_prime(n):
 				temp = temp // 10
 			if isprime(sum):
 				c+=1
-			i+=1
+		i+=1
 	return False		
