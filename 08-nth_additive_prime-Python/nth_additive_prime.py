@@ -15,7 +15,7 @@ def isprime(n):
 def fun_nth_additive_prime(n):
 	if n == 0:
 		return 2
-	c = 1
+	c = 0
 	i = 2
 	while c!=n:		
 		if isprime(i):
