@@ -30,9 +30,6 @@ def fun_nth_additive_prime(n):
 				print(i)
 				return i
 		i+=1
-	
-	else:
-		print(False)
-		return False		
+	return False		
 
 fun_nth_additive_prime(5)
