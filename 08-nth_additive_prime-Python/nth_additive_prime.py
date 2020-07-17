@@ -24,14 +24,14 @@ def fun_nth_additive_prime(n):
 			temp = str(i)
 			for x in temp:
 				sum+=int(x)
-			print(sum)
+			# print(sum)
 			if isprime(sum):
 				c+=1
-				print(i,c)
+				# print(i,c)
 			if c == n:
-				print(i)
+				# print(i)
 				return i
 		i+=1
 	return False		
 
-fun_nth_additive_prime(7)
+# fun_nth_additive_prime(7)
