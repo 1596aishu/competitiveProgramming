@@ -35,8 +35,10 @@ class BST(object):
         if self.root is None:
             print("None")
         else:
-            print(self.root)
-            print(self.root.right)
+            if self.root.left:
+                print(self.root.left.value)
+            if self.root.right:
+                print(self.root.right.value)
         
     def search(self, find_val):
         # Your code goes here
