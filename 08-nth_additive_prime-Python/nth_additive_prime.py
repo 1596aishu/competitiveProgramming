@@ -19,9 +19,11 @@ def fun_nth_additive_prime(n):
 		if isprime(i):
 			sum=0
 			temp = i
-			while(i != 0):
-				x = i % 10
+			while(temp != 0):
+				x = temp % 10
 				sum +=x
-				i = i // 10
+				temp = temp // 10
+			if isprime(sum):
+				c+=1
 		i+=1
 	return 1
