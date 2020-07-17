@@ -29,6 +29,6 @@ def fun_isfactorish(n):
 		for i in str(n):
 			if fun_isfactor(int(i),int(n))!=True:
 				return False
-	return True
+		return True
   
 
