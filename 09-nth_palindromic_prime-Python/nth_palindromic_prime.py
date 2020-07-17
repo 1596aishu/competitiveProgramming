@@ -3,7 +3,13 @@
 # it is also a prime. For example, 313 is a palindrome and it is prime 
 # so 313 is an palindrome Prime. fun_nth_palindrome_prime(0) returns 2
 
-
+def isprime(n):
+	if n > 1:
+		for i in range(2,n):
+			if n % i ==0:
+				return False
+		else:
+			return True
 
 
 def fun_nth_palindromic_prime(n):
@@ -14,4 +20,7 @@ def fun_nth_palindromic_prime(n):
 	while c!=n:
 		x = str(i)
 		y = x[::-1]
+		if x == y:
+			if isprime(i):
+				c+=1
 	return 0
