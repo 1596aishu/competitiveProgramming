@@ -13,7 +13,7 @@ class BST(object):
         if root is None: 
                 root = node 
         else: 
-            if root.val < node.val: 
+            if root.value < node.value: 
                 if root.right is None: 
                     root.right = node 
                 else: 
