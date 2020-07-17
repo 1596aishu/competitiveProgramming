@@ -12,6 +12,8 @@ class HashTable(object):
         # Hash Value = (ASCII Value of First Letter * 100) + ASCII Value of Second Letter 
         # Your code goes here
         # pass
+        i = 0
+        self.table[i]=string
         
     def lookup(self, string):
         """Return the hash value if the
@@ -19,6 +21,7 @@ class HashTable(object):
         Return -1 otherwise."""
         # Your code goes here
         # pass
+        hash_value = ((ord(string[0]*100)+ord(string[1])))
 
     def calculate_hash_value(self, string):
         """Helper function to calulate a
