@@ -22,7 +22,9 @@ class BinaryTree(object):
             lef= self.search(self.root)
             if lef:
                 return True
-            self.root = self.root.roght
+            self.root = self.root.right
+            rgt= self.search(self.root)
+            return rgt
 
 
 
