@@ -26,6 +26,5 @@ def fun_nth_additive_prime(n):
 			if isprime(sum):
 				c+=1
 			i+=1
-		else:
-			return False		
+	return False		
 	return 1
