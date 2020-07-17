@@ -24,7 +24,7 @@ class HashTable(object):
         x = list(self.table)
         for i in x:
             if i ==string:
-                y = self.calculate_hash_value(self,i)
+                y = self.calculate_hash_value(i)
                 return y
         return -1
         
