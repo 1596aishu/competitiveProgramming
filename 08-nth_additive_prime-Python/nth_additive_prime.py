@@ -28,6 +28,7 @@ def fun_nth_additive_prime(n):
 				c+=1
 		i+=1
 	if c == n:
+		print(i)
 		return i
 	else:
 		return False		
