@@ -15,10 +15,10 @@ class BST(object):
             self.root.value = new_val
         else:
             if new_val < self.root.value:
-                self.root.left = insert(self.root.left, new_val)
+                root.left = self.insert(root.left, new_val)
             else:
-                self.root.right = insert(self.root.right, new_val)
-                
+                root.right = self.insert(root.right, new_val)
+        
 
     def printSelf(self):
         # Your code goes here
