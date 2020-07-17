@@ -31,7 +31,7 @@ class BST(object):
         # Your code goes here
         # pass
         if self.root is None:
-            return
+            print("None")
         else:
             print(self.root.left)
             print(self.root.right)
