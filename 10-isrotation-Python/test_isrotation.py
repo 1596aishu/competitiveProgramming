@@ -9,7 +9,7 @@ import pytest
 	(3412, 1234, True), (12345, 54321, True),
 	(1234, 1234, True), (12345, 4321, False),
 	(3142, 1234, False), (10010, 10100, True),
-	(431256789, 123456789, False), (101111, 11110, False),
+	(431256789, 123456789, False), (101111, 111110, True),
 ])
 def test_isrotation(a, b, result):    
     assert isrotation(a, b) == result
