@@ -13,23 +13,23 @@ class BinaryTree(object):
         is in the tree, return
         False otherwise."""
         # Your code goes here
-        pass
+        # pass
 
     def print_tree(self):
         """Print out all tree nodes
         as they are visited in
         a pre-order traversal."""
         # Your code goes here
-        pass
+        # pass
 
     def preorder_search(self, start, find_val):
         """Helper method - use this to create a 
         recursive search solution."""
         # Your code goes here
-        pass
+        # pass
 
     def preorder_print(self, start, traversal):
         """Helper method - use this to create a 
         recursive print solution."""
         # Your code goes here
-        pass
+        # pass
