@@ -25,6 +25,7 @@ def fun_nth_additive_prime(n):
 			print(sum)
 			if isprime(sum):
 				c+=1
+				print(i,c)
 		i+=1
 	if c == n:
 		print(i+1)
