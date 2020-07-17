@@ -19,12 +19,10 @@ class BinaryTree(object):
         if self.root.value == find_val:
             return True
         else:
-            self.root = self.root.left
-            lef= self.search(self.root)
+            lef= self.search(self.root.left)
             if lef:
                 return True
-            self.root = self.root.right
-            rgt= self.search(self.root)
+            rgt= self.search(self.root.right)
             return rgt
 
 
