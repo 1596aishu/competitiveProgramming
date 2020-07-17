@@ -33,8 +33,8 @@ class BinaryTree(object):
         # pass
         if self.root:
             print(self.root.value)
-            self.print_tree(self.root.left)
-            self.print_tree(self.root.right)
+            self.print_tree(root.left)
+            self.print_tree(root.right)
 
 
 
