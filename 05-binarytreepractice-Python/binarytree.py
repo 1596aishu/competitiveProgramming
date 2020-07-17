@@ -31,7 +31,7 @@ class BinaryTree(object):
         a pre-order traversal."""
         # Your code goes here
         # pass
-        self.preorder_print()
+        self.preorder_print(root,)
 
 
 
