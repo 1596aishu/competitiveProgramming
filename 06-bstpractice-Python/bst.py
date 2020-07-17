@@ -8,7 +8,7 @@ class BST(object):
     def __init__(self, root):
         self.root = Node(root)
 
-    def insert(self, new_val):
+    def insert(self, node):
         # Your code goes here
         # pass
         # if self.root.value == None:
