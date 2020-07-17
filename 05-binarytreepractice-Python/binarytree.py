@@ -23,7 +23,8 @@ class BinaryTree(object):
             if lef:
                 return True
             rgt= self.search(self.root.right)
-            return rgt
+            if rgt:
+                return True
 
     def print_tree(self):
         """Print out all tree nodes
