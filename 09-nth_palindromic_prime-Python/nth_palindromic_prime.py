@@ -12,5 +12,6 @@ def fun_nth_palindromic_prime(n):
 	c = 0
 	i = 3
 	while c!=n:
-		n = str(n)
+		x = str(i)
+		y = x[::-1]
 	return 0
