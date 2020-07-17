@@ -22,7 +22,7 @@ def fun_nth_additive_prime(n):
 			temp = str(i)
 			for x in temp:
 				sum+=int(x)
-			print(sum)
+			# print(sum)
 			if isprime(sum):
 				c+=1
 		i+=1
