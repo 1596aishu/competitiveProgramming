@@ -10,7 +10,21 @@
 #  assert(fun_isfactorish(420) == False) # 420 has a 0 (0 is not a factor)
 #  assert(fun_isfactorish(42) == False) # 42 has a leading 0 (only 2 unique digits)
 
+def fun_isfactor(f,n):
+	if f == 0 and n == 0:
+		return True
+	elif f!=0:
+		if n%f == 0:
+			return True
+		else:
+			return False
+	else:
+		return False
 
 def fun_isfactorish(n):
+	if n<0:
+		n = n *(-1)
+	if len(str(n)!=3 or len(set(str(n)))!=3):
+		return False
 	return False
 
