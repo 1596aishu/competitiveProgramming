@@ -21,6 +21,12 @@ class HashTable(object):
         Return -1 otherwise."""
         # Your code goes here
         # pass
+        x = list(self.table)
+        for i in x:
+            if i ==string:
+                y = self.calculate_hash_value(self,i)
+                return y
+        return -1
         
 
     def calculate_hash_value(self, string):
