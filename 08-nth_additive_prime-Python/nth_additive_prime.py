@@ -19,19 +19,13 @@ def fun_nth_additive_prime(n):
 	i = 3
 	while c!=n:		
 		if isprime(i):
-			# print(i)
 			sum=0
 			temp = str(i)
 			for x in temp:
 				sum+=int(x)
-			# print(sum)
 			if isprime(sum):
 				c+=1
-				# print(i,c)
 			if c == n:
-				# print(i)
 				return i
 		i+=1
 	return False		
-
-# fun_nth_additive_prime(7)
