@@ -24,6 +24,7 @@ def fun_nth_palindromic_prime(n):
 		if x == y:
 			if isprime(i):
 				c+=1
+				print(i,c)
 		if c == n :
 			return i
 	return False
