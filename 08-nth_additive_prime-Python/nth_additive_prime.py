@@ -27,10 +27,10 @@ def fun_nth_additive_prime(n):
 				c+=1
 		i+=1
 	if c == n:
-		print(i)
+		print(i+1)
 		return i+1
 	else:
 		print(False)
 		return False		
 
-fun_nth_additive_prime(3)
+fun_nth_additive_prime(5)
