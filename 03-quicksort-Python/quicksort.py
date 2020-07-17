@@ -22,7 +22,7 @@ def quicksort(array):
 	# Your code goes here
 	# pass
 	l = len(array)
-	quick_sort(arr, 0, l-1)
-	return arr
+	quick_sort(array, 0, l-1)
+	return array
 	
 	
