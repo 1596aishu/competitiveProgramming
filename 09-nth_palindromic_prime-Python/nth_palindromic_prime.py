@@ -7,4 +7,10 @@
 
 
 def fun_nth_palindromic_prime(n):
+	if n == 0:
+		return 2
+	c = 0
+	i = 3
+	while c!=n:
+		n = str(n)
 	return 0
