@@ -13,7 +13,7 @@ class BST(object):
         if root is None: 
                 root = val 
         else: 
-            if root < val: 
+            if root.value < val: 
                 if root.right is None: 
                     root.right = val 
                 else: 
@@ -22,7 +22,7 @@ class BST(object):
                 if root.left is None: 
                     root.left = val 
                 else: 
-                    self.insert_bst(root.left, node)
+                    self.insert_bst(root.left, val)
 
     def insert(self, new_val):
         self.insert_bst(self.root,new_val)
