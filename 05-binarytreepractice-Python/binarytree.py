@@ -25,8 +25,6 @@ class BinaryTree(object):
             rgt= self.search(self.root.right)
             return rgt
 
-
-
     def print_tree(self):
         """Print out all tree nodes
         as they are visited in
