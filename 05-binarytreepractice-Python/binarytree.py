@@ -25,16 +25,13 @@ class BinaryTree(object):
             rgt= self.search(self.root.right)
             return rgt
 
-    def print_tree(self,root):
+    def print_tree(self):
         """Print out all tree nodes
         as they are visited in
         a pre-order traversal."""
         # Your code goes here
         # pass
-        if self.root:
-            print(self.root.value)
-            self.print_tree(root.left)
-            self.print_tree(root.right)
+        self.preorder_print()
 
 
 
@@ -51,3 +48,7 @@ class BinaryTree(object):
         recursive print solution."""
         # Your code goes here
         # pass
+        if self.root:
+            print(self.root.value)
+            self.print_tree(root.left)
+            self.print_tree(root.right)
