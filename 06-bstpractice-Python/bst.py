@@ -7,19 +7,9 @@ class Node(object):
 class BST(object):
     def __init__(self, root):
         self.root = Node(root)
-
-    def insert(self, node):
-        # Your code goes here
-        # pass
-        # if self.root.value == None:
-        #     self.root.value = new_val
-        # else:
-        #     if new_val < self.root.value:
-        #         insert(root.left, new_val)
-        #     else:
-        #         insert(root.right, new_val)
+    def insert_bst(self, root, node):
         if root is None: 
-            root = node 
+                root = node 
         else: 
             if root.val < node.val: 
                 if root.right is None: 
@@ -31,6 +21,19 @@ class BST(object):
                     root.left = node 
                 else: 
                     self.insert(root.left, node)
+
+    def insert(self, new_val):
+        insert_bst(root,new_val)
+        # Your code goes here
+        # pass
+        # if self.root.value == None:
+        #     self.root.value = new_val
+        # else:
+        #     if new_val < self.root.value:
+        #         insert(root.left, new_val)
+        #     else:
+        #         insert(root.right, new_val)
+        
 
     def printSelf(self):
         # Your code goes here
