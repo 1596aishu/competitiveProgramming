@@ -5,8 +5,10 @@ class Node(object):
         self.right = None
 
 class BST(object):
+
     def __init__(self, root):
         self.root = Node(root)
+
     def insert_bst(self, root, node):
         if root is None: 
                 root = node 
@@ -33,7 +35,6 @@ class BST(object):
         #         insert(root.left, new_val)
         #     else:
         #         insert(root.right, new_val)
-        
 
     def printSelf(self):
         # Your code goes here
