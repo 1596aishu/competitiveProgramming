@@ -21,8 +21,8 @@ tree.root.left.right = Node(5)
 def test_classiness2(check, result):
     assert check == result
 
-@pytest.mark.parametrize('check,result',[
-    (tree.search(None), False), (tree.search("6"), False),
-])
-def test_classiness2(check, result):
-    assert check == result
+# @pytest.mark.parametrize('check,result',[
+#     (tree.search(None), False), (tree.search("6"), False),
+# ])
+# def test_classiness2(check, result):
+#     assert check == result
