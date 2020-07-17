@@ -8,6 +8,8 @@
 def isrotation(str1, str2):
 	# Your code goes here
 	# pass
+	str1 = str(str1)
+	str2 = str(str2)
 	sting=""
 	str3 = str2[:1:]
 	for x in str1:
@@ -21,6 +23,9 @@ def isrotation(str1, str2):
 	result = str4+sting
 	print(result)
 	if result==str2:
+		print(True)
 		return True
 	else:
+		print(False)
 		return False
+isrotation(3412,1234)
