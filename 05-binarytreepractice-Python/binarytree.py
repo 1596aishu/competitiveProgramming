@@ -14,7 +14,8 @@ class BinaryTree(object):
         False otherwise."""
         # Your code goes here
         # pass
-        
+        if (self.root.value == None):  
+            return False
         if self.root.value == find_val:
             return True
         else:
