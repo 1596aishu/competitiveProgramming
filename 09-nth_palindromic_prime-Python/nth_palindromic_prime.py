@@ -25,7 +25,8 @@ def fun_nth_palindromic_prime(n):
 			if isprime(i):
 				c+=1
 				print(i,c)
-		if c == n :
-			return i
+			if c == n:
+				return i
+		i+=1
 	return False
 fun_nth_palindromic_prime(1)
