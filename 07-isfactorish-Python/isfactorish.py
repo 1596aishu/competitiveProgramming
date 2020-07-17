@@ -26,5 +26,10 @@ def fun_isfactorish(n):
 		n = n *(-1)
 	if len(str(n)!=3 or len(set(str(n)))!=3):
 		return False
-	return False
+	else:
+		for i in str(n):
+			if fun_isfactor(int(i),int(n))!=True:
+				return False
+	return True
+  
 
