@@ -15,12 +15,16 @@ class BinaryTree(object):
         # Your code goes here
         # pass
         
-        if self.root == find_val:
+        if self.root.value == find_val:
             return True
         else:
             self.root = self.root.left
-            self.search(self.root)
-            
+            lef= self.search(self.root)
+            if lef:
+                return True
+            self.root = self.root.roght
+
+
 
     def print_tree(self):
         """Print out all tree nodes
