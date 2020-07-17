@@ -34,8 +34,6 @@ class BinaryTree(object):
         pass
         # self.preorder_print(root,)
 
-
-
     def preorder_search(self, start, find_val):
         """Helper method - use this to create a 
         recursive search solution."""
