@@ -13,8 +13,8 @@ def isprime(n):
 
 
 def fun_nth_additive_prime(n):
-	c = 0
-	i = 2
+	c = 1
+	i = 3
 	while c!=n:		
 		if isprime(i):
 			# print(i)
