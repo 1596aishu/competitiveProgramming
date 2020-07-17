@@ -31,6 +31,11 @@ class BinaryTree(object):
         a pre-order traversal."""
         # Your code goes here
         # pass
+        if self.root:
+            self.print_tree(self.root.left)
+            self.print_tree(self.root.right)
+
+
 
     def preorder_search(self, start, find_val):
         """Helper method - use this to create a 
