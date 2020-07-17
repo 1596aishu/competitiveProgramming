@@ -29,4 +29,4 @@ def fun_nth_palindromic_prime(n):
 				return i
 		i+=1
 	return False
-# fun_nth_palindromic_prime(1)
+  
