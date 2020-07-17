@@ -23,7 +23,7 @@ class BST(object):
                     self.insert(root.left, node)
 
     def insert(self, new_val):
-        insert_bst(root,new_val)
+        self.insert_bst(root,new_val)
         # Your code goes here
         # pass
         # if self.root.value == None:
