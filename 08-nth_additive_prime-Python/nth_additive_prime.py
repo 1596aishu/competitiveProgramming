@@ -17,14 +17,11 @@ def fun_nth_additive_prime(n):
 	i = 2
 	while c!=n:		
 		if isprime(i):
-			# print(i)
+			print(i)
 			sum=0
-			temp = i
-			while(temp != 0):
-				x = temp % 10
-				sum +=x
-				temp = temp // 10
-				print(sum)
+			temp = str(i)
+			for x in temp:
+				sum+=int(x)
 			if isprime(sum):
 				c+=1
 		i+=1
