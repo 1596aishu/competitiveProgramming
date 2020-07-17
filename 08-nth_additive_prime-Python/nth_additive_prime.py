@@ -31,6 +31,7 @@ def fun_nth_additive_prime(n):
 		print(i)
 		return i
 	else:
+		print(False)
 		return False		
 
 fun_nth_additive_prime(7)
