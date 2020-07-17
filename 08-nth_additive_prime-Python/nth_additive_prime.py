@@ -14,7 +14,7 @@ def isprime(n):
 
 def fun_nth_additive_prime(n):
 	c = 0
-	i = 1
+	i = 2
 	while c!=n:		
 		if isprime(i):
 			sum=0
@@ -26,6 +26,6 @@ def fun_nth_additive_prime(n):
 			if isprime(sum):
 				c+=1
 			i+=1
-		return False
-		
+		else:
+			return False		
 	return 1
