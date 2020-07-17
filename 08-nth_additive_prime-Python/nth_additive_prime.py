@@ -27,4 +27,3 @@ def fun_nth_additive_prime(n):
 				c+=1
 			i+=1
 	return False		
-	return 1
