@@ -33,4 +33,4 @@ def fun_nth_additive_prime(n):
 		print(False)
 		return False		
 
-fun_nth_additive_prime(5)
+fun_nth_additive_prime(3)
