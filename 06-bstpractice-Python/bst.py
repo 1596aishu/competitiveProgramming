@@ -20,7 +20,6 @@ class BST(object):
                 return self.insert(d)
             else:
                 self.root.left = Node(d)
-                print(True)
                 return True
         else:
             if self.root.right:
@@ -28,17 +27,16 @@ class BST(object):
                 return self.insert(d)
             else:
                 self.root.right = Node(d)
-                print(True)
                 return True
 
     def printSelf(self):
         # Your code goes here
-        pass
-        # if self.root is None:
-        #     print("None")
-        # else:
-        #     print(self.root.left)
-        #     print(self.root.right)
+        # pass
+        if self.root is None:
+            print("None")
+        else:
+            print(self.root.left)
+            print(self.root.right)
         
     def search(self, find_val):
         # Your code goes here
