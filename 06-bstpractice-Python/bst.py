@@ -1,55 +1,30 @@
 class Node(object):
-    def _init_(self, value):
+    def __init__(self, value):
         self.value = value
         self.left = None
         self.right = None
 
-class BinaryTree(object):
-    def _init_(self, root):
+class BST(object):
+    def __init__(self, root):
         self.root = Node(root)
-    
-    def preorder_search(self, start, find_val):
-        """Helper method - use this to create a 
-        recursive search solution."""
+
+    def insert(self, new_val):
         # Your code goes here
-        if start:
-            # print("nope")
-            if start.value == find_val:
-                # print("nope1")
-                return(True)
-            if self.preorder_search(start.left,find_val):
-                return True
-            elif self.preorder_search(start.right,find_val):
-                return True
+        # pass
+        if self.root.value == None:
+            self.root.value = new_val
+        else:
+            if new_val < self.root.value:
+                insert(root.left, new_val)
             else:
-                return False
-        else:
-            # print("skdgkjghkgjv")
-            return False
+                insert(root.right, new_val)
+        
 
+    def printSelf(self):
+        # Your code goes here
+        pass
+        
     def search(self, find_val):
-        """Return True if the value
-        is in the tree, return
-        False otherwise."""
-        # Your code goes 
-        if self.root is None:
-            print("root",False)
-            return False
-        else:
-            return self.preorder_search(self.root,find_val)
-            # print(a)
-            # return a
-    def print_tree(self):
-        """Print out all tree nodes
-        as they are visited in
-        a pre-order traversal."""
         # Your code goes here
         pass
 
-    
-
-    def preorder_print(self, start, traversal):
-        """Helper method - use this to create a 
-        recursive print solution."""
-        # Your code goes here
-        pass
