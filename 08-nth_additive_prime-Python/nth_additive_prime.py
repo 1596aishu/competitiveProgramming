@@ -23,7 +23,7 @@ def fun_nth_additive_prime(n):
 				x = temp % 10
 				sum +=x
 				temp = temp // 10
-				print(temp)
+				print(sum)
 			if isprime(sum):
 				c+=1
 		i+=1
