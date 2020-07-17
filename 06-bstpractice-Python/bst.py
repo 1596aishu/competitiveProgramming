@@ -15,7 +15,7 @@ class BST(object):
             self.root.value = new_val
         else:
             if new_val < self.root.value:
-                self.root= self.root.left
+                self.root.left = insert(self.root.left, new_val)
             else:
                 self.root = self.root.right
                 
