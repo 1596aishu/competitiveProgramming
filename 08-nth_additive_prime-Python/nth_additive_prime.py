@@ -26,10 +26,11 @@ def fun_nth_additive_prime(n):
 			if isprime(sum):
 				c+=1
 				print(i,c)
+			if c == n:
+				print(i)
+				return i
 		i+=1
-	if c == n:
-		print(i)
-		return i
+	
 	else:
 		print(False)
 		return False		
