@@ -28,3 +28,4 @@ def fun_nth_palindromic_prime(n):
 		if c == n :
 			return i
 	return False
+fun_nth_palindromic_prime(1)
