@@ -20,6 +20,7 @@ def fun_nth_palindromic_prime(n):
 	while c!=n:
 		x = str(i)
 		y = x[::-1]
+		print(x,y)
 		if x == y:
 			if isprime(i):
 				c+=1
