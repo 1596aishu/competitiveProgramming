@@ -31,3 +31,5 @@ def fun_nth_additive_prime(n):
 		return i
 	else:
 		return False		
+
+fun_nth_additive_prime(7)
