@@ -17,7 +17,7 @@ class BST(object):
             if new_val < self.root.value:
                 self.root.left = insert(self.root.left, new_val)
             else:
-                self.root = self.root.right
+                self.root.right = insert(self.root.right, new_val)
                 
 
     def printSelf(self):
