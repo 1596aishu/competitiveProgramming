@@ -11,7 +11,7 @@ class BST(object):
 
     def insert_bst(self, root, val):
         if root is None: 
-                root = val 
+                root.value = val 
         else: 
             if self.root.value < val: 
                 if self.root.right is None: 
