@@ -35,7 +35,7 @@ class BST(object):
         if self.root is None:
             print("None")
         else:
-            print(self.root.left)
+            print(self.root)
             print(self.root.right)
         
     def search(self, find_val):
