@@ -32,6 +32,7 @@ class BinaryTree(object):
         # Your code goes here
         # pass
         if self.root:
+            print(self.root.value)
             self.print_tree(self.root.left)
             self.print_tree(self.root.right)
 
@@ -42,6 +43,7 @@ class BinaryTree(object):
         recursive search solution."""
         # Your code goes here
         # pass
+
 
     def preorder_print(self, start, traversal):
         """Helper method - use this to create a 
