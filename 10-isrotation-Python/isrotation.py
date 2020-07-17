@@ -28,4 +28,5 @@ def isrotation(str1, str2):
 	else:
 		# print(False)
 		return False
+  
 # isrotation(3412,1234)
