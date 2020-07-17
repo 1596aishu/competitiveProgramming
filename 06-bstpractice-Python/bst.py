@@ -29,7 +29,12 @@ class BST(object):
 
     def printSelf(self):
         # Your code goes here
-        pass
+        # pass
+        if self.root is None:
+            return
+        else:
+            print(self.root.left)
+            print(self.root.right)
         
     def search(self, find_val):
         # Your code goes here
