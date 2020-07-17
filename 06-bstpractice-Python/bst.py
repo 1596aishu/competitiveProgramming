@@ -9,18 +9,18 @@ class BST(object):
     def __init__(self, root):
         self.root = Node(root)
 
-    def insert_bst(self, root, node):
+    def insert_bst(self, root, val):
         if root is None: 
                 root = val 
         else: 
             if root < val: 
                 if root.right is None: 
-                    root.right = node 
+                    root.right = val 
                 else: 
-                    self.insert_bst(root.right, node) 
+                    self.insert_bst(root.right, val) 
             else: 
                 if root.left is None: 
-                    root.left = node 
+                    root.left = val 
                 else: 
                     self.insert_bst(root.left, node)
 
