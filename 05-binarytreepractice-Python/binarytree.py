@@ -19,6 +19,7 @@ class BinaryTree(object):
             return True
         else:
             self.root = self.root.left
+            self.search(self.root)
             
 
     def print_tree(self):
