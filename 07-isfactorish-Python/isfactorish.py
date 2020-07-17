@@ -23,7 +23,7 @@ def fun_isfactor(f,n):
 def fun_isfactorish(n):
 	if n<0:
 		n = n *(-1)
-	if len(str(n)!=3 or len(set(str(n)))!=3):
+	if len(str(n))!=3 or len(set(str(n)))!=3:
 		return False
 	else:
 		for i in str(n):
