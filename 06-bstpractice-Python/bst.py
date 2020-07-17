@@ -15,12 +15,12 @@ class BST(object):
         else: 
             if self.root.value < val: 
                 if self.root.right is None: 
-                    self.root.right = val 
+                    self.root.right.value = val 
                 else: 
                     self.insert_bst(self.root.right, val) 
             else: 
                 if self.root.left is None: 
-                    self.root.left = val 
+                    self.root.left.value = val 
                 else: 
                     self.insert_bst(self.root.left, val)
 
