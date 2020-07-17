@@ -17,7 +17,7 @@ def fun_nth_additive_prime(n):
 	i = 2
 	while c!=n:		
 		if isprime(i):
-			print(i)
+			# print(i)
 			sum=0
 			temp = str(i)
 			for x in temp:
@@ -33,4 +33,4 @@ def fun_nth_additive_prime(n):
 		print(False)
 		return False		
 
-fun_nth_additive_prime(7)
+fun_nth_additive_prime(5)
