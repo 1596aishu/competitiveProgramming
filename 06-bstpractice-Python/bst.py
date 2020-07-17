@@ -20,6 +20,7 @@ class BST(object):
                 return self.insert(d)
             else:
                 self.root.left = Node(d)
+                print(True)
                 return True
         else:
             if self.root.right:
@@ -27,6 +28,7 @@ class BST(object):
                 return self.insert(d)
             else:
                 self.root.right = Node(d)
+                print(True)
                 return True
 
     def printSelf(self):
