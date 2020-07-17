@@ -17,15 +17,15 @@ class BST(object):
                 if root.right is None: 
                     root.right = node 
                 else: 
-                    self.insert(root.right, node) 
+                    self.insert_bst(root.right, node) 
             else: 
                 if root.left is None: 
                     root.left = node 
                 else: 
-                    self.insert(root.left, node)
+                    self.insert_bst(root.left, node)
 
     def insert(self, new_val):
-        self.insert_bst(root,new_val)
+        self.insert_bst(self.root,new_val)
         # Your code goes here
         # pass
         # if self.root.value == None:
