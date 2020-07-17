@@ -30,8 +30,8 @@ class BinaryTree(object):
         as they are visited in
         a pre-order traversal."""
         # Your code goes here
-        # pass
-        self.preorder_print(root,)
+        pass
+        # self.preorder_print(root,)
 
 
 
@@ -39,7 +39,7 @@ class BinaryTree(object):
         """Helper method - use this to create a 
         recursive search solution."""
         # Your code goes here
-        # pass
+        pass
 
 
 
@@ -47,8 +47,8 @@ class BinaryTree(object):
         """Helper method - use this to create a 
         recursive print solution."""
         # Your code goes here
-        # pass
-        if self.root:
-            print(self.root.value)
-            self.print_tree(root.left)
-            self.print_tree(root.right)
+        pass
+        # if self.root:
+        #     print(self.root.value)
+        #     self.print_tree(root.left)
+        #     self.print_tree(root.right)
