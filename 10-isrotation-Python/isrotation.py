@@ -21,11 +21,11 @@ def isrotation(str1, str2):
 		if str1[y]==str3:
 			str4=str1[y::]
 	result = str4+sting
-	print(result)
+	# print(result)
 	if result==str2:
-		print(True)
+		# print(True)
 		return True
 	else:
-		print(False)
+		# print(False)
 		return False
-isrotation(3412,1234)
+# isrotation(3412,1234)
