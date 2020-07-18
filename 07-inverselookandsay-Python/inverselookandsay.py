@@ -14,6 +14,7 @@ def inverselookandsay(a):
 	lst = []
 	print(len(a))
 	if len(a) == 0:
+		print("lst")
 		return lst
 	elif len(a)>0:
 		for i in a:
