@@ -40,11 +40,11 @@ def lookandsay(a):
 		# k = c
 		c = 0
 		# print(a[x])
-		for j in range(x,len(a)):
+		for j in range(x+c,len(a)):
 			if a[x] != a[j]:
 				break
 			c+=1
-			j+=c
+			
 		l.append((c,a[x]))
 	for i in l:
 		if i not in lst:
