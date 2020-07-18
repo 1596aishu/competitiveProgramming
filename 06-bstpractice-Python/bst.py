@@ -45,20 +45,20 @@ class BST(object):
         #             self.root = self.root.right
         #             return self.printSelf()
         
-    # def search(self, d):
+    def search(self, d):
         # Your code goes here
         pass
-        if self.root is not  None and self.root.value:            
-            if self.root.value == d:
-                return True
-            elif d < self.root.value and self.root.left is not None: 
-                self.root = self.root.left
-                return self.search(d)
-            elif d > self.root.value and self.root.right is not None:
-                self.root = self.root.right
-                return self.search(d)
-            return False
-        return False 
+        # if self.root is not  None and self.root.value:            
+        #     if self.root.value == d:
+        #         return True
+        #     elif d < self.root.value and self.root.left is not None: 
+        #         self.root = self.root.left
+        #         return self.search(d)
+        #     elif d > self.root.value and self.root.right is not None:
+        #         self.root = self.root.right
+        #         return self.search(d)
+        #     return False
+        # return False 
         # if self.root is None or self.root.val == find_val: 
         #     return self.root 
         # if self.root.val < find_val: 
