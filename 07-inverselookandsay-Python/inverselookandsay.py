@@ -10,4 +10,17 @@
 
 def inverselookandsay(a):
 	# Your code goes here
-	pass
+	# pass
+	lst = []
+	if a == []:
+		return []
+	else:
+		for i in a:
+			x = i[0]
+			while x!=0:
+				lst.append(i[1])
+				x-=1
+		print(lst)
+
+inverselookandsay([(2,3),(1,8),(3,-10)])
+
