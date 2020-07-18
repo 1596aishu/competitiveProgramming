@@ -22,8 +22,8 @@ def lookandsay(a):
 				break
 			c+=1
 		l.append((c,x))
-	lst = set(l)
-
+	lst = (l)
+	print(lst)
 	return(list(lst))
 lookandsay([3,3,8,3,3,3,3])
 				
