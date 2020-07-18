@@ -21,6 +21,6 @@ def inverselookandsay(a):
 				lst.append(i[1])
 				x-=1
 		print(lst)
-
-inverselookandsay([(2,3),(1,8),(3,-10)])
+		return lst
+inverselookandsay([(2,3),(1,8),(4,3)])
 
