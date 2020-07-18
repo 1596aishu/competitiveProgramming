@@ -12,9 +12,9 @@ def inverselookandsay(a):
 	# Your code goes here
 	# pass
 	lst = []
-	if a == []:
-		return []
-	else:
+	if len(a) == 0:
+		return lst
+	elif len(a)>0:
 		for i in a:
 			x = i[0]
 			while x!=0:
@@ -22,5 +22,5 @@ def inverselookandsay(a):
 				x-=1
 		print(lst)
 		return lst
-inverselookandsay([(2,3),(1,8),(4,3)])
+inverselookandsay([])
 
