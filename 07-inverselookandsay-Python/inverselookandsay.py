@@ -12,6 +12,7 @@ def inverselookandsay(a):
 	# Your code goes here
 	# pass
 	lst = []
+	print(len(a))
 	if len(a) == 0:
 		return lst
 	elif len(a)>0:
@@ -21,6 +22,8 @@ def inverselookandsay(a):
 				lst.append(i[1])
 				x-=1
 		print(lst)
+		return lst
+	else:
 		return lst
 inverselookandsay([])
 
