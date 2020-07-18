@@ -36,7 +36,7 @@ def lookandsay(a):
 	if a == []:
 		return []
 	# k = 0
-	for x in range(0,len(a),c):
+	for x in range(len(a),c):
 		c = 0
 		# print(a[x])
 		for j in range(x,len(a)):
