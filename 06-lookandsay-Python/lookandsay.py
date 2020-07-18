@@ -31,5 +31,5 @@ def lookandsay(a):
 	print(l)
 	
 	return(list(lst))
-lookandsay([3,3,8,8,-10,-10,-10,8,8])
+lookandsay([3,3,8,8,-10,-10,-10,8,8,3,3,3])
 				
