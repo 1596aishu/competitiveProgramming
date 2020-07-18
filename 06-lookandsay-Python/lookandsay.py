@@ -19,7 +19,7 @@ def lookandsay(a):
 		c = 0
 		i = a.index(x)
 		# print(x)
-		for j in range(i,len(a)+1):
+		for j in range(i,len(a)-1):
 			if x != a[j]:
 				break
 			c+=1
