@@ -14,8 +14,7 @@ def multipolynomials(p1, p2):
 		print(i1)
 		for o2,i2 in enumerate(p2):
 			res[o1+o2] += i1*i2
-	print(res)
-  
+	# print(res)
 	return res
   		
 # multipolynomials([2,0,3], [4,5])
