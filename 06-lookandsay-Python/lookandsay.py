@@ -44,10 +44,15 @@ def lookandsay(a):
 				break
 			c+=1			
 		l.append((c,a[x]))
-	for i in l:
-		if i not in lst:
-			lst.append(i)
-	print(l)
+	# for i in l:
+	# 	if i not in lst:
+	# 		lst.append(i)
+	for i in range(len(l)):
+		print(l[i])
+		# if i>i+1:
+		# 	lst.append(i)
+		# result = all(x < y for x, y in zip(i, i+1))
+	# print(lst)
 	
 	return(list(lst))
 lookandsay([3,3,8,3,3,3,3])
