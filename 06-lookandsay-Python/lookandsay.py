@@ -15,21 +15,19 @@ def lookandsay(a):
 	c=0
 	if a ==[]:
 		return []
-	for x in a:
+	for x in range(len(a)):
 		c = 0
-		i = a.index(x)
-		# print(x)
-		for j in range(i,len(a)-1):
-			if x != a[j]:
+		print(a[x])
+		for j in range(x,len(a)):
+			if a[x] != a[j]:
 				break
 			c+=1
-			print(c)
-		l.append((c,x))
+		l.append((c,a[x]))
 	for i in l:
 		if i not in lst:
 			lst.append(i)
 	print(l)
 	
 	return(list(lst))
-lookandsay([3,3,8,8,-10,-10,-10,8,8,3,3,3])
+lookandsay([3,3,8,8,-10,-10,-10,8,8,8])
 				
