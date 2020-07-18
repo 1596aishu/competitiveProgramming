@@ -7,8 +7,6 @@
 # strings and averages 13 and 14 to return 13.5. Also, getAverage('a,b,c') returns 0.
 
 
-
-
 def fun_getaverage(s):
 	p = s.split(",")
 	c = 0
@@ -19,8 +17,10 @@ def fun_getaverage(s):
 			c+=1
 		else:
 			sum = float(sum)
+	if c == 0:
+		return 0.0
 	avg = float(sum/c)
 	return (avg)
 
-fun_getaverage("13,excused,14,absent")
+# fun_getaverage("13,excused,14,absent")
 
