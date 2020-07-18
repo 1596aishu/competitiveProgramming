@@ -3,5 +3,11 @@
 
 
 def fun_hasnoprimes(l):
+	t = len(l[0])
+	for i in l:
+		if len(i) != t:
+			return False
 	return True
 
+
+	
