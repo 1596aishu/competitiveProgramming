@@ -26,6 +26,7 @@ def lookandsay(a):
 	for i in l:
 		if i not in lst:
 			lst.append(i)
+	print(list(lst))
 	return(list(lst))
 lookandsay([3,3,8,3,3,3,3])
   
