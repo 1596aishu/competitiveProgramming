@@ -9,40 +9,15 @@
 
 
 def lookandsay(a):
-	# c=1
-	# l = []
-	# for i in range(1,len(a)+1):
-	# 	if i<len(a) and a[i-1] == a[i]:
-	# 		c += 1
-	# 	else:
-	# 		l.append((c,a[i-1]))
-	# 		c = 1
-	# return(l)
-  
-	l = []
-	lst = []
 	c=1
-	if a == []:
-		return []
-	# k = 0
-	for x in range(len(a)):
-		c = 0
-		# print(a[x])
-		for j in range(x,len(a)):
-			if a[x] != a[j]:
-				break
-			c+=1			
-		l.append((c,a[x]))
-	# for i in l:
-	# 	if i not in lst:
-	# 		lst.append(i)
-	for i in range(1,len(l)):
-		if l[i][1] == l[i-1][1]:	
-			if l[i-1]>l[i]:
-				lst.append(l[i-1])
-		# result = all(x < y for x, y in zip(i, i+1))
-	print(l)
-	
-	return(list(lst))
-lookandsay([3,3,8,3,3,3,3])
+	l = []
+	for i in range(1,len(a)+1):
+		if i<len(a) and a[i-1] == a[i]:
+			c += 1
+		else:
+			l.append((c,a[i-1]))
+			c = 1
+	return(l)
+  
+  
 				
