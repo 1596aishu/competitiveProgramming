@@ -37,7 +37,7 @@ def lookandsay(a):
 	# 	if i not in lst:
 	# 		lst.append(i)
 	for i in range(1,len(l)):
-		if i-1>i:
+		if l[i-1]>l[i]:
 			lst.append(i-1)
 		# result = all(x < y for x, y in zip(i, i+1))
 	print(lst)
