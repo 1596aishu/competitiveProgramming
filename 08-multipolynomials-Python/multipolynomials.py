@@ -16,5 +16,5 @@ def multipolynomials(p1, p2):
 			res[o1+o2] += i1*i2
 	print(res)
   
-	# return res		
+	return res		
 # multipolynomials([2,0,3], [4,5])
