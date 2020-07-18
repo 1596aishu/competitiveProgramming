@@ -25,5 +25,6 @@ def inverselookandsay(a):
 		return lst
 	else:
 		return lst
+  
 # inverselookandsay([(),])
 
