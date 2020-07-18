@@ -37,10 +37,11 @@ def lookandsay(a):
 	# 	if i not in lst:
 	# 		lst.append(i)
 	for i in range(1,len(l)):
-		if l[i-1]>l[i]:
-			lst.append(i-1)
+		if l[i][1] == l[i-1][1]:	
+			if l[i-1]>l[i]:
+				lst.append(l[i-1])
 		# result = all(x < y for x, y in zip(i, i+1))
-	print(lst)
+	print(l)
 	
 	return(list(lst))
 lookandsay([3,3,8,3,3,3,3])
