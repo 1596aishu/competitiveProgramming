@@ -17,8 +17,8 @@
 
 
 def fun_wordwrap(s, n):
-	result = s.trim()
-	return ""
-
+	result = s.strip()
+	print(result)
+fun_wordwrap(" a b c de fgh ",  4)
 
  
