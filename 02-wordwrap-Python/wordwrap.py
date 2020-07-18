@@ -17,6 +17,7 @@
 
 
 def fun_wordwrap(s, n):
+	result = s.trim()
 	return ""
 
 
