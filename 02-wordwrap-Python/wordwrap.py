@@ -20,7 +20,8 @@ def fun_wordwrap(s, n):
 	res = s.strip()
 	for i in res:
 		if i == " ":
-			res.replace(" ","-")
+			res = res.replace(" ","-")
+	print(res)
 fun_wordwrap(" a b c de fgh ",  4)
 
  
