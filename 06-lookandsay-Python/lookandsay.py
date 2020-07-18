@@ -32,20 +32,17 @@ def lookandsay(a):
   
 	l = []
 	lst = []
-	c=0
+	c=1
 	if a == []:
 		return []
-	k = 0
-	for x in range(c,len(a)):
-		# c = 0
-		# k = c
+	# k = 0
+	for x in range(0,len(a),c):
 		c = 0
 		# print(a[x])
 		for j in range(x,len(a)):
 			if a[x] != a[j]:
 				break
-			c+=1
-			
+			c+=1			
 		l.append((c,a[x]))
 	for i in l:
 		if i not in lst:
