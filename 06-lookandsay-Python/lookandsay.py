@@ -38,7 +38,7 @@ def lookandsay(a):
 	# k = 0
 	for x in range(0,len(a),c):
 		c = 0
-		# print(a[x])
+		print(a[x])
 		for j in range(x,len(a)):
 			if a[x] != a[j]:
 				break
