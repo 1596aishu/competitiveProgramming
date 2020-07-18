@@ -33,21 +33,24 @@ def lookandsay(a):
 	l = []
 	lst = []
 	c=0
-	if a ==[]:
+	if a == []:
 		return []
 	for x in range(len(a)):
+		# c = 0
+		k = c
 		c = 0
-		print(a[x])
-		for j in range(x,len(a)):
+		# print(a[x])
+		for j in range(x+k,len(a)):
 			if a[x] != a[j]:
 				break
 			c+=1
+			j+=c
 		l.append((c,a[x]))
 	for i in l:
 		if i not in lst:
 			lst.append(i)
-	print(lst)
+	print(l)
 	
 	return(list(lst))
-lookandsay([3,3,8,8,-10,-10,-10,8,8,8])
+lookandsay([3,3,8,3,3,3,3])
 				
