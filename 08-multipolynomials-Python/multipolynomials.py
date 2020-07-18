@@ -7,4 +7,11 @@
 
 def multipolynomials(p1, p2):
 	# Your code goes here
-	pass
+	# pass
+	
+	res = [0]*(len(p1)+len(p2)-1)
+	for o1,i1 in enumerate(p1):
+		for o2,i2 in enumerate(p2):
+			res[o1+o2] += i1*i2
+	return res		
+	print(res)
