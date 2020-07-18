@@ -12,7 +12,6 @@ def inverselookandsay(a):
 	# Your code goes here
 	# pass
 	lst = []
-	print(len(a[0]))
 	if len(a) == 1 and len(a[0])==0:
 		print("lst")
 		return lst
@@ -26,5 +25,5 @@ def inverselookandsay(a):
 		return lst
 	else:
 		return lst
-inverselookandsay([(),])
+# inverselookandsay([(),])
 
