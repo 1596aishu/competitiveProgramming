@@ -37,10 +37,10 @@ def lookandsay(a):
 		return []
 	for x in range(len(a)):
 		# c = 0
-		k = c
+		# k = c
 		c = 0
 		# print(a[x])
-		for j in range(x+k,len(a)):
+		for j in range(x,len(a)):
 			if a[x] != a[j]:
 				break
 			c+=1
