@@ -28,4 +28,26 @@ def lookandsay(a):
 			lst.append(i)
 	return(list(lst))
 lookandsay([3,3,8,3,3,3,3])
+  
+# l = []
+# 	lst = []
+# 	c=0
+# 	if a ==[]:
+# 		return []
+# 	for x in range(len(a)):
+# 		c = 0
+# 		print(a[x])
+# 		for j in range(x,len(a)):
+# 			if a[x] != a[j]:
+# 				break
+# 			c+=1
+# 		l.append((c,a[x]))
+# 	# for i in range(len(l)):
+# 	# 	for j in range(i,len(l)):
+# 	# 		if l[i][0] >= l[j][0] and l[i][1]==l[j][1]:
+# 	# 			lst.append((l[i]))
+# 	print(l)
+	
+# 	return(list(l))
+# # lookandsay([3,3,8,8,-10,-10,-10,8,8,8])
 				
