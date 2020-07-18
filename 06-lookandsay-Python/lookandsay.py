@@ -9,4 +9,18 @@
 
 def lookandsay(a):
 	# Your code goes here
-	pass
+	# pass
+	l = []
+	c = 0
+	if a ==[]:
+		return []
+	for x in a:
+		i = a.index(x)
+		# while(i!=len(a)):
+		# 	if x == a[i+1]:
+		# 		c += 1
+		# 		i+=1
+		l.append((x,c))
+	print(l)
+lookandsay([3,3,8,-10,-10,-10])
+				
