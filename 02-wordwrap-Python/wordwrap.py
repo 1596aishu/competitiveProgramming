@@ -21,7 +21,16 @@ def fun_wordwrap(s, n):
 	for i in res:
 		if i == " ":
 			res = res.replace(" ","-")
-	print(res)
+	c = 0
+	st = ""
+	for x in res:
+		if c != 4:
+			st += x
+			c+=1
+			
+		else:
+			c = 0
+		print(st)
 fun_wordwrap(" a b c de fgh ",  4)
 
  
