@@ -47,7 +47,7 @@ def lookandsay(a):
 	# for i in l:
 	# 	if i not in lst:
 	# 		lst.append(i)
-	for i in range(len(l)):
+	for i in range(1,len(l)):
 		print(l[i])
 		# if i>i+1:
 		# 	lst.append(i)
