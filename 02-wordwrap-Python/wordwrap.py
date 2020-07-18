@@ -17,20 +17,22 @@
 
 
 def fun_wordwrap(s, n):
-	res = s.strip()
-	for i in res:
+	str1 = ""
+	s = s.strip()
+	for i in s:
 		if i == " ":
-			res = res.replace(" ","-")
-	c = 0
-	st = ""
-	for x in res:
-		if c != 4:
-			st += x
-			c+=1
-			
-		else:
-			c = 0
-		print(st)
-fun_wordwrap(" a b c de fgh ",  4)
+			s = s.replace(" ","-")
+	if len(s) == n:
+		return s
+	elif len(s)>n:
+		a = (len(s)//n)
+		if len(s)%n>0:
+			a+=1
+		for i in range(a):
+			str1+=s[i*n:n*(i+1)]
+			if i != a-1:
+				str1+="\n"
+	return str1
+  
 
  
