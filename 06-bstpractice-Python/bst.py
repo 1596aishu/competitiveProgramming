@@ -45,7 +45,7 @@ class BST(object):
         #             self.root = self.root.right
         #             return self.printSelf()
         
-    def search(self, find_val):
+    # def search(self, d):
         # Your code goes here
         pass
         if self.root is not  None and self.root.value:            
