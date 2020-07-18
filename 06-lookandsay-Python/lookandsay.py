@@ -9,15 +9,15 @@
 
 
 def lookandsay(a):
-	c=1
-	l = []
-	for i in range(1,len(a)+1):
-		if i<len(a) and a[i-1] == a[i]:
-			c += 1
-		else:
-			l.append((c,a[i-1]))
-			c = 1
-	return(l)
+	# c=1
+	# l = []
+	# for i in range(1,len(a)+1):
+	# 	if i<len(a) and a[i-1] == a[i]:
+	# 		c += 1
+	# 	else:
+	# 		l.append((c,a[i-1]))
+	# 		c = 1
+	# return(l)
   
 	l = []
 	lst = []
