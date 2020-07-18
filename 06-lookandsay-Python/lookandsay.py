@@ -20,7 +20,7 @@ def lookandsay(a):
 		i = a.index(x)
 		# print(x)
 		for j in range(i,len(a)):
-			print(a[j])
+			
 			if x != a[j]:
 				break
 			c+=1
@@ -28,8 +28,8 @@ def lookandsay(a):
 	for i in l:
 		if i not in lst:
 			lst.append(i)
-	# print(lst)
+	print(l)
 	
 	return(list(lst))
-lookandsay([3,3,8,-10,-10,-10,3])
+lookandsay([3,3,8,-10,-10,-10,8])
 				
