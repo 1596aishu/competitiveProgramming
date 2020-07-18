@@ -4,8 +4,21 @@
 
 
 
-
 def fun_alternatingsum(a): 
-	return 0
-
+	if len(a) == 0:
+		return 0
+	else:
+		s = 0
+		n = 0
+		sums = 	a[::2]
+		print(sums)
+		negs = a[1::2]
+		print(negs)
+		for i in sums:
+			s+=i
+		for j in negs:
+			n+=j
+		res = s - n
+		print(res)	
+		return res
 
