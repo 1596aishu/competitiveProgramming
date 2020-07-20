@@ -6,6 +6,48 @@
 # square.
 
 
+def ismostlymagicsquare(a):
+	# sum1=sum2=sum3=sum4=sum5=sum6=sum7=sum8=0
+	# print(len(a))
+	sum = [0]*((len(a)*2)+2)
+	if len(a)==1 and len(a[0]) == 1:
+		return True
+	
+	elif len(a)==len(a[0]):
+		for i in range(len(a)):
+			for k in range(len(a[i])):
+					sum[k+len(a[0])] += a[i][k]
+			for j in range(len(a[i])):
+				sum[i] += a[i][j]
+				if i == j:
+					sum[len(a)*2] += a[i][j]
+				if len(a[i])-1-i == j:
+					sum[len(a)*2+1] += a[i][j]
+	sum1 = set(sum)
+	# print(len(sum1))
+	if(len(sum1) == 1):
+		return (sum[0:len(a)*2],True)
+	else:
+		return (sum[0:len(a)*2],False)
+        
+
+
 def fixmostlymagicsquare(L):
-	pass
-	# Your code goes here
+	a,b = ismostlymagicsquare(L)
+	p = 0
+	for i in range(len(a)//2):
+		c = 0
+		for j in range(len(a)//2):
+			if a[i] == a[j]:
+				c+=1
+	# i = (a.index(a[p],len(a)//2),len(a)))-(len(a)//2)
+	i = (a.index(a[p],len(a)//2,len(a)))-(len(a)//2)
+	k = 0
+	e = L[p][i]
+	while(True):
+		if k != e:
+			L[p][i]=k
+			x,y = ismostlymagicsquare(L)
+			if y:
+				return L
+			k+=1
