@@ -40,6 +40,9 @@ def fixmostlymagicsquare(L):
 		for j in range(len(a)//2):
 			if a[i] == a[j]:
 				c+=1
+		if c ==1:
+			p = i
+			break
 	# i = (a.index(a[p],len(a)//2),len(a)))-(len(a)//2)
 	i = (a.index(a[p],len(a)//2,len(a)))-(len(a)//2)
 	k = 0
