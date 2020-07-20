@@ -7,15 +7,15 @@ def canqueenattack(qR, qC, oR, oC):
 	# Your code goes here
 	# pass
 	rows = 8
-	colomns = 8
-	board = [[False for x in range(colomns)] for y in range(rows)]
+	columns = 8
+	board = [[False for x in range(columns)] for y in range(rows)]
 	for i in range(rows):
 		for j in range(columns):
 			if i == oR:
 				board[i][j]=True
 			elif j == oC:
 				board[i][j] = True
-			elif abs(i-j) == abs(oR-oC) or abs(i+j) == abd(oR+oC):
+			elif abs(i-j) == abs(oR-oC) or abs(i+j) == abs(oR+oC):
 				board[i][j] = True
 	if board[qR][qC] == True:
 		return True
