@@ -31,7 +31,8 @@ def binarySearchValues(L,lo,hi,v):
 		lst.append((mid,L[mid]))
 		lo = mid+1
 		binarySearchValues(L,lo,hi,v)
-	return lst
+	else:
+		return lst
 
 def recursion_binarysearchvalues(L, v):
 	l = len(L)
