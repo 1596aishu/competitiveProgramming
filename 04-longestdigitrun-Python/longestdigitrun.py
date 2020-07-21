@@ -12,9 +12,12 @@ def longestdigitrun(n):
 	c = 0
 	for i in range(len(n)):
 		c = 0
-		for j in range(i,len(n)):
+		while True:
+			j = 0
 			if n[j] == n[i]:
+				j= j+1
 				c=c+1
-		lst.append((n[j],c))
+			break
+		lst.append((n[i],c))
 	print(lst)	
 longestdigitrun(1177737321)
