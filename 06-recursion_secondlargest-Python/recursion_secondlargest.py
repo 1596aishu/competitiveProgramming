@@ -25,11 +25,11 @@ def recursion_secondlargest(L):
 			if highest< L[i]:
 				highest= L[i]
 		if c == 1:
-			# print(highest)
+			print(highest)
 			return highest
 		else:
 			c=c+1
-			del L[i]
+			# del L[i]
 			recursion_secondlargest(L)
 
 
