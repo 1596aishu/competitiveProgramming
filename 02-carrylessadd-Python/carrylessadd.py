@@ -18,5 +18,5 @@ def fun_carrylessadd(x, y):
 		x = x//10
 		y = y//10
 	return int(c)
-fun_carrylessadd(33,77)
+fun_carrylessadd(785, 376)
 
