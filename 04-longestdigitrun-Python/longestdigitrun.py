@@ -7,8 +7,6 @@
 def longestdigitrun(n):
 	# Your code goes here
 	# pass
-	x = n
-	c = 0
-	for i in n:
-		num = 1%10
-		c = c+1
+	n = str(n)
+	print(count(n[0]))
+		
