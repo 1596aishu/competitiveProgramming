@@ -13,7 +13,7 @@ def sum2(n):
         return n
     return sum(list(map(int,list(str(n)))))
 def sum1(l):
-    s = ""
+    s = 0
     for i in range(len(l)):
         s+=sum(list(map(int,list(str(l[i])))))
         # s += str(l[i])
