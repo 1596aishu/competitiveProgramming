@@ -22,21 +22,22 @@ def secondlargest(L):
 			highest= L[i]
 			index = i
 	if c == 1:
-		print(highest)
+		# print(highest)
 		return highest
 	else:
 		c=c+1
 		L.remove(L[index])
-		secondlargest(L)
+		return secondlargest(L)
+
 def recursion_secondlargest(L):
 	# Your code goes here
 	# pass
 	global c
 	if len(L)<2:
-		print(None)
+		# print(None)
 		return None
 	else:
 		return secondlargest(L)
 
 
-(recursion_secondlargest([4]))
+# (recursion_secondlargest([]))
