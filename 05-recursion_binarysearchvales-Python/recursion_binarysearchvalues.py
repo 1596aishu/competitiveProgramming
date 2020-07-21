@@ -21,6 +21,7 @@ def binarySearchValues(L,lo,hi,v):
 	global lst
 	mid = lo+hi //2
 	if L[mid]==v:
+		lst.append((mid,L[mid]))
 		return lst
 	elif L[mid] > v:
 		lst.append((mid,L[mid]))
@@ -39,10 +40,10 @@ def recursion_binarysearchvalues(L, v):
 	hi = len(L)-1
 	
 	if l>1:
-		# print(binarySearchValues(L,lo,hi,v))
+		print(binarySearchValues(L,lo,hi,v))
 		return binarySearchValues(L,lo,hi,v)
 	else:
 		return []
 	
 
-# recursion_binarysearchvalues(['a', 'c', 'f', 'g', 'm', 'q'],'c')
+# recursion_binarysearchvalues(['a', 'c', 'f', 'g', 'm', 'q'],'a')
