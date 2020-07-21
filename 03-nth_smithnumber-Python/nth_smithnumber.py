@@ -19,7 +19,7 @@ def sum1(l):
         # s += str(l[i])
     # s = list(s)
     # num = list(map(int, s))
-    return sum(num)
+    return sum(s)
 
 def isprime(n):
 	if n > 1:
