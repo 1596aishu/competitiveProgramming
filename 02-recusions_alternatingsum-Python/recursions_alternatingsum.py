@@ -4,13 +4,21 @@
 # (that is, 3). If L is empty, return 0. You may not use loops/iteration in this problem.
 
 def alternatingSum(L):
-	return 
+	j = -1
+	sum = 0
+	for i in L:
+		sum+=i*(-j)
+	print(sum)
+	return sum 
 
 
 def fun_recursions_alternatingsum(l): 
 	L = len(l)
 	# i = 0
 	if L>1:
+		print(alternatingSum(l))
 		return alternatingSum(l)
 	else:
 		return 0
+
+fun_recursions_alternatingsum([5,3,8,4])
