@@ -8,5 +8,5 @@ def longestdigitrun(n):
 	# Your code goes here
 	# pass
 	n = str(n)
-	print(count(n[0]))
+	print(n.count(n[0]))
 		
