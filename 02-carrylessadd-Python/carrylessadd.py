@@ -31,20 +31,15 @@ def fun_carrylessadd(x, y):
 			while y!=0:
 				r = x%10
 				print(r)
-				if len(str(x))>1:
-					if r+s>9:
-						c += str((r+y)%10)
-					x = x//10
-				else:
-					if r+s>9:
-						c+=str((r+s)%10)
-					else:
-						c = str(r+s)
-						# print(c)
-					x = 0
-					y = 0
+				s = y%10
+				print(s)
+				if r+s>9:
+					c += str((r+s)%10)
+				x = x//10
+				y = y//10
+				
 	c = c[::-1]
 	print(int(c))
 	return int(c)
-fun_carrylessadd(1,2)
+fun_carrylessadd(333,17)
 
