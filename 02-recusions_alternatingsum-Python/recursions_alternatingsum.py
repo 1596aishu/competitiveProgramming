@@ -17,7 +17,6 @@ def fun_recursions_alternatingsum(l):
 	L = len(l)
 	# i = 0
 	if L>1:
-		# print(alternatingSum(l))
 		return alternatingSum(l)
 	else:
 		return 0
