@@ -28,12 +28,11 @@ def binarySearchValues(L,lo,hi,v):
 	elif L[mid] > v:
 		lst.append((mid,L[mid]))
 		hi = mid -1
-		binarySearchValues(L,lo,hi,v)
+		return binarySearchValues(L,lo,hi,v)
 	elif L[mid] < v:
 		lst.append((mid,L[mid]))
 		lo = mid+1
-		binarySearchValues(L,lo,hi,v)
-		
+		return binarySearchValues(L,lo,hi,v)		
 	return lst
 
 def recursion_binarysearchvalues(L, v):
