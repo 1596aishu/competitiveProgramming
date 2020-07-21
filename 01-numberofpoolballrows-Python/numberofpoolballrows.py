@@ -9,5 +9,5 @@ def fun_numberofpoolballrows(balls):
 	n = 1
 	while (n*(n-1))//2 <balls:
 		n+=1
-	return n
+	return n-1
 # fun_numberofpoolballrows(7)
