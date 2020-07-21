@@ -9,7 +9,7 @@ def longestdigitrun(n):
 	# pass
 	n = str(n)
 	lst = []
-	c = 1
+	c = 0
 	for i in range(1,len(n)):
 		c = 0
 		for j in range(len(n)):
