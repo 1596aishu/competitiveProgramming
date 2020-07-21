@@ -10,7 +10,7 @@ def longestdigitrun(n):
 	n = str(n)
 	lst = []
 	c = 1
-	for i in range(1,len(n),c):
+	for i in range(1,len(n)):
 		for j in range(len(n)):
 			if n[j] == n[i]:
 				c=c+1
