@@ -9,8 +9,8 @@
 
 
 def sum2(n):
-    if len(str(n)) == 1:
-        return n
+    # if len(str(n)) == 1:
+    #     return n
     return sum(list(map(int,list(str(n)))))
 def sum1(l):
     s = 0
@@ -19,7 +19,7 @@ def sum1(l):
         # s += str(l[i])
     # s = list(s)
     # num = list(map(int, s))
-    return sum(s)
+    return s
 
 def isprime(n):
 	if n > 1:
