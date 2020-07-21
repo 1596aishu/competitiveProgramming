@@ -23,7 +23,7 @@ def secondlargest(L):
 			index = i
 	if c == 1:
 		print(highest)
-		return L[index]
+		return highest
 	else:
 		c=c+1
 		L.remove(L[index])
@@ -38,4 +38,4 @@ def recursion_secondlargest(L):
 		secondlargest(L)
 
 
-(recursion_secondlargest([4,4,3]))
+(recursion_secondlargest([-3,-4]))
