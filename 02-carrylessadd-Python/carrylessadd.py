@@ -23,7 +23,7 @@ def fun_carrylessadd(x, y):
 			else:
 				c= str(r+s)
 	c = c[::-1]
-	# print(int(c))
+	print((c))
 	return c
 fun_carrylessadd(121,0)
 
