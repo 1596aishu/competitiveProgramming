@@ -33,9 +33,10 @@ def recursion_secondlargest(L):
 	# pass
 	global c
 	if len(L)<2:
+		print(None)
 		return None
 	else:
-		secondlargest(L)
+		return secondlargest(L)
 
 
-(recursion_secondlargest([4,3]))
+(recursion_secondlargest([4]))
