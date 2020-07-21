@@ -7,7 +7,8 @@ def alternatingSum(L):
 	j = -1
 	sum = 0
 	for i in L:
-		sum+=i*(-j)
+		sum= sum+(i*(-j))
+		j = j * (-1)
 	print(sum)
 	return sum 
 
