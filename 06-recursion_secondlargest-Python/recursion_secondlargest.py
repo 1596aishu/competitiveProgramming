@@ -33,6 +33,7 @@ def recursion_secondlargest(L):
 	# Your code goes here
 	# pass
 	global c
+	c = 0
 	if len(L)<2:
 		# print(None)
 		return None
