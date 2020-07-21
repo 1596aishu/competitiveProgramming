@@ -39,6 +39,7 @@ def recursion_binarysearchvalues(L, v):
 	L = sorted(L)
 	lo = 0
 	hi = len(L)-1
+	print(binarySearchValues(L,lo,hi,v))
 	return binarySearchValues(L,lo,hi,v)
 	
 
