@@ -7,24 +7,26 @@
 
 def fun_carrylessadd(x, y):
 	c = ""
-	while x!=0 and y!=0:
-		r = x%10
-		print(r)
-		s = y%10
-		print(s)
-		if len(str(x))>1 and len(str(y))>1:
-			if r+s>9:
-				c += str((r+s)%10)
-			x = x//10
-			y = y//10
-		else:
-			if r+s>9:
-				c+=str((r+s)%10)
+	if len(str(x))==len(str(y)):
+
+		while x!=0 and y!=0:
+			r = x%10
+			print(r)
+			s = y%10
+			print(s)
+			if len(str(x))>1 and len(str(y))>1:
+				if r+s>9:
+					c += str((r+s)%10)
+				x = x//10
+				y = y//10
 			else:
-				c = str(r+s)
-				# print(c)
-			x = 0
-			y = 0
+				if r+s>9:
+					c+=str((r+s)%10)
+				else:
+					c = str(r+s)
+					# print(c)
+				x = 0
+				y = 0
 	c = c[::-1]
 	print(int(c))
 	return int(c)
