@@ -11,7 +11,7 @@
 def sum2(n):
     if len(str(n)) == 1:
         return n
-    return sum(list(map(int,list(map(int,list(str(n)))))))
+    return sum(list(map(int,list(str(n)))))
 def sum1(l):
     s = ""
     for i in range(len(l)):
