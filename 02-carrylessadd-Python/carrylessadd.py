@@ -37,7 +37,6 @@ def fun_carrylessadd(x, y):
 					if r+s>9:
 						c += str((r+s)%10)
 					x = x//10
-					y = y//10
 				else:
 					if r+s>9:
 						c+=str((r+s)%10)
