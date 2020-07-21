@@ -23,5 +23,6 @@ def longestdigitrun(n):
 	for i in n:
 		if i[0] == x and i[1]<y: y = i[1]
 		elif i[0]>x:x,y=i[0],i[1]
-	print(y)
+	# print(y)
+	return y
 longestdigitrun(1177737321)
