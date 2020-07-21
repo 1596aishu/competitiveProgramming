@@ -14,10 +14,10 @@ def fun_carrylessadd(x, y):
 		print(s)
 		if r+s>9:
 			c += str((r+s)%10)
-		c = c[::-1]
-		print(int(c))
 		x = x//10
 		y = y//10
+	c = c[::-1]
+	print(c)
 	return 0
 fun_carrylessadd(785, 376)
 
