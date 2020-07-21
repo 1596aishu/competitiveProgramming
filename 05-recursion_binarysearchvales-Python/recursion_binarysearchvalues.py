@@ -18,9 +18,19 @@
 # Hint: Do not slice the list L, but rather adjust the indexes into L. 
 
 def binarySearchValues(L, v):
+	lst=[]
 	lo = 0
 	hi = len(L)-1
-	
+	mid = lo+hi //2
+	if L[mid]==v:
+		return lst
+	elif L[mid] > v:
+		lst.append((mid,L[mid]))
+		hi = mid -1
+	elif L[mid] < v:
+		lst.append((mid,L[mid]))
+		lo = mid+1
+	return lst
 
 def recursion_binarysearchvalues(L, v):
 	l = len(L)
