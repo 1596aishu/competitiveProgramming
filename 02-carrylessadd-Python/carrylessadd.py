@@ -27,6 +27,6 @@ def fun_carrylessadd(x, y):
 			y = 0
 	c = c[::-1]
 	print((c))
-	return c
+	return int(c)
 fun_carrylessadd(1,2)
 
