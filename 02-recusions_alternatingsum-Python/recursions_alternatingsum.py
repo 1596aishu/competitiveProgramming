@@ -9,7 +9,7 @@ def alternatingSum(L):
 	for i in L:
 		sum= sum+(i*(-j))
 		j = j * (-1)
-	print(sum)
+	# print(sum)
 	return sum 
 
 
@@ -17,9 +17,9 @@ def fun_recursions_alternatingsum(l):
 	L = len(l)
 	# i = 0
 	if L>1:
-		print(alternatingSum(l))
+		# print(alternatingSum(l))
 		return alternatingSum(l)
 	else:
 		return 0
 
-fun_recursions_alternatingsum([5,3,8,4])
+# fun_recursions_alternatingsum([5,3,8,4])
