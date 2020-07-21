@@ -30,6 +30,7 @@ def recursion_secondlargest(L):
 		else:
 			c=c+1
 			del L[i]
+			L.append("")
 			recursion_secondlargest(L)
 
 
