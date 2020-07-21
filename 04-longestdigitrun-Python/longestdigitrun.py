@@ -12,7 +12,7 @@ def longestdigitrun(n):
 	c = 0
 	for i in range(len(n)):
 		c = 0
-		for j in range(len(n)):
+		for j in range(i,len(n)):
 			if n[j] == n[i]:
 				c=c+1
 			break
