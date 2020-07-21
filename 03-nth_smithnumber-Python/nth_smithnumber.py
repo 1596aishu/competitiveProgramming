@@ -15,7 +15,8 @@ def sum2(n):
 def sum1(l):
     s = ""
     for i in range(len(l)):
-        s += str(l[i])
+        s+=sum(list(map(int,list(str(n)))))
+        # s += str(l[i])
     s = list(s)
     num = list(map(int, s))
     return sum(num)
