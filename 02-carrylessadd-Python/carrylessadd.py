@@ -55,5 +55,5 @@ def fun_carrylessadd(x, y):
 	c = c[::-1]
 	# print(int(c))
 	return int(c)
-fun_carrylessadd(333,0)
+fun_carrylessadd(99,1)
 
