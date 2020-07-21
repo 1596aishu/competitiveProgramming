@@ -18,10 +18,10 @@ def secondlargest(L):
 	highest = L[0]
 	for i in range(1,len(L)):
 		if L[i]<0:
-			if highest >L[i]:
+			if highest > L[i]:
 				highest = L[i]
 		else:
-			if highest< L[i]:
+			if highest < L[i]:
 				highest= L[i]
 	if c == 2:
 		print(highest)
@@ -29,7 +29,6 @@ def secondlargest(L):
 	else:
 		c=c+1
 		del L[i]
-		L.append(-10)
 		recursion_secondlargest(L)
 def recursion_secondlargest(L):
 	# Your code goes here
