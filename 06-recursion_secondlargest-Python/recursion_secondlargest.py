@@ -21,13 +21,13 @@ def secondlargest(L):
 		if highest < L[i]:
 			highest= L[i]
 			index = i
-		if c == 2:
-			print(highest)
-			return highest
-		else:
-			c=c+1
-			L.remove(L[i])
-			recursion_secondlargest(L)
+	if c == 1:
+		print(highest)
+		return L[index]
+	else:
+		c=c+1
+		L.remove(L[index])
+		secondlargest(L)
 def recursion_secondlargest(L):
 	# Your code goes here
 	# pass
