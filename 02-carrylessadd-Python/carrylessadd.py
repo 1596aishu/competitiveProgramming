@@ -27,6 +27,7 @@ def fun_carrylessadd(x, y):
 				x = 0
 				y = 0
 	else:
+		c = ""
 		if len(str(x))>len(str(y)):
 			while y!=0:
 				r = x%10
