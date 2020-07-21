@@ -25,4 +25,4 @@ def recursion_secondlargest(L):
 				highest= L[i]
 		print(highest)
 
-	recursion_secondlargest()
+recursion_secondlargest([1,2,3,4,5])
