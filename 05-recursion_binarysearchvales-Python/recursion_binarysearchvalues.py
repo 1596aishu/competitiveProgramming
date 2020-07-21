@@ -42,4 +42,4 @@ def recursion_binarysearchvalues(L, v):
 	return binarySearchValues(L,lo,hi,v)
 	
 
-# recursion_binarysearchvalues(['a', 'c', 'f', 'g', 'm', 'q'],'b')
+recursion_binarysearchvalues(['a', 'c', 'f', 'g', 'm', 'q'],'b')
