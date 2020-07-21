@@ -15,4 +15,12 @@
 
 def recursion_secondlargest(L):
 	# Your code goes here
-	pass
+	# pass
+	if len(L)<2:
+		return None
+	else:
+		highest = L[0]
+		for i in range(1,len(L)):
+			if highest< L[i]:
+				highest= L[i]
+		print(highest)
