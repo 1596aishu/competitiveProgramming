@@ -8,7 +8,6 @@
 def fun_carrylessadd(x, y):
 	c = ""
 	if len(str(x))==len(str(y)):
-
 		while x!=0 and y!=0:
 			r = x%10
 			print(r)
