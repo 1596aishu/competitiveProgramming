@@ -13,4 +13,4 @@ def fun_recursions_alternatingsum(l):
 	if L>1:
 		return alternatingSum(l)
 	else:
-		return None
+		return 0
