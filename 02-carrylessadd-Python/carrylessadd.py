@@ -22,6 +22,7 @@ def fun_carrylessadd(x, y):
 				c+=str((r+s)%10)
 			else:
 				c = str(r+s)
+				print(c)
 	c = c[::-1]
 	print((c))
 	return c
