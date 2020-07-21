@@ -6,54 +6,11 @@
 
 
 def fun_carrylessadd(x, y):
-	c = ""
-	if len(str(x))==len(str(y)):
-		while x!=0 and y!=0:
-			r = x%10
-			print(r)
-			s = y%10
-			print(s)
-			if len(str(x))>1 and len(str(y))>1:
-				if r+s>9:
-					c += str((r+s)%10)
-				x = x//10
-				y = y//10
-			else:
-				if r+s>9:
-					c+=str((r+s)%10)
-				else:
-					c += str(r+s)
-					# print(c)
-				x = 0
-				y = 0
-	else:
-		c = ""
-		if len(str(x))>len(str(y)):
-			if y == 0:
-				return x
-			while y!=0:
-				r = x%10
-				print(r)
-				s = y%10
-				print(s)
-				if len(str(x))>1 and len(str(y))>1:
-					if r+s>9:
-						c += str((r+s)%10)
-						print(c)
-					x = x//10
-					y = y//10
-				else:
-					if r+s>9:
-						c+=str((r+s)%10)
-					else:
-						c += str(r+s)
-						c+=str(x//10)
-						# print(c)
-					x = 0
-					y = 0
-				
-	c = c[::-1]
-	print(int(c))
-	return int(c)
-fun_carrylessadd(99,1)
-
+	if x==0 or y==0: return x+y
+	sum = i = 0
+	while(x>0 and y>0):
+		c = x%10 + y%10
+		if c >9: c -= 10
+		if c != 0: sum = sum + c*pow(10,i)
+		x,y,i = x//10,y//10, i+1
+	return sum + x*pow(10,len(str(sum))) + y*pow(10,len(str(sum)))
