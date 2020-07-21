@@ -27,8 +27,8 @@ def fun_carrylessadd(x, y):
 				x = 0
 				y = 0
 	else:
-		if len(str(x))<len(str(y)):
-			while x!=0:
+		if len(str(x))>len(str(y)):
+			while y!=0:
 				r = x%10
 				print(r)
 				s = y%10
@@ -46,7 +46,6 @@ def fun_carrylessadd(x, y):
 						# print(c)
 					x = 0
 					y = 0
-
 	c = c[::-1]
 	print(int(c))
 	return int(c)
