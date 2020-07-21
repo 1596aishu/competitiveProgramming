@@ -7,7 +7,7 @@
 
 def fun_carrylessadd(x, y):
 	c = ""
-	while x!=0 and y!=0:
+	while x!=0 or y!=0:
 		r = x%10
 		print(r)
 		s = y%10
