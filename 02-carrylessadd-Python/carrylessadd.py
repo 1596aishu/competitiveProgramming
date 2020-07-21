@@ -48,7 +48,7 @@ def fun_carrylessadd(x, y):
 					else:
 						c += str(r+s)
 						c+=str(x//10)
-						print(c)
+						# print(c)
 					x = 0
 					y = 0
 				
