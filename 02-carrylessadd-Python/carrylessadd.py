@@ -9,13 +9,14 @@ def fun_carrylessadd(x, y):
 	c = ""
 	while x!=0 and y!=0:
 		r = x%10
+		print(r)
 		s = y%10
+		print(s)
 		if r+s>9:
 			c += str((r+s)%10)
 			print(c)
 		x = x//10
 		y = y//10
 	# return 0
-	print(c)
 fun_carrylessadd(99,1)
 
