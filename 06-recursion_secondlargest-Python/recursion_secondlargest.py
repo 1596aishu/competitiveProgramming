@@ -18,7 +18,7 @@ def recursion_secondlargest(L):
 	# pass
 	global c
 	if len(L)<2:
-		return 0
+		return None
 	else:
 		highest = L[0]
 		for i in range(1,len(L)):
@@ -34,4 +34,4 @@ def recursion_secondlargest(L):
 			recursion_secondlargest(L)
 
 
-(recursion_secondlargest([3,-4,0]))
+(recursion_secondlargest([-4,-5]))
