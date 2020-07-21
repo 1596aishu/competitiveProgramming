@@ -16,6 +16,6 @@ def longestdigitrun(n):
 			if n[j] == n[i]:
 				c=c+1
 			break
-			lst.append((n[i],c))
+		lst.append((n[i],c))
 	print(lst)	
 longestdigitrun(1177737321)
