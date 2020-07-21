@@ -17,19 +17,15 @@ def secondlargest(L):
 	global c
 	highest = L[0]
 	for i in range(1,len(L)):
-		if L[i]<0:
-			if highest > L[i]:
-				highest = L[i]
+		if highest < L[i]:
+			highest= L[i]
+		if c == 2:
+			print(highest)
+			return highest
 		else:
-			if highest < L[i]:
-				highest= L[i]
-	if c == 2:
-		print(highest)
-		return highest
-	else:
-		c=c+1
-		del L[i]
-		recursion_secondlargest(L)
+			c=c+1
+			del L[i]
+			recursion_secondlargest(L)
 def recursion_secondlargest(L):
 	# Your code goes here
 	# pass
