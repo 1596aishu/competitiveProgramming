@@ -11,6 +11,6 @@ def fun_recursions_alternatingsum(l):
 	l = len(l)
 	i = 0
 	if l>1:
-		return alternatingSum(l,i)
+		return alternatingSum(l)
 	else:
 		return None
