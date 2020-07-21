@@ -8,9 +8,9 @@ def alternatingSum(L):
 
 
 def fun_recursions_alternatingsum(l): 
-	l = len(l)
+	L = len(l)
 	i = 0
-	if l>1:
+	if L>1:
 		return alternatingSum(l)
 	else:
 		return None
