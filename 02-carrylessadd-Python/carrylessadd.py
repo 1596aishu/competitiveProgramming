@@ -8,11 +8,11 @@
 def fun_carrylessadd(x, y):
 	c = ""
 	while x!=0 and y!=0:
-		if len(x)>1 and len(y)>1:
-			r = x%10
-			print(r)
-			s = y%10
-			print(s)
+		r = x%10
+		print(r)
+		s = y%10
+		print(s)
+		if len(str(x))>1 and len(str(y))>1:
 			if r+s>9:
 				c += str((r+s)%10)
 			x = x//10
@@ -23,8 +23,10 @@ def fun_carrylessadd(x, y):
 			else:
 				c = str(r+s)
 				print(c)
+			x = 0
+			y = 0
 	c = c[::-1]
 	print((c))
 	return c
-fun_carrylessadd(121,0)
+fun_carrylessadd(1,2)
 
