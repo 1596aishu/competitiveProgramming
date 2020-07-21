@@ -22,7 +22,7 @@ def fun_carrylessadd(x, y):
 				if r+s>9:
 					c+=str((r+s)%10)
 				else:
-					c = str(r+s)
+					c += str(r+s)
 					# print(c)
 				x = 0
 				y = 0
