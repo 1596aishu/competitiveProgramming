@@ -9,6 +9,6 @@ def longestdigitrun(n):
 	# pass
 	x = n
 	c = 0
-	while x!=0:
-		num = n%10
+	for i in n:
+		num = 1%10
 		c = c+1
