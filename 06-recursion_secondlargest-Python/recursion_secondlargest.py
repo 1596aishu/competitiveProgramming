@@ -40,4 +40,8 @@ def recursion_secondlargest(L):
 		return secondlargest(L)
 
 
-print (recursion_secondlargest([-4,-3]))
+print(recursion_secondlargest([4,3]))
+print(recursion_secondlargest([-3,-4]))
+print(recursion_secondlargest([1,2,3,4,5]))
+print(recursion_secondlargest([4,4,3]))
+print(recursion_secondlargest([4]))
