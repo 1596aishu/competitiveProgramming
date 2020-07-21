@@ -8,8 +8,8 @@ def longestdigitrun(n):
 	# Your code goes here
 	# pass
 	n = str(n)
-	c = 0
-	for i in range(1,len(n)):
+	c = 1
+	for i in range(1,len(n),c):
 		if n[i-1] == n[i]:
 			c=c+1
 		
