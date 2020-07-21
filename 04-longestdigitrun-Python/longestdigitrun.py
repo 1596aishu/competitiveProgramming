@@ -10,3 +10,4 @@ def longestdigitrun(n):
 	n = str(n)
 	print(n.count(n[0]))
 		
+longestdigitrun(117773732)
