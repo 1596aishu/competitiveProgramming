@@ -18,4 +18,10 @@ def longestdigitrun(n):
 	# Your code goes here
 	# pass
 	n = lookandsay(list(map(int,str(abs(n)))))
+	x = 0
+	y = 0
+	for i in n:
+		if i[0] == x and i[1]<y: y = i[1]
+		elif i[0]>x:x,y=i[0],i[1]
+	print(y)
 longestdigitrun(1177737321)
