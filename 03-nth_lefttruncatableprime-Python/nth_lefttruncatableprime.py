@@ -25,7 +25,6 @@ def nthLeftTruncatablePrime(n):
         while len(n)!=0:
             if isprime(int(n)):
                 n = n[1:]
-                print(n)
 
 
 def fun_nth_lefttruncatableprime(n):
