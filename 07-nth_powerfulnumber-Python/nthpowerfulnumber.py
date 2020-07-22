@@ -18,6 +18,7 @@ def powerfulNumber(n):
 				l.append(i)
 			i+=1
 	print(l)
+	return l
 
 def nthpowerfulnumber(n):
 	# Your code goes here
