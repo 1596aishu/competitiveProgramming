@@ -21,7 +21,9 @@ def powerfulNumber(n):
 	for i in l:
 		if n&(i**2) == 0:
 			l1.append(i)
+	print(l)
 	if len(l) == len(l1):
+		print(l)
 		return True
 	return False
 
@@ -42,6 +44,6 @@ def nthpowerfulnumber(n):
 	
 	
 
-nthpowerfulnumber(0)
+nthpowerfulnumber(1)
 
 
