@@ -16,8 +16,8 @@ def powerfulNumber(n):
 		while n%i == 0:
 			if isprime(i):
 				l.append(i)
-			print(l)
 			i+=1
+	print(l)
 
 def nthpowerfulnumber(n):
 	# Your code goes here
