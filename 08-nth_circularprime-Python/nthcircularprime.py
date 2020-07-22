@@ -40,8 +40,8 @@ def nthcircularprime(n):
 			if circularprime(i):
 				c+=1
 		i+=1
-	print(i-1)
-	return i-1
+	print(i)
+	return i
 
 # l = [(5, 13), (6, 17), (7, 31), (8, 37), 
 # 	(9, 71), (10, 73), (11, 79), (12, 97), 
