@@ -10,7 +10,7 @@ def nonzeroisprime(n):
 		for i in range(2,n):
 			if n % i ==0:
 				return False
-		if "0" in str(n):
+		if "0" in str(n) and "2" in str(n) and "4" in str(n) and "6" in str(n) and "8" in str(n):
 			return False
 		return True
 
