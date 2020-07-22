@@ -16,5 +16,7 @@ def circularprime(n):
 def nthcircularprime(n):
 	# Your code goes here
 	# pass
+	c = 0
+	i = 2
 	return circularprime(197)
 nthcircularprime(197)
