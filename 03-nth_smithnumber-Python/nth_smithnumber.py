@@ -14,7 +14,6 @@ def isprime(n):
 		return True
 
 def primefactors(n):
-    p = n
     i = 2
     l = []
     while(n>1):
