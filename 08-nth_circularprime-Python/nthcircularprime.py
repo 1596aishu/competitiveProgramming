@@ -42,7 +42,7 @@ def nthcircularprime(n):
 					# print("circular prime:"+i)
 					c+=1
 			i+=1
-		print(i)
+		print(i-1)
 		return i
 
 
