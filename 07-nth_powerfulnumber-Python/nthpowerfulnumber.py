@@ -28,7 +28,13 @@ def powerfulNumber(n):
 def nthpowerfulnumber(n):
 	# Your code goes here
 	# pass
-	return powerfulNumber(n)
+	c = 0
+	i = 2
+	while c!=n:
+		if powerfulNumber(i):
+			return True
+		c+=1
+	
 	
 
 nthpowerfulnumber(36)
