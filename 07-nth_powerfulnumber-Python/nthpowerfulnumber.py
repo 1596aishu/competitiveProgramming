@@ -11,5 +11,8 @@ def nthpowerfulnumber(n):
 	for i in range(2,n):
 		while n%i == 0:
 			print(i)
+			i+=1
+
+nthpowerfulnumber(10)
 
 
