@@ -14,6 +14,11 @@ def isprime(n):
 		return True
 
 def primefactors(n):
+   
+    return l
+
+def smithnumber(n):
+    p = n
     i = 2
     l = []
     while(n>1):
@@ -22,11 +27,6 @@ def primefactors(n):
                 l.append(i)
                 n //= i
         i += 1
-    return l
-
-def smithnumber(n):
-    p = n
-    l = primefactors(n)
     fac_sum = 0
     digit_sum = 0
     for i in l:
