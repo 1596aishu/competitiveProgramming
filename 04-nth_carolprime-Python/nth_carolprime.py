@@ -28,4 +28,4 @@ def fun_nth_carolprime(n):
         if z!= 0:
             i += 1
         j += 1
-    return j-1
+    return z
