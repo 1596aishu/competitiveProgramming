@@ -29,7 +29,7 @@ def circularprime(n):
 		c+=1
 		if int(ls) == int(n):
 			break
-	if c == int(n):
+	if c == int(len(n))-1:
 		print(c)
 		return True
 	return False
