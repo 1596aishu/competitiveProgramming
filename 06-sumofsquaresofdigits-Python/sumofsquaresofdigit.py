@@ -6,4 +6,7 @@
 
 def sumofsquaresofdigit(n):
 	# Your code goes here
-	pass
+	# pass
+	while n!=0:
+		r = n%10
+		
