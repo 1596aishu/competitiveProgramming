@@ -17,14 +17,14 @@ def smithnumber(n):
     p = n
     i = 2
     l = []
+    fac_sum = 0
+    digit_sum = 0
     while(n>1):
         if isprime(i):
             while(n%i == 0 and n >1):
                 l.append(i)
                 n //= i
         i += 1
-    fac_sum = 0
-    digit_sum = 0
     for i in l:
         fac_sum+=i
     for j in str(p):
