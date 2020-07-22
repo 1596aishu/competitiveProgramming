@@ -44,7 +44,6 @@ def nthcircularprime(n):
 	# return i
 	i = -1
 	j = 2
-    # return smithnumber(22)
 	while(i < n):
 		if nonzeroisprime(j):
 			if circularprime(j):
