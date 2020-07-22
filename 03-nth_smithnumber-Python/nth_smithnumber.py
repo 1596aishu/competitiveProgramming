@@ -26,8 +26,12 @@ def smithnumber(n):
                 n //= i
         i += 1
     fact_sum = sum(list(map(int,list(str(n)))))
-    for j in str(p):
-        digit_sum+=int(j)
+    s = ""
+    for i in range(len(l)):
+        s += str(l[i])
+    s = list(s)
+    num = list(map(int, s))
+    digit_sum = sum(num)
     if fac_sum == digit_sum:
         return True
     return False
