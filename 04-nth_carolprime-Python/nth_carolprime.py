@@ -21,6 +21,7 @@ def carolPrime(k):
 def fun_nth_carolprime(n):
     i = 0
     j = 2
+    z = 0
     while(i < n):
         z = carolPrime(j)
         if isprime(z):
