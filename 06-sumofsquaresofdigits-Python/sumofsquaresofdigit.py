@@ -12,3 +12,6 @@ def sumofsquaresofdigit(n):
 		r = n%10
 		sum +=(r*r)
 		n = n//10
+	if sum == (n**2):
+		return True
+	return False
