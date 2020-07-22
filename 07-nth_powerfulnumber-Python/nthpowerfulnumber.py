@@ -39,9 +39,7 @@ def powerfulNumber(n):
 			l1.append(i)
 	# print(l1)
 	if len(l) == len(l1):
-		# print(True)
 		return True
-	# print(False)
 	return False
 
 def nthpowerfulnumber(n):
