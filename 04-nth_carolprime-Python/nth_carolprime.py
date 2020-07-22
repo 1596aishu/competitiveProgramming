@@ -19,7 +19,7 @@ def carolPrime(k):
     return num
 
 def fun_nth_carolprime(n):
-    i = 0
+    i = 1
     j = 2
     z = 0
     if n == 0:
