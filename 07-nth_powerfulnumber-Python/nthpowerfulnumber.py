@@ -36,12 +36,8 @@ def nthpowerfulnumber(n):
 		if powerfulNumber(j):
 			i += 1
 		j += 1
-	print(j-1)
-	return j-1
-# nthcircularprime(39)
-
-
-		
+	print(j)
+	return j-1	
 	
 	
 
