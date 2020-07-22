@@ -24,8 +24,9 @@ def circularprime(n):
 	print(ls)
 	while nonzeroisprime(int(ls)):
 		ls = str(ls)
-		print(ls)
+		
 		ls = ls[1:]+ls[:1]
+		print(ls)
 		c+=1
 		if int(ls) == int(n):
 			break
@@ -45,7 +46,7 @@ def nthcircularprime(n):
 		j += 1
 	print(j-1)
 	return j-1
-nthcircularprime(20)
+circularprime(3373)
 # l = [(5, 13), (6, 17), (7, 31), (8, 37), 
 # 	(9, 71), (10, 73), (11, 79), (12, 97), 
 # 	(13, 113), (14, 131), (15, 197), (16, 199), 
