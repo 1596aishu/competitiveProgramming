@@ -17,9 +17,15 @@ def isprime(n):
 def carolPrime(k):
     num = ((2**k - 1)**2 - 2)
     if isprime(num):
-        print(num)
-        return num
+        return True
+    return False
 
 def fun_nth_carolprime(n):
-    return carolPrime(n)
-carolPrime(3)
+    i = 0
+    j = 2
+    while(i < n):
+        if carolPrime(j):
+            i += 1
+        j += 1
+    print(j-1)
+    return j-1
