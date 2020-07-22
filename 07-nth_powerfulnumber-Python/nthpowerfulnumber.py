@@ -9,15 +9,19 @@ def isprime(n):
 		if n%i == 0:
 			return False
 	return True
-	
-def nthpowerfulnumber(n):
-	# Your code goes here
-	# pass
+
+def powerfulNumber(n):
 	for i in range(2,n):
 		while n%i == 0:
 			if isprime(i):
 				print(i)
 			i+=1
+
+def nthpowerfulnumber(n):
+	# Your code goes here
+	# pass
+	return powerfulNumber(n)
+	
 
 nthpowerfulnumber(30)
 
