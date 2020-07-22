@@ -24,6 +24,7 @@ def circularprime(n):
 	print(ls)
 	while nonzeroisprime(int(ls)):
 		ls = str(ls)
+		print(ls)
 		ls = ls[1:]+ls[:1]
 		c+=1
 		if int(ls) == int(n):
