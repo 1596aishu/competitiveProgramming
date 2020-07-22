@@ -5,7 +5,14 @@
 # 5, 7, 11, 13, 17, 31, 37, 71, 73, 79, 97, 113, 131, 197... To see why 197 is a Circular prime, 
 # note that 197 is prime, as is 971 (rotated left), as is 719 (rotated left again).
 
+def circularprime(n):
+	n = str(n)
+	ls = n[1:]+n[:1]
+	print(ls)
+	return ls
+
 def nthcircularprime(n):
 	# Your code goes here
 	# pass
-	return circularprime(i)
+	return circularprime(197)
+nthcircularprime(197)
