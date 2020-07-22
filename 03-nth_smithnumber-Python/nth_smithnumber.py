@@ -13,7 +13,7 @@ def isprime(n):
 				return False
 		return True
 
-def primefactors():
+def primefactors(n):
     p = n
     i = 2
     l = []
@@ -23,6 +23,7 @@ def primefactors():
                 l.append(i)
                 n //= i
         i += 1
+    return l
 def smithnumber(n):
     
     if sum2(p) == sum1(l):
