@@ -44,6 +44,6 @@ def nthpowerfulnumber(n):
 	
 	
 
-nthpowerfulnumber(1)
+nthpowerfulnumber(4)
 
 
