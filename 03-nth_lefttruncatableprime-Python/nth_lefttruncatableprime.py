@@ -10,6 +10,12 @@
 
 import math
 
+def isprime(n):
+    for i in range(2,n):
+        if n%i == 0:
+            return False
+    return True
+
 def fun_nth_lefttruncatableprime(n):
     
     return 1
