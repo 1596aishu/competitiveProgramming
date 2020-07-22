@@ -57,6 +57,6 @@ def nthpowerfulnumber(n):
 	
 	
 
-nthpowerfulnumber(4)
+primeFactors(36)
 
 
