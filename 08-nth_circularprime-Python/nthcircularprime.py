@@ -32,7 +32,7 @@ def circularprime(n):
 def nthcircularprime(n):
 	# Your code goes here
 	# pass
-	c = 0
+	c = 1
 	i = 2	
 	while c!=n:
 		# print(c)
