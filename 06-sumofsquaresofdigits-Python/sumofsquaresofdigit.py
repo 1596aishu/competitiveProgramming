@@ -9,4 +9,4 @@ def sumofsquaresofdigit(n):
 	# pass
 	while n!=0:
 		r = n%10
-		
+		sum +=(r*r)
