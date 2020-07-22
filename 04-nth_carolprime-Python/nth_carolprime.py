@@ -30,3 +30,4 @@ def fun_nth_carolprime(n):
         if isprime(z):
             i += 1
         j += 1
+    print(z)
