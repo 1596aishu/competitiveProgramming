@@ -23,6 +23,7 @@ def primefactors(n):
                 n //= i
         i += 1
     return l
+
 def smithnumber(n):
     l = []
     p = n
@@ -32,9 +33,7 @@ def smithnumber(n):
     for i in l:
         fac_sum+=i
     for j in str(p):
-        # digit_sum+=int(str(p[j]))
         digit_sum+=int(j)
-    # print(digit_sum)
     if fac_sum == digit_sum:
         return True
     return False
@@ -42,7 +41,6 @@ def smithnumber(n):
 def fun_nth_smithnumber(n):
     i = -1
     j = 2
-    # return smithnumber(22)
     while(i < n):
         if isprime(j) != True:
             if smithnumber(j):
