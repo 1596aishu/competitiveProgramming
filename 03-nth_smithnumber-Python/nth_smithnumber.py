@@ -26,6 +26,7 @@ def primefactors(n):
     return l
 def smithnumber(n):
     l = []
+    p = n
     l = primefactors(n)
     if sum2(p) == sum1(l):
         return True
