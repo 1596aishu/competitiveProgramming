@@ -25,7 +25,7 @@ def smithnumber(n):
                 l.append(i)
                 n //= i
         i += 1
-    fact_sum = sum(list(map(int,list(str(n)))))
+    fac_sum = sum(list(map(int,list(str(n)))))
     s = ""
     for i in range(len(l)):
         s += str(l[i])
