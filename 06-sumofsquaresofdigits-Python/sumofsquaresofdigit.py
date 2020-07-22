@@ -13,7 +13,6 @@ def sumofsquaresofdigit(n):
 		r = n%10
 		sum +=(r*r)
 		n = n//10
-	print(x,sum)
 	return sum
 
 
