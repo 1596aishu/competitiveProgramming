@@ -38,4 +38,4 @@ def nthcircularprime(n):
 			if c == n:
 				return i
 			i+=1
-nthcircularprime(1)
+nthcircularprime(2)
