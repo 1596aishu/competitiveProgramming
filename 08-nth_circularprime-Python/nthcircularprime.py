@@ -30,7 +30,6 @@ def circularprime(n):
 		if int(ls) == int(n):
 			break
 	if c == int(len(n))-1:
-		print(c)
 		return True
 	return False
 
