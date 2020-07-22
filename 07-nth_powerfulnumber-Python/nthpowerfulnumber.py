@@ -48,7 +48,6 @@ def nthpowerfulnumber(n):
 	# Your code goes here
 	# pass
 	if n == 0:
-		# print(1)
 		return 1
 	i = 0
 	j = 2
@@ -56,11 +55,8 @@ def nthpowerfulnumber(n):
 		if powerfulNumber(j):
 			i += 1
 		j += 1
-	# print(j)
 	return j-1	
 	
 	
-
-# powerfulNumber(36)
 
 
