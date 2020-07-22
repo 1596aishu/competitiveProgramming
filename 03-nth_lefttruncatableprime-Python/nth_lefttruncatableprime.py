@@ -28,10 +28,8 @@ def nthLeftTruncatablePrime(n):
             if isprime(int(n)):
                 n = n[1:]
             c+=1
-        print(c)
-        print(len(x))
         if c == len(x):
-            print(c)
+            return x
 
 
 def fun_nth_lefttruncatableprime(n):
