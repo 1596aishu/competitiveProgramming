@@ -17,7 +17,7 @@ def powerfulNumber(n):
 			if isprime(i):
 				l.append(i)
 			i+=1
-	print(l)
+	print(set(l))
 	return l
 
 def nthpowerfulnumber(n):
@@ -26,6 +26,6 @@ def nthpowerfulnumber(n):
 	return powerfulNumber(n)
 	
 
-nthpowerfulnumber(30)
+nthpowerfulnumber(36)
 
 
