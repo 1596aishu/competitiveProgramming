@@ -23,13 +23,14 @@ def nthLeftTruncatablePrime(n):
     else:
         c = 0
         n = str(n)
+        x = n
         while len(n)!=0:
             if isprime(int(n)):
                 n = n[1:]
             c+=1
         print(c)
-        print(len(n))
-        if c == len(n):
+        print(len(x))
+        if c == len(x):
             print(c)
 
 
