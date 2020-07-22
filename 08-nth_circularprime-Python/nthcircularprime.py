@@ -7,4 +7,5 @@
 
 def nthcircularprime(n):
 	# Your code goes here
-	pass
+	# pass
+	return circularprime(i)
