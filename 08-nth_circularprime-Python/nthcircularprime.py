@@ -46,4 +46,4 @@ def nthcircularprime(n):
 		return i
 
 
-nthcircularprime(7)
+nthcircularprime(4)
