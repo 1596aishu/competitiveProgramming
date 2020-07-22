@@ -9,7 +9,7 @@ def circularprime(n):
 	n = str(n)
 	ls = n[1:]+n[:1]
 	print(ls)
-	rs = n[len(n)-1:]+n[2:]
+	rs = n[len(n)-1:]+n[:len(n)]
 	print(rs)
 	return ls
 
