@@ -37,7 +37,7 @@ def powerfulNumber(n):
 	for i in l:
 		if n%(i**2) == 0:
 			l1.append(i)
-	# print(l)
+	print(l1)
 	if len(l) == len(l1):
 		print(True)
 		return True
