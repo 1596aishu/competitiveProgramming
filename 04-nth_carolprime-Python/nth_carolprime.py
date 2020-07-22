@@ -21,3 +21,4 @@ def carolPrime(k):
 
 def fun_nth_carolprime(n):
     return carolPrime(n)
+carolPrime(3)
