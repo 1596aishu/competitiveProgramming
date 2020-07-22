@@ -31,3 +31,4 @@ def fun_nth_carolprime(n):
             i += 1
         j += 1
     print(z)
+fun_nth_carolprime(4)
