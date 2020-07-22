@@ -49,3 +49,5 @@ def fun_nth_smithnumber(n):
                 i += 1
         j += 1
     return j-1
+
+
