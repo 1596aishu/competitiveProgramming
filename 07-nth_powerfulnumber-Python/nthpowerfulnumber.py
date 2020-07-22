@@ -24,7 +24,7 @@ def primeFactors(n):
 	# if n is a prime
 	if n > 2:
 		print (int(n))
-	return n
+	
 	
 
 def powerfulNumber(n):
