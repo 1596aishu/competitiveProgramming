@@ -32,18 +32,18 @@ def nthcircularprime(n):
 	# pass
 	c = 0
 	i = 2
-	while c!=n:
-		if "0" in str(i):
-			return None
-		else:		
+	if "0" in str(i):
+		return None
+	else:
+		while c!=n:
 			# print(c)
 			if isprime(i):
 				if circularprime(i):
 					# print("circular prime:"+i)
 					c+=1
-		i+=1
-	print(i-1)
-	return i-1
+			i+=1
+		print(i-1)
+		return i-1
 
 # l = [(5, 13), (6, 17), (7, 31), (8, 37), 
 # 	(9, 71), (10, 73), (11, 79), (12, 97), 
@@ -61,4 +61,4 @@ def nthcircularprime(n):
 # 	m.append((l[i][0]+1,l[i][1]))
 # print(m)
 
-nthcircularprime(20)
+nthcircularprime(25)
