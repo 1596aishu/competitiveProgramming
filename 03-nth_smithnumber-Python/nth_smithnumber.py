@@ -25,8 +25,7 @@ def smithnumber(n):
                 l.append(i)
                 n //= i
         i += 1
-    for i in l:
-        fac_sum+=i
+    sum(list(map(int,list(str(n)))))
     for j in str(p):
         digit_sum+=int(j)
     if fac_sum == digit_sum:
