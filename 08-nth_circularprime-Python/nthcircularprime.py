@@ -59,6 +59,6 @@ l = [(5, 13), (6, 17), (7, 31), (8, 37),
 m = []
 for i in range(len(l)):
 	m.append((l[i][0]+1,l[i][1]))
-print(l)
+print(m)
 
 # nthcircularprime(20)
