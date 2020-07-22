@@ -20,9 +20,9 @@ def circularprime(n):
 	if len(n)==1:
 		return True
 	ls = n[1:]+n[:1]
-	# print(ls)
+	print(ls)
 	rs = ls[1:]+ls[:1]
-	# print(rs)
+	print(rs)
 	rs = int(rs)
 	ls = int(ls)
 	if nonzeroisprime(ls) and nonzeroisprime(rs):
