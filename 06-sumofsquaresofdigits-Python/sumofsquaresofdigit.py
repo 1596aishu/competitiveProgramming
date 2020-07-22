@@ -13,8 +13,8 @@ def sumofsquaresofdigit(n):
 		r = n%10
 		sum +=(r*r)
 		n = n//10
-	print(n,sum)
-	if sum == (n**2):
+	print(x,sum)
+	if sum == (x**2):
 		return True
 	return False
 
