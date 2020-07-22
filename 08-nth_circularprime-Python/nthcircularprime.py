@@ -33,9 +33,9 @@ def nthcircularprime(n):
 	else:
 		if isprime(int(i)):
 			if circularprime(i):
-				print(i)
 				c+=1
 			if c == n:
+				print(i)
 				return i
 			i+=1
 nthcircularprime(2)
