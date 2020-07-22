@@ -22,7 +22,7 @@ def carolPrime(k):
 
 def fun_nth_carolprime(n):
     i = 0
-    j = 2
+    j = 1
     while(i < n):
         if carolPrime(j):
             i += 1
