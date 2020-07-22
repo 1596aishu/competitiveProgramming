@@ -23,11 +23,11 @@ def circularprime(n):
 	ls = n[1:]+n[:1]
 	print(ls)
 	while nonzeroisprime(int(ls)):
-		ls = str(ls)
-		
+		ls = str(ls)		
 		ls = ls[1:]+ls[:1]
 		print(ls)
 		c+=1
+		print(c)
 		if int(ls) == int(n):
 			break
 	if c == int(len(n))-1:
