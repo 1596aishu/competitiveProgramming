@@ -30,6 +30,7 @@ def nthLeftTruncatablePrime(n):
             c+=1
         if c == len(x):
             return True
+    return False
 
 
 def fun_nth_lefttruncatableprime(n):
