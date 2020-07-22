@@ -11,7 +11,6 @@ def isprime(n):
 	return True
 
 def primeFactors(Number):
-	# no of even divisibility
 	l = []
 	i = 1
 	while(i <= Number):
