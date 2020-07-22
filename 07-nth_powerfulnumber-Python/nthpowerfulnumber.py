@@ -9,6 +9,7 @@ def isprime(n):
 		if n%i == 0:
 			return False
 	return True
+	
 def nthpowerfulnumber(n):
 	# Your code goes here
 	# pass
