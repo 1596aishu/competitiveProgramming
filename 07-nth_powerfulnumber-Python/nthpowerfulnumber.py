@@ -12,6 +12,7 @@ def isprime(n):
 
 def primeFactors(Number):
 	# no of even divisibility
+	l = []
 	i = 1
 	while(i <= Number):
 		count = 0
@@ -23,7 +24,7 @@ def primeFactors(Number):
 				j = j + 1
 				
 			if (count == 2):
-				print(" %d is a Prime Factor of a Given Number %d" %(i, Number))
+				l.append(i)
 		i = i + 1
 	
 	
