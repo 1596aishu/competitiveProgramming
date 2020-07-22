@@ -17,8 +17,7 @@ def isprime(n):
 def carolPrime(k):
     num = ((2**k - 1)**2 - 2)
     if isprime(num):
-        return True
-    return False
+        return num
 
 def fun_nth_carolprime(n):
     i = 0
