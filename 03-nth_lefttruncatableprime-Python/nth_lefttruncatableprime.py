@@ -39,6 +39,7 @@ def fun_nth_lefttruncatableprime(n):
     while i<n:
         if nthLeftTruncatablePrime(i):
             print(i)
+        i+=1
     return 1
 
-nthLeftTruncatablePrime(317)
+fun_nth_lefttruncatableprime(5)
