@@ -12,12 +12,17 @@ def isprime(n):
 
 def powerfulNumber(n):
 	l = []
+	l1 = []
 	for i in range(2,n):
 		while n%i == 0:
 			if isprime(i):
 				l.append(i)
 			i+=1
 	print(set(l))
+	for i in l:
+		if n&(i**2) == 0:
+			l1.append(i)
+	print(set(l1))
 	return l
 
 def nthpowerfulnumber(n):
