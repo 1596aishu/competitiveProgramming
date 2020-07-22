@@ -29,7 +29,7 @@ def nthLeftTruncatablePrime(n):
                 n = n[1:]
             c+=1
         if c == len(x):
-            return x
+            return True
 
 
 def fun_nth_lefttruncatableprime(n):
@@ -37,7 +37,7 @@ def fun_nth_lefttruncatableprime(n):
     j = 2
     while i<n:
         if nthLeftTruncatablePrime(i):
-            return True
+            print()
     return 1
 
 nthLeftTruncatablePrime(317)
