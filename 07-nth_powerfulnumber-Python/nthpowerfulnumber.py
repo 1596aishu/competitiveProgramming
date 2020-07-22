@@ -19,7 +19,7 @@ def powerfulNumber(n):
 				l.append(i)
 			i+=1
 	for i in l:
-		if n&(i**2) == 0:
+		if n%(i**2) == 0:
 			l1.append(i)
 	print(l)
 	if len(l) == len(l1):
