@@ -24,8 +24,8 @@ def fun_nth_carolprime(n):
     i = 0
     j = 1
     while(i < n):
-        if carolPrime(j)!= 0:
+        z = carolPrime(j)
+        if z!= 0:
             i += 1
         j += 1
-    print(j-1)
     return j-1
