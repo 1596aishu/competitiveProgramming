@@ -21,10 +21,12 @@ def nthLeftTruncatablePrime(n):
         if isprime(n):
             return n
     else:
+        c = 1
         n = str(n)
         while len(n)!=0:
             if isprime(int(n)):
                 n = n[1:]
+                c+=1
 
 
 def fun_nth_lefttruncatableprime(n):
