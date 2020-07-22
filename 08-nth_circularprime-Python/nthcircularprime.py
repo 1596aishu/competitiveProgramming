@@ -46,7 +46,7 @@ def nthcircularprime(n):
 		j += 1
 	print(j-1)
 	return j-1
-nthcircularprime(4)
+nthcircularprime(35)
 # l = [(5, 13), (6, 17), (7, 31), (8, 37), 
 # 	(9, 71), (10, 73), (11, 79), (12, 97), 
 # 	(13, 113), (14, 131), (15, 197), (16, 199), 
