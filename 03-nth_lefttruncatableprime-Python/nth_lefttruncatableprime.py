@@ -37,6 +37,7 @@ def fun_nth_lefttruncatableprime(n):
     i = 0
     j = 2
     if n == 0:
+        print(2)
         return 2
     while(i < n):
         if nthLeftTruncatablePrime(j):
