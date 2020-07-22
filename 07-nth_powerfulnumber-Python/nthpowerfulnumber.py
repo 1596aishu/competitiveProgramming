@@ -57,7 +57,7 @@ def nthpowerfulnumber(n):
 			i += 1
 		j += 1
 	# print(j)
-	return j	
+	return j-1	
 	
 	
 
