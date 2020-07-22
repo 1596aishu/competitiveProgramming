@@ -43,7 +43,7 @@ def nthcircularprime(n):
 					c+=1
 			i+=1
 		print(i-1)
-		return i
+		return i-1
 
 # l = [(5, 13), (6, 17), (7, 31), (8, 37), 
 # 	(9, 71), (10, 73), (11, 79), (12, 97), 
