@@ -17,4 +17,4 @@ def sumofsquaresofdigit(n):
 	return sum
 
 
-sumofsquaresofdigit(12)
+sumofsquaresofdigit(234)
