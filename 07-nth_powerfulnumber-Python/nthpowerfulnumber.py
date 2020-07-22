@@ -37,18 +37,18 @@ def powerfulNumber(n):
 	for i in l:
 		if n%(i**2) == 0:
 			l1.append(i)
-	print(l1)
+	# print(l1)
 	if len(l) == len(l1):
-		print(True)
+		# print(True)
 		return True
-	print(False)
+	# print(False)
 	return False
 
 def nthpowerfulnumber(n):
 	# Your code goes here
 	# pass
 	if n == 0:
-		print(1)
+		# print(1)
 		return 1
 	i = 0
 	j = 2
@@ -56,7 +56,7 @@ def nthpowerfulnumber(n):
 		if powerfulNumber(j):
 			i += 1
 		j += 1
-	print(j)
+	# print(j)
 	return j	
 	
 	
