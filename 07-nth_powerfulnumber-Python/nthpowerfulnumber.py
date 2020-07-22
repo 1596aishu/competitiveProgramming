@@ -18,12 +18,12 @@ def powerfulNumber(n):
 			if isprime(i):
 				l.append(i)
 			i+=1
-	print(set(l))
 	for i in l:
 		if n&(i**2) == 0:
 			l1.append(i)
-	print(set(l1))
-	return l
+	if len(l) == len(l1):
+		return True
+	return False
 
 def nthpowerfulnumber(n):
 	# Your code goes here
