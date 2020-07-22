@@ -19,7 +19,7 @@ def primeFactors(n):
 	for i in range(3,int(math.sqrt(n))+1,2):
 		# while i divides n
 		while n % i== 0:
-			print (i)
+			# print (i)
 			n = n / i
 	# if n is a prime
 	if n > 2:
