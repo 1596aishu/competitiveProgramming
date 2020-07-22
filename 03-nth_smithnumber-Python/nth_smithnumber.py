@@ -31,9 +31,9 @@ def smithnumber(n):
     digit_sum = 0
     for i in l:
         fac_sum+=i
-    for j in range(p):
+    for j in str(p):
         # digit_sum+=int(str(p[j]))
-        print(p[j])
+        print(j)
     if fac_sum == digit_sum:
         return True
     return False
@@ -51,3 +51,4 @@ def fun_nth_smithnumber(n):
     return j-1
 
 
+smithnumber(44)
