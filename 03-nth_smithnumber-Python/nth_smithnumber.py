@@ -13,10 +13,6 @@ def isprime(n):
 				return False
 		return True
 
-def primefactors(n):
-   
-    return l
-
 def smithnumber(n):
     p = n
     i = 2
