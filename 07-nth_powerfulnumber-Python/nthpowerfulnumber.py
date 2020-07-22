@@ -61,6 +61,6 @@ def nthpowerfulnumber(n):
 	
 	
 
-powerfulNumber(36)
+# powerfulNumber(36)
 
 
