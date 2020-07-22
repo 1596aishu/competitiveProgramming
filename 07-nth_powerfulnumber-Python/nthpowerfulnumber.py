@@ -36,6 +36,7 @@ def nthpowerfulnumber(n):
 		if powerfulNumber(i):
 			c+=1
 		if c == n:
+			print(i)
 			return i
 		i+=1
 
