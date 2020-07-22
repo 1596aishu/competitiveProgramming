@@ -34,8 +34,7 @@ def nthcircularprime(n):
 	i = 2	
 	while c!=n:
 		# print(c)
-		if isprime(i):
-			if "0" not in str(i):			
+		if isprime(i):		
 				if circularprime(i):
 					# print("circular prime:"+i)
 					c+=1
