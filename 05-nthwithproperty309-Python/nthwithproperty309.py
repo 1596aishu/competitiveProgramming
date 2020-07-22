@@ -13,8 +13,6 @@ def property309(c):
 		return False
 	return True
 
-
-
 def nthwithproperty309(n):
 	# Your code goes here
 	# pass
