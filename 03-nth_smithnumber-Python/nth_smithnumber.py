@@ -25,7 +25,6 @@ def primefactors(n):
     return l
 
 def smithnumber(n):
-    l = []
     p = n
     l = primefactors(n)
     fac_sum = 0
