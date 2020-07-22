@@ -21,7 +21,7 @@ def circularprime(n):
 		return True
 	ls = n[1:]+n[:1]
 	# print(ls)
-	rs = n[len(n)-1:]+n[:len(n)-1]
+	rs = ls[1:]+ls[:1]
 	# print(rs)
 	rs = int(rs)
 	ls = int(ls)
