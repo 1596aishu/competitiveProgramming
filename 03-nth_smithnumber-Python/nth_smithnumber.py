@@ -6,21 +6,6 @@
 # counted twice, thus making 4 a Smith Number.
 # so fun_nthsmithnumber(0) should return 4
 # so fun_nthsmithnumber(1) should return 22
-
-
-def sum2(n):
-    # if len(str(n)) == 1:
-    #     return n
-    return sum(list(map(int,list(str(n)))))
-def sum1(l):
-    s = 0
-    for i in range(len(l)):
-        s+=sum(list(map(int,list(str(l[i])))))
-        # s += str(l[i])
-    # s = list(s)
-    # num = list(map(int, s))
-    return s
-
 def isprime(n):
 	if n > 1:
 		for i in range(2,n):
