@@ -36,12 +36,13 @@ def nthcircularprime(n):
 		return None
 	else:
 		while c!=n:
-			print(c)
+			# print(c)
 			if isprime(i):
 				if circularprime(i):
 					# print("circular prime:"+i)
 					c+=1
 			i+=1
+		print(i)
 		return i
 
 
