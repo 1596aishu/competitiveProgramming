@@ -20,16 +20,16 @@ def circularprime(n):
 	c = 1
 	if len(n)==1:
 		return True
-	ls = n[1:]+n[:1]
-	print(ls)
-	while nonzeroisprime(int(ls)):
-		ls = str(ls)		
+	
+	while nonzeroisprime(int(n)):
+		ls = str(n)		
 		ls = ls[1:]+ls[:1]
 		print(ls)
 		c+=1
 		print(c)
 		if int(ls) == int(n):
 			break
+		n = ls
 	if c == int(len(n))-1:
 		return True
 	return False
