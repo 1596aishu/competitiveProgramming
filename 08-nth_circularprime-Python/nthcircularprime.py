@@ -69,4 +69,4 @@ def nthcircularprime(n):
 # 	m.append((l[i][0]+1,l[i][1]))
 # print(m)
 
-nthcircularprime(9)
+nthcircularprime(11)
