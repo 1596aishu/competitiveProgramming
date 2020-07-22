@@ -29,6 +29,8 @@ def smithnumber(n):
     l = primefactors(n)
     fac_sum = 0
     digit_sum = 0
+    for i in l:
+        fac_sum+=i
     if fac_sum == digit_sum:
         return True
     return False
