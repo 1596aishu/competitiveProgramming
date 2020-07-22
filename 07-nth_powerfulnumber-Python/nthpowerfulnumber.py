@@ -30,15 +30,15 @@ def nthpowerfulnumber(n):
 	# pass
 	if n == 0:
 		return 1
-	c = 0
-	i = 2
-	while c!=n:
-		if powerfulNumber(i):
-			c+=1
-		if c == n:
-			print(i)
-			return i
-		i+=1
+	i = 0
+	j = 2
+	while(i < n):
+		if powerfulNumber(j):
+			i += 1
+		j += 1
+	print(j-1)
+	return j-1
+# nthcircularprime(39)
 
 
 		
