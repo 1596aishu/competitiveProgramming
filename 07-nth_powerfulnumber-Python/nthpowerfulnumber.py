@@ -33,11 +33,9 @@ def powerfulNumber(n):
 	l = []
 	l1 = []
 	l = primeFactors(n)
-	# print(l)
 	for i in l:
 		if n%(i**2) == 0:
 			l1.append(i)
-	# print(l1)
 	if len(l) == len(l1):
 		return True
 	return False
