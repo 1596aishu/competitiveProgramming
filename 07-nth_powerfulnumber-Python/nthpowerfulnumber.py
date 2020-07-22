@@ -29,6 +29,7 @@ def nthpowerfulnumber(n):
 	# Your code goes here
 	# pass
 	if n == 0:
+		print(1)
 		return 1
 	i = 0
 	j = 2
@@ -37,10 +38,10 @@ def nthpowerfulnumber(n):
 			i += 1
 		j += 1
 	print(j)
-	return j-1	
+	return j	
 	
 	
 
-nthpowerfulnumber(4)
+nthpowerfulnumber(0)
 
 
