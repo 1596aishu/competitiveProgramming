@@ -6,10 +6,12 @@
 # note that 197 is prime, as is 971 (rotated left), as is 719 (rotated left again).
 
 def isprime(n):
-	for i in range(2,n):
-		if n%i == 0:
-			return False
-	return True
+	if n > 1:
+		for i in range(2,n):
+			if n % i ==0:
+				return False
+		return True
+
 
 def circularprime(n):
 	n = str(n)
