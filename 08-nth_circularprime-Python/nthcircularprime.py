@@ -28,7 +28,7 @@ def nthcircularprime(n):
 	# pass
 	c = 0
 	i = 2
-	if '0' in str(i):
+	if "0" in str(i):
 		return None
 	else:
 		if isprime(int(i)):
