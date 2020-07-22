@@ -28,7 +28,6 @@ def smithnumber(n):
     l = []
     l = primefactors(n)
     if sum2(p) == sum1(l):
-        # print(sum1(l), l)
         return True
     return False
 
