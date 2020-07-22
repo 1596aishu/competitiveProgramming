@@ -16,6 +16,22 @@ def isprime(n):
             return False
     return True
 
+def nthLeftTruncatablePrime(n):
+    if n<10:
+        if isprime(n):
+            return n
+    else:
+        n = str(n)
+        while len(n)!=0:
+            if isprime(n):
+                n = n[1:]
+                print(n)
+
+
 def fun_nth_lefttruncatableprime(n):
-    
+    i = 0
+    j = 2
+    while i<n:
+        if nthLeftTruncatablePrime(i):
+            return True
     return 1
