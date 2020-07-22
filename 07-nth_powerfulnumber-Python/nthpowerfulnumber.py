@@ -13,6 +13,6 @@ def nthpowerfulnumber(n):
 			print(i)
 			i+=1
 
-nthpowerfulnumber(10)
+nthpowerfulnumber(30)
 
 
