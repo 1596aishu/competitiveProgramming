@@ -32,16 +32,25 @@ def circularprime(n):
 def nthcircularprime(n):
 	# Your code goes here
 	# pass
-	c = 0
-	i = 2	
-	while c!=n:
-		# print(c)
-		if nonzeroisprime(i):		
-			if circularprime(i):
-				c+=1
-		i+=1
-	print(i)
-	return i
+	# c = 0
+	# i = 2	
+	# while c!=n:
+	# 	# print(c)
+	# 	if nonzeroisprime(i):		
+	# 		if circularprime(i):
+	# 			c+=1
+	# 	i+=1
+	# print(i)
+	# return i
+	i = -1
+	j = 2
+    # return smithnumber(22)
+	while(i < n):
+		if nonzeroisprime(j):
+			if circularprime(j):
+				i += 1
+		j += 1
+	return j-1
 
 # l = [(5, 13), (6, 17), (7, 31), (8, 37), 
 # 	(9, 71), (10, 73), (11, 79), (12, 97), 
