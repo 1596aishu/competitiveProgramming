@@ -31,8 +31,8 @@ def nthcircularprime(n):
 	if "0" in str(i):
 		return None
 	else:
-		print("else")
-		if isprime(int(i)):
+		# print("else")
+		if isprime(i):
 			if circularprime(i):
 				print(i)
 				c+=1
