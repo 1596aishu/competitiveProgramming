@@ -10,6 +10,8 @@ def nonzeroisprime(n):
 		for i in range(2,n):
 			if n % i ==0:
 				return False
+			if "0" in str(n) or "2" in str(n) or "4" in str(n) or "6" in str(n) or "8" in str(n):
+				return False
 		return True
 
 
@@ -20,17 +22,13 @@ def circularprime(n):
 		return True
 	x = n
 	while nonzeroisprime(int(n)):
-		# print(x)
 		ls = str(n)		
 		ls = ls[1:]+ls[:1]
-		# print(ls)
 		c+=1
-		# print(c)
 		if int(ls) == int(x):
 			break
 		n = ls
 	if c == int(len(n))+1:
-		# print("Circular prime")
 		return True
 	return False
 
@@ -46,7 +44,7 @@ def nthcircularprime(n):
 		j += 1
 	print(j-1)
 	return j-1
-nthcircularprime(35)
+# nthcircularprime(39)
 # l = [(5, 13), (6, 17), (7, 31), (8, 37), 
 # 	(9, 71), (10, 73), (11, 79), (12, 97), 
 # 	(13, 113), (14, 131), (15, 197), (16, 199), 
