@@ -26,12 +26,15 @@ def primeFactors(Number):
 			if (count == 2):
 				l.append(i)
 		i = i + 1
-	
+	print(l)
+	return l
 	
 
 def powerfulNumber(n):
 	l = []
 	l1 = []
+	l = primeFactors(n)
+	print(l)
 	for i in l:
 		if n%(i**2) == 0:
 			l1.append(i)
@@ -59,6 +62,6 @@ def nthpowerfulnumber(n):
 	
 	
 
-primeFactors(36)
+powerfulNumber(36)
 
 
