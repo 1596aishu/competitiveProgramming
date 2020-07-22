@@ -14,9 +14,9 @@ def isprime(n):
 def circularprime(n):
 	n = str(n)
 	ls = n[1:]+n[:1]
-	print(ls)
+	# print(ls)
 	rs = n[len(n)-1:]+n[:len(n)-1]
-	print(rs)
+	# print(rs)
 	rs = int(rs)
 	ls = int(ls)
 	if isprime(ls) and isprime(rs):
@@ -38,4 +38,6 @@ def nthcircularprime(n):
 				print(i)
 				return i
 			i+=1
+
+
 nthcircularprime(2)
