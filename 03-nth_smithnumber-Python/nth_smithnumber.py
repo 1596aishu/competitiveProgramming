@@ -33,7 +33,7 @@ def smithnumber(n):
         fac_sum+=i
     for j in str(p):
         # digit_sum+=int(str(p[j]))
-        print(j)
+        digit_sum+=int(j)
     if fac_sum == digit_sum:
         return True
     return False
