@@ -30,7 +30,7 @@ def circularprime(n):
 def nthcircularprime(n):
 	# Your code goes here
 	# pass
-	c = 0
+	c = 1
 	i = 2
 	if "0" in str(i):
 		return None
@@ -42,7 +42,6 @@ def nthcircularprime(n):
 					# print("circular prime:"+i)
 					c+=1
 			i+=1
-		print(i)
 		return i
 
 
