@@ -9,5 +9,17 @@
 
 import math
 
+def nthKaprekarNumber(n):
+    sq = n**2
+    
+
 def fun_nth_kaprekarnumber(n):
-    return 1;
+    i = 0
+    j =  2
+    if n == 0:
+        return 1
+    while(i<n):
+        if nthKaprekarNumber(j):
+            i += 1
+        j += 1
+    return j-1
