@@ -26,10 +26,8 @@ def nthLeftTruncatablePrime(n):
         x = n
         # print(x)
         while len(n)!=0:
-            # print(n)
             if isprime(int(n)):
                 n = n[1:]
-                # print(n)
                 c+=1
             else:
                 break
