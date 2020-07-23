@@ -32,7 +32,7 @@ def nthLeftTruncatablePrime(n):
             else:
                 break
         if c == len(x):
-            # print(True)
+            print(x)
             return True
     # print(True)
     return False
