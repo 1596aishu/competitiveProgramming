@@ -24,13 +24,19 @@ def nthLeftTruncatablePrime(n):
         c = 0
         n = str(n)
         x = n
+        # print(x)
         while len(n)!=0:
+            # print(n)
             if isprime(int(n)):
                 n = n[1:]
                 print(n)
-            c+=1
+                c+=1
+            else:
+                break
         if c == len(x):
+            # print(True)
             return True
+    # print(True)
     return False
 
 
@@ -47,4 +53,4 @@ def fun_nth_lefttruncatableprime(n):
     print(j-1)
     return j-1
 
-fun_nth_lefttruncatableprime(0)
+fun_nth_lefttruncatableprime(5)
