@@ -14,7 +14,10 @@ def nthKaprekarNumber(n):
     sq = str(sq)
     sq1 = sq[:(len(sq)//2)]
     sq2 = sq[(len(sq)//2):]
-    print(sq1,sq2)
+    # print(sq1,sq2)
+    sum = int(sq1)+int(sq2)
+    if sum == n:
+        return True
     return True
 
 def fun_nth_kaprekarnumber(n):
