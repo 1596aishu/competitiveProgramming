@@ -14,9 +14,12 @@ def nthKaprekarNumber(n):
     sq = str(sq)
     sq1 = sq[:(len(sq)//2)]
     sq2 = sq[(len(sq)//2):]
+    sq1 = int(sq1)
+    sq2 = int(sq2)
+    
     # print(sq1,sq2)
-    sum = 0
-    sum = int(float(sq1)+float(sq2))
+    # sum = 0
+    # sum = int(float(sq1)+float(sq2))
     # print(type(sum))
     if sum == n:
         return True
