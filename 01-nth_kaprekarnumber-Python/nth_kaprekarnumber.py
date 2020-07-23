@@ -17,7 +17,7 @@ def nthKaprekarNumber(n):
     # print(sq1,sq2)
     sum = 0
     sum = int(int(sq1)+int(sq2))
-    # print(sum)
+    print(sum)
     if sum == n:
         return True
     return True
@@ -32,4 +32,4 @@ def fun_nth_kaprekarnumber(n):
             i += 1
         j += 1
     return j-1
-# nthKaprekarNumber(703)
+nthKaprekarNumber(703)
