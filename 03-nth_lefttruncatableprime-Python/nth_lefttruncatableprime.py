@@ -50,7 +50,7 @@ def fun_nth_lefttruncatableprime(n):
         if nthLeftTruncatablePrime(j):
             i += 1
         j += 1
-    print(j-1)
+    # print(j-1)
     return j-1
 
-fun_nth_lefttruncatableprime(15)
+# fun_nth_lefttruncatableprime(15)
