@@ -31,4 +31,4 @@ def fun_nth_kaprekarnumber(n):
             i += 1
         j += 1
     return j-1
-nthKaprekarNumber(703)
+# nthKaprekarNumber(703)
