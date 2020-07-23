@@ -12,6 +12,10 @@ import math
 def nthKaprekarNumber(n):
     sq = n**2
     sq = str(sq)
+    sq1 = sq[:(len(sq)//2)]
+    sq2 = sq[(len(sq)//2):]
+    print(sq1,sq2)
+    return True
 
 def fun_nth_kaprekarnumber(n):
     i = 0
