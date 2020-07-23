@@ -16,12 +16,12 @@ def nthKaprekarNumber(n):
     sq2 = sq[(len(sq)//2):]
     sq1 = int(float(sq1))
     sq2 = int(float(sq2))
-    sum = sq1+sq2
+    sum1 = sq1+sq2
     print(sq1,sq2)
     # sum = 0
     # sum = int(float(sq1)+float(sq2))
-    print(sum,n)
-    if sum == n:
+    print(sum1,n)
+    if sum1 == n:
         return True
     return True
 
