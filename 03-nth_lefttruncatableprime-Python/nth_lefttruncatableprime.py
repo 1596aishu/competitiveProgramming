@@ -21,7 +21,7 @@ def nthLeftTruncatablePrime(n):
         if isprime(n):
             return n
     else:
-        c = 0
+        c = 1
         n = str(n)
         x = n
         # print(x)
