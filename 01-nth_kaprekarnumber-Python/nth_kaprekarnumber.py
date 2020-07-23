@@ -10,8 +10,8 @@
 import math
 
 def nthKaprekarNumber(n):
-    qsq = n**2
-    sq = str(s)
+    sq = n**2
+    sq = str(sq)
 
 def fun_nth_kaprekarnumber(n):
     i = 0
