@@ -54,4 +54,4 @@ def fun_nth_lefttruncatableprime(n):
     print(j-1)
     return j-1
 
-fun_nth_lefttruncatableprime(5)
+fun_nth_lefttruncatableprime(4)
