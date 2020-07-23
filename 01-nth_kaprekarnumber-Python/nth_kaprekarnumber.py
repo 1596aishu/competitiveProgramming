@@ -16,7 +16,7 @@ def nthKaprekarNumber(n):
     sq2 = sq[(len(sq)//2):]
     sq1 = int(sq1)
     sq2 = int(sq2)
-    
+    sum = sq1+sq2
     # print(sq1,sq2)
     # sum = 0
     # sum = int(float(sq1)+float(sq2))
