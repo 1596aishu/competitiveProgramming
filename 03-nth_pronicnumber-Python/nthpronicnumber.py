@@ -10,7 +10,7 @@ def pronicnumber(n):
 def nthpronicnumber(n):
 	# Your code goes here
 	i = 1
-	j = 2
+	j = 1
 	sum1 = 0
 	if n == 0:
 		return 0
