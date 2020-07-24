@@ -15,5 +15,5 @@ def nthpronicnumber(n):
 		sum = pronicnumber(j)
 		i+=1
 		j+=1
-	print(j-1)
-	return j-1
+	print(sum)
+	return sum
