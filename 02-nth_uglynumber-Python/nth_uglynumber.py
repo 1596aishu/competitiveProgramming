@@ -32,12 +32,11 @@ def nthUglyNumber(n):
     lst = primefactors(n)
     c = 0
     l = [2,3,5]
-    if len(lst)>1:
-        for i in lst:
-            if i in lst:
-                c = 1
-            else: 
-                c = 0           
+    for i in lst:
+        if i in lst:
+            c = 1
+        else: 
+            c = 0
     if c!=0:
         return True
     return False
