@@ -48,7 +48,7 @@ def fun_nth_uglynumber(n):
         if nthUglyNumber(j):
             i+=1
         j+=1
-    print(n-1)
+    print(j-1)
     return j-1
 
 fun_nth_uglynumber(5)
