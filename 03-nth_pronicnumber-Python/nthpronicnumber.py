@@ -9,7 +9,7 @@ def pronicnumber(n):
 
 def nthpronicnumber(n):
 	# Your code goes here
-	i = 0
+	i = -1
 	j = 2
 	while i < n:
 		sum1 = pronicnumber(j)
