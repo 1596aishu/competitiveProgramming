@@ -7,6 +7,8 @@
 def automorphic(n):
 	sq = n**2
 	x=int(str(num)[-2:])
+	print(x)
+	return True
 
 def nthautomorphicnumbers(n):
 	# Your code goes here
