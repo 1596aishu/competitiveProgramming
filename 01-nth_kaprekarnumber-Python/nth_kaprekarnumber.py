@@ -11,19 +11,26 @@ import math
 
 def nthKaprekarNumber(n):
     sq = n**2
-    sq = str(sq)
-    sq1 = sq[:(len(sq)//2)]
-    sq2 = sq[(len(sq)//2):]
+    r = ""
+    for i in range(len(str(sq))//2):
+        r +=str(sq)[i]
+        print(int(r))
+    for i in range(len(str(sq))//2,len(str(sq))):
+        r +=str(sq)[i]
+        print(int(r))
+    # sq = str(sq)
+    # sq1 = sq[:(len(sq)//2)]
+    # sq2 = sq[(len(sq)//2):]
     
-    sq3 = int(sq1)
-    print(sq1,type(sq3))
-    sq4 = int(sq2)
-    sum1 = sq3+sq4
-    print(sq1,sq2)
+    # sq3 = int(sq1)
+    # print(sq1,type(sq3))
+    # sq4 = int(sq2)
+    # sum1 = sq3+sq4
+    # print(sq1,sq2)
     # sum = 0
     # sum = int(float(sq1)+float(sq2))
-    print(sum1,n)
-    if sum1 == n:
+    # print(sum1,n)
+    if r == n:
         return True
     return True
 
