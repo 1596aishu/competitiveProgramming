@@ -12,7 +12,7 @@ def property309(c):
 			if int(i) == j:
 				lst.remove(j)
 	print(lst)
-	if len(lst)>1:
+	if len(lst)>=1:
 		return False
 	return True
 
