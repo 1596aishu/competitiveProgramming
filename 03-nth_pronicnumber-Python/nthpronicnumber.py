@@ -4,7 +4,7 @@
 # number n is a product of x and (x+1).
 
 def pronicnumber(n):
-	sum = n*n+1
+	sum = n*(n+1)
 	return sum
 
 def nthpronicnumber(n):
