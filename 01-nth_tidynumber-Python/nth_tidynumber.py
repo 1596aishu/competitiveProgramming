@@ -23,4 +23,7 @@ def fun_nth_tidynumber(n):
         if nthTidyNumber(j):
             i+=1
         j+=1
+    print(j-1)
     return j-1
+
+fun_nth_tidynumber(5)
