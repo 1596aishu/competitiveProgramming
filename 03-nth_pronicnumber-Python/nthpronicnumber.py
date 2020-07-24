@@ -5,4 +5,14 @@
 
 def nthpronicnumber(n):
 	# Your code goes here
-	pass
+	i = 0
+	j = 2
+	while i < n:
+		if pronicnumber(j):
+			i+=1
+		j+=1
+	print(j-1)
+	return j-1
+
+
+	# pass
