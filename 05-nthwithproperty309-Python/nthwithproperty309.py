@@ -24,7 +24,7 @@ def nthwithproperty309(n):
 	while i!=n:
 		# print("x")
 		if property309(c):
-			# print("true")
+			print("true")
 			i+=1
 		c+=1
 	return c
