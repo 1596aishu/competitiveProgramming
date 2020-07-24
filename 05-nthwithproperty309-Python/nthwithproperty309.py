@@ -5,10 +5,13 @@
 # the nth number with Property309.
 def property309(c):
 	n = c**5
+	print(c,n)
 	lst = [0,1,2,3,4,5,6,7,8,9]
 	for i in str(n):
-		if i in lst:
-			lst.remove(i)
+		for j in lst:
+			if int(i) == j:
+				lst.remove(j)
+	print(lst)
 	if len(lst)>1:
 		return False
 	return True
@@ -19,9 +22,11 @@ def nthwithproperty309(n):
 	i = 1
 	c = 310
 	while i!=n:
+		# print("x")
 		if property309(c):
+			# print("true")
 			i+=1
 		c+=1
 	return c
 		
-
+nthwithproperty309(1)
