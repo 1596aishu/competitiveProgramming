@@ -4,15 +4,16 @@
 # number n is a product of x and (x+1).
 
 def pronicnumber(n):
-	return 0
+	sum = n*n+1
+	
 
 def nthpronicnumber(n):
 	# Your code goes here
 	i = 0
 	j = 2
 	while i < n:
-		if pronicnumber(j):
-			i+=1
+		sum = pronicnumber(j)
+		i+=1
 		j+=1
 	print(j-1)
 	return j-1
