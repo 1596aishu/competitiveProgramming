@@ -14,7 +14,7 @@ def automorphic(n):
 def nthautomorphicnumbers(n):
 	# Your code goes here
 	# pass
-	i = 1
+	i = 2
 	j = 2
 	while i<n:
 		if automorphic(j):
