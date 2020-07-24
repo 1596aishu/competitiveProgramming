@@ -27,7 +27,7 @@ def nthwithproperty309(n):
 			# print("true")
 			i+=1
 		c+=1
-	print(c)
+	print(c-1)
 	return c
 		
 nthwithproperty309(2)
