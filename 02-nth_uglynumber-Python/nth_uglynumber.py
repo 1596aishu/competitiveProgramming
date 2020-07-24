@@ -35,6 +35,8 @@ def nthUglyNumber(n):
     for i in l:
         if i in lst:
             c +=1
+        if i not in lst:
+            c = 0
     if c!=0:
         return True
     return False
