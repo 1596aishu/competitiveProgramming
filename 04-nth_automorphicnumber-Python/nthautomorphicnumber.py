@@ -23,4 +23,4 @@ def nthautomorphicnumbers(n):
 	print(j-1)
 	return j-1
 
-# automorphic(76)
+nthautomorphicnumbers(5)
