@@ -17,3 +17,5 @@ def nthpronicnumber(n):
 		j+=1
 	print(sum1)
 	return sum1
+
+nthpronicnumber(5)
