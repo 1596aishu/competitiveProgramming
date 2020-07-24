@@ -13,6 +13,12 @@ def primefactors(n):
     if n<10:
         if isprime(n):
             l.append(n)
+        else:
+            for i in range(2,n):
+                if n%i == 0:
+                    if isprime(i):
+                        l.append(i)
+
     else:
         for i in range(2,n):
             if n%i == 0:
