@@ -10,10 +10,14 @@ def isprime(n):
 
 def primefactors(n):
     l = []
-    for i in range(2,n):
-        if n%i == 0:
-            if isprime(i):
-                l.append(i)
+    if n<10:
+        if isprime(n):
+            l.append(n)
+    else:
+        for i in range(2,n):
+            if n%i == 0:
+                if isprime(i):
+                    l.append(i)
     print(l)
     return l
 
@@ -32,4 +36,4 @@ def fun_nth_uglynumber(n):
     print(n-1)
     return j-1
 
-primefactors(2)
+primefactors(3)
