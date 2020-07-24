@@ -22,7 +22,10 @@ def primefactors(n):
     return l
 
 def nthUglyNumber(n):
-    return 0
+    lst = []
+    lst = primefactors(n)
+    l = [2,3,5]
+    
 
 
 
