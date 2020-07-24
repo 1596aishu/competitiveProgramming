@@ -6,6 +6,7 @@
 
 def automorphic(n):
 	sq = n**2
+
 	
 
 def nthautomorphicnumbers(n):
