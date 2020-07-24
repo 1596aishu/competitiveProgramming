@@ -10,7 +10,7 @@ def pronicnumber(n):
 def nthpronicnumber(n):
 	# Your code goes here
 	i = 1
-	j = 2
+	j = 1
 	sum1 = 0
 	if n == 0:
 		return 0
@@ -21,4 +21,4 @@ def nthpronicnumber(n):
 	print(sum1)
 	return sum1
 
-nthpronicnumber(5)
+nthpronicnumber(1)
