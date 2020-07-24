@@ -29,7 +29,9 @@ def nthUglyNumber(n):
     for i in l:
         if i in lst:
             c +=1
-    
+    if c!=0:
+        return True
+    return False
 
 
 
