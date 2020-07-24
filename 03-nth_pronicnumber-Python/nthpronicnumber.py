@@ -5,7 +5,7 @@
 
 def pronicnumber(n):
 	sum = n*n+1
-	
+	return sum
 
 def nthpronicnumber(n):
 	# Your code goes here
