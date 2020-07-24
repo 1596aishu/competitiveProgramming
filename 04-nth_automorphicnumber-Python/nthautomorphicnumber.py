@@ -6,7 +6,7 @@
 
 def automorphic(n):
 	sq = n**2
-	x=int(str(n)[-2:])
+	x=int(str(sq)[-2:])
 	print(x)
 	return True
 
