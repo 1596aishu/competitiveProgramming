@@ -32,3 +32,4 @@ def fun_nth_uglynumber(n):
     print(n-1)
     return j-1
 
+primefactors(10)
