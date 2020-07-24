@@ -10,7 +10,7 @@ def nthTidyNumber(n):
     prev = 10
     while (n): 
         rem = n % 10
-        n /= 10
+        n //= 10
         if rem > prev: 
             return False
         prev = rem 
