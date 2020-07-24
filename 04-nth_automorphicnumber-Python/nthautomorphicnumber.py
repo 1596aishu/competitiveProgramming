@@ -6,8 +6,8 @@
 
 def automorphic(n):
 	sq = n**2
-	x=int(str(sq)[-2:])
-	print(sq,x)
+	x=int(str(sq)[-(len(str(n))):])
+	
 	return True
 
 def nthautomorphicnumbers(n):
