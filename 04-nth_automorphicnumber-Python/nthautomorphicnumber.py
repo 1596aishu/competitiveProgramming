@@ -6,13 +6,7 @@
 
 def automorphic(n):
 	sq = n**2
-	x = len(str(n))
-	while x!=0:
-		rem = n%10
-		x-=1
-
-
-	len()
+	x=int(str(num)[-2:])
 
 def nthautomorphicnumbers(n):
 	# Your code goes here
