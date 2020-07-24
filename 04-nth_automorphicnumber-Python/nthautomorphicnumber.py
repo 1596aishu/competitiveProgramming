@@ -6,7 +6,7 @@
 
 def automorphic(n):
 	sq = n**2
-	x=int(str(num)[-2:])
+	x=int(str(n)[-2:])
 	print(x)
 	return True
 
@@ -21,3 +21,5 @@ def nthautomorphicnumbers(n):
 		j+=1
 	print(j-1)
 	return j-1
+
+automorphic(76)
