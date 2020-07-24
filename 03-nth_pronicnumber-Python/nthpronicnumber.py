@@ -11,6 +11,7 @@ def nthpronicnumber(n):
 	# Your code goes here
 	i = 1
 	j = 2
+	sum1 = 0
 	if n == 0:
 		return 0
 	while i < n:
