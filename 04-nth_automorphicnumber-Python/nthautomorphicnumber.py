@@ -5,4 +5,12 @@
 
 def nthautomorphicnumbers(n):
 	# Your code goes here
-	pass
+	# pass
+	i = 0
+	j = 2
+	while i<n:
+		if automorphic(j):
+			i+=1
+		j+=1
+	print(j-1)
+	return j-1
