@@ -7,7 +7,14 @@
 # fun_nth_tidynumber(35) = 46
 
 def nthTidyNumber(n):
-    return 0
+    prev = 10
+    while (n): 
+        rem = n % 10
+        n /= 10
+        if rem > prev: 
+            return False
+        prev = rem 
+    return True
 
 def fun_nth_tidynumber(n):
     i = 0
