@@ -21,4 +21,4 @@ def nthpronicnumber(n):
 	print(sum1)
 	return sum1
 
-nthpronicnumber(1)
+nthpronicnumber(2)
