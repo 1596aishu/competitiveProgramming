@@ -6,4 +6,11 @@ def nthUglyNumber(n):
     return 0
 
 def fun_nth_uglynumber(n):
-    return 0
+    i = 0
+    j = 2
+    while i<n:
+        if nthUglyNumber(j):
+            i+=1
+        j+=1
+    
+
