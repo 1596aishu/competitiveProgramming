@@ -18,7 +18,7 @@ def primefactors(n):
             if n%i == 0:
                 if isprime(i):
                     l.append(i)
-    print(l)
+    print(n,l)
     return l
 
 def nthUglyNumber(n):
