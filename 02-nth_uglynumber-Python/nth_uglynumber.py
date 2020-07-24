@@ -25,7 +25,9 @@ def nthUglyNumber(n):
     lst = []
     lst = primefactors(n)
     l = [2,3,5]
-    
+    for i in l:
+        if i in lst:
+            c +=1
 
 
 
