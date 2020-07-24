@@ -33,7 +33,7 @@ def nthUglyNumber(n):
     c = 0
     l = [2,3,5]
     for i in lst:
-        if i in lst:
+        if i in l:
             c = 1
         else: 
             c = 0
