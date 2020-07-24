@@ -24,10 +24,12 @@ def primefactors(n):
 def nthUglyNumber(n):
     lst = []
     lst = primefactors(n)
+    c = 0
     l = [2,3,5]
     for i in l:
         if i in lst:
             c +=1
+    
 
 
 
