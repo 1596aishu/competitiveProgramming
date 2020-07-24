@@ -12,8 +12,8 @@ def nthpronicnumber(n):
 	i = 0
 	j = 2
 	while i < n:
-		sum = pronicnumber(j)
+		sum1 = pronicnumber(j)
 		i+=1
 		j+=1
-	print(sum)
-	return sum
+	print(sum1)
+	return sum1
