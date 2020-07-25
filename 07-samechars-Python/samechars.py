@@ -7,4 +7,15 @@
 
 def samechars(s1, s2):
 	# Your code goes here
-	pass
+	# pass
+	for i in s1:
+		if i not in s2:
+			return False
+	for j in s2:
+		if j not in s1:
+			return False
+	# print(s1,s2)
+	return True
+
+
+# samechars("abcabcabc", "cBa")
