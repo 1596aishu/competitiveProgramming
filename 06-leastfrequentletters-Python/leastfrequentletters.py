@@ -14,6 +14,14 @@ def leastfrequentletters(s):
 	for i in s:
 		if i.isalnum():
 			string += i
+	
+	string = string.lower()
 	print(string)
-
+	lst = []
+	for i in string:
+		if i not in lst:
+			lst.append((i,string.count(i)))
+	# print(set(lst))
+	for i in lst:
+		print(i[1])
 leastfrequentletters("aDq efQ? FB'daf!!!")
