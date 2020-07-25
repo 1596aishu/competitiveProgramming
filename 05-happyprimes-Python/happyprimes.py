@@ -24,6 +24,20 @@ def sumofsquaresofdigit(n):
 		sum += n[i]**2
 	return sum
 
+
+
 def ishappyprimenumber(n):
     # Your code goes here
-    pass
+    # pass
+    if isprime(n):
+        l = []
+        while True:
+            if n not in l:
+                l.append(n)
+                n = sumofsquaresofdigit(n)
+            else:
+                return False
+            if n == 1:
+                print(True)
+                return True
+    return False
