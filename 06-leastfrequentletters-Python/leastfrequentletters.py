@@ -10,7 +10,10 @@
 def leastfrequentletters(s):
 	# Your code goes here
 	# pass
-	s = s.isalnum()
-	print(s)
+	string =""
+	for i in s:
+		if i.isalnum():
+			string += i
+	print(string)
 
 leastfrequentletters("aDq efQ? FB'daf!!!")
