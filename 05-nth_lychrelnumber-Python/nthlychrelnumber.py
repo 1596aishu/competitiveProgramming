@@ -3,7 +3,25 @@
 # repeatedly reversing its digits and adding the resulting numbers. This process is sometimes called the 
 # 196-algorithm, after the most famous number associated with the process.
 # The first few Lychrel numbers are 196, 295, 394, 493, 592, 689, 691, 788, 790, 879, 887….
+def ispalindrome(n):
+	if n == reverse(n):
+		return True
+	return False
 
+def reverse(n):
+	n = str(n)
+	n = n[::-1]
+	return int(n)
+
+def islychrel(n):
+	if n == 89 or n == 98:
+		return False
+	max_i = 1000
+	for i in range(max_i):
+		n+=reverse(n)
+		if ispalindrome(n):
+			return False
+	return True
 
 def nthlychrelnumbers(n):
 	# your code goes here
