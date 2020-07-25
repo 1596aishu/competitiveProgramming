@@ -16,12 +16,18 @@ def leastfrequentletters(s):
 			string += i
 	
 	string = string.lower()
-	print(string)
+	# print(string)
 	lst = []
 	for i in string:
 		if i not in lst:
 			lst.append((i,string.count(i)))
 	# print(set(lst))
+	lst = sorted(lst)
+	res = ""
 	for i in lst:
-		print(i[1])
-leastfrequentletters("aDq efQ? FB'daf!!!")
+		if i[1] == 1:
+			res+=i[0]
+	# print(res)
+	return res
+		
+# leastfrequentletters("aDq efQ? FB'daf!!!")
