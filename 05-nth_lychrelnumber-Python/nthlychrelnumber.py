@@ -25,4 +25,10 @@ def islychrel(n):
 
 def nthlychrelnumbers(n):
 	# your code goes here
-	pass
+	i = 0
+	j = 0
+	while(i<n):
+		j += 1
+		if  islychrel(j):
+			i += 1
+	return j
