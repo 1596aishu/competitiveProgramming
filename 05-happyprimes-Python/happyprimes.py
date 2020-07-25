@@ -17,6 +17,13 @@ def isprime(n):
 		else:
 			return True
 
+def sumofsquaresofdigit(n):
+	n = list(map(int,str(n)))
+	sum = 0
+	for i in range(len(n)):
+		sum += n[i]**2
+	return sum
+
 def ishappyprimenumber(n):
     # Your code goes here
     pass
