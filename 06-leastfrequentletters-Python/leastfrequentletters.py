@@ -9,4 +9,6 @@
 
 def leastfrequentletters(s):
 	# Your code goes here
-	pass
+	# pass
+	s = str.isalnum()
+
