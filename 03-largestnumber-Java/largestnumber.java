@@ -11,9 +11,15 @@
 class largestnumber {
 	public int fun_largestnumber(String s){
 		// return 0;
+		int high = 0;
+		// Array lst = new Array[10];
 		String numbers = "";		
 		for(String w:s.split(" ")){
 			numbers=w.replaceAll("[^0-9]", "");
+			if (numbers != "" || numbers != null){
+				high = Integer.parseInt(numbers);
+				System.out.println(high);
+			}
 		}
 		return 0;
 	}
