@@ -12,7 +12,8 @@
 
 class longestsubpalindromes {
 	public String fun_longestsubpalindromes(String s){
-		if(s==null || s.length() < 2) return s;
+		if(s==null || s.length() < 2) 
+			return s;
         int l = 0;
         int h = 0;
         int max = 1;
@@ -24,21 +25,21 @@ class longestsubpalindromes {
                 if(s.charAt(i) == s.charAt(j) && (dp[j+1][i-1] || j+1>i-1)){
                     dp[j][i] = true;
                     if(i-j+1 > max){
-                        l = j;
-                        h = i;
-                        max = i-j+1;
+						l = j;
+						h = i;
+						max = i-j+1;
                     }
                 }
             }
         }
-		System.out.println(max);
-		System.out.println(s.substring(h+1));
+		// System.out.println(l);
+		// System.out.println(s.substring(h+1));
 
         return s.substring(l, h+1);
 	}
 
-	public static void main(String[] args) {
-		longestsubpalindromes s = new longestsubpalindromes();
-		s.fun_longestsubpalindromes("abcbce");
-	}
+	// public static void main(String[] args) {
+	// 	longestsubpalindromes s = new longestsubpalindromes();
+	// 	s.fun_longestsubpalindromes("abcbce");
+	// }
 }
