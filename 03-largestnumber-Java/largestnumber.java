@@ -22,13 +22,13 @@ class largestnumber {
 					high = 	Integer.parseInt(numbers);		
 			}
 		}
-		// System.out.println(high);
+		System.out.println(high);
 		return high;
 	}
-	// public static void main(String[] args) {
-	// 	largestnumber s = new largestnumber();
-	// 	s.fun_largestnumber("we have 32 dogs 3 cats");
-	// }
+	public static void main(String[] args) {
+		largestnumber s = new largestnumber();
+		s.fun_largestnumber("wehave15dogs2cats");
+	}
 	
 }
 	
