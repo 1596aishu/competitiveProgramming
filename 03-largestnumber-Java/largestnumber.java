@@ -15,14 +15,18 @@ class largestnumber {
 		// Array lst = new Array[10];
 		String numbers = "";		
 		for(String w:s.split(" ")){
-			numbers=w.replaceAll("[^0-9]", " ");
-			if (numbers==" ")
-				System.out.println(numbers);
+			String n = ".*[0-9].*";
+			if (w.matches(n)){
+				numbers=w.replaceAll("[^0-9]", " ");
+				if(high < Integer.parseInt(numbers))
+					high = 	Integer.parseInt(numbers);		
+			}
 			// if (numbers != "" || numbers != null){
 			// 	high = Integer.parseInt(numbers);
 			// 	System.out.println(high);
 			// }
 		}
+		System.out.println(high);
 		return 0;
 	}
 	public static void main(String[] args) {
