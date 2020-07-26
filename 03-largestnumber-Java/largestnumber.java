@@ -13,8 +13,7 @@ class largestnumber {
 		// return 0;
 		String numbers = "";		
 		for(String w:s.split(" ")){
-			numbers=s.replaceAll("[^0-9]", "");
-			System.out.println(numbers);
+			numbers=w.replaceAll("[^0-9]", "");
 		}
 		return 0;
 	}
