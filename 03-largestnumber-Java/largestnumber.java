@@ -17,7 +17,7 @@ class largestnumber {
 		for(String w:s.split(" ")){
 			String n = ".*[0-9].*";
 			if (w.matches(n)){
-				numbers=w.replaceAll("[^0-9]", " ");
+				numbers=w.replaceAll("[^0-9]", "");
 				if(high < Integer.parseInt(numbers))
 					high = 	Integer.parseInt(numbers);		
 			}
