@@ -19,10 +19,10 @@ class nthtenlyprime {
 		return j-1;
 	}
 
-	public static void main(String[] args) {
-		nthtenlyprime s = new nthtenlyprime();
-		int x = s.fun_nthtenlyprime(2);
-		System.out.println(x);
+	// public static void main(String[] args) {
+	// 	nthtenlyprime s = new nthtenlyprime();
+	// 	int x = s.fun_nthtenlyprime(2);
+	// 	System.out.println(x);
 		
-	}
+	// }
 }
