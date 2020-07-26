@@ -20,7 +20,7 @@ class nthtenlyprime {
 				System.out.print(x);
 				while(i!=0) {
 					sum += i%10;
-					i = n/10;
+					i = i/10;
 				}
 				if (sum == 10){
 					i+=1;
