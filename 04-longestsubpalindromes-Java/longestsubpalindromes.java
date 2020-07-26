@@ -31,12 +31,14 @@ class longestsubpalindromes {
                 }
             }
         }
-		// System.out.println(s.substring(l, h+1));
+		System.out.println(s.substring(l));
+		System.out.println(s.substring(h+1));
+
         return s.substring(l, h+1);
 	}
 
-	// public static void main(String[] args) {
-	// 	longestsubpalindromes s = new longestsubpalindromes();
-	// 	s.fun_longestsubpalindromes("abba");
-	// }
+	public static void main(String[] args) {
+		longestsubpalindromes s = new longestsubpalindromes();
+		s.fun_longestsubpalindromes("abba");
+	}
 }
