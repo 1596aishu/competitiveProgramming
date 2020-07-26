@@ -10,8 +10,8 @@ class nthtenlyprime {
 	}
 	public int fun_nthtenlyprime(int n){
 		// return 1;
-		int i = 10;
-		int j = 2;
+		int i = 0;
+		int j = 10;
 		int sum = 0;
 		boolean x = false;
 		while(i<n){
