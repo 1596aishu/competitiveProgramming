@@ -9,34 +9,33 @@ class nthtenlyprime {
 		return true;
 	}
 	public int fun_nthtenlyprime(int n){
-		// return 1;
-		int i = 0;
-		int j = 10;
-		int sum = 0;
-		boolean x = false;
-		while(i<n){
-			x = isprime(i);
-			if (x == true){
-				System.out.print(x);
-				while(i!=0) {
-					sum += i%10;
-					i = i/10;
-				}
-				if (sum == 10){
-					i+=1;
-				}
-				j+=1;
-			}
-			
-		}
+		int count = -1; 
+  
+		for (int curr = 10;; curr++) { 
+			if (isprime(curr) == true){
+				// Find sum of digits in current no. 
+				int sum = 0; 
+				for (int x = curr; x > 0; x = x / 10) 
+					sum = sum + x % 10; 
 		
-		return j-1;
+				// If sum is 10, we increment count 
+				if (sum == 10) 
+					count++; 
+		
+				// If count becomes n, we return current 
+				// number. 
+				if (count == n) {
+					// System.out.println(curr);
+					return curr; }
+			}			
+		} 
+		// return -1; 
+
 	}
 
-	public static void main(String[] args) {
-		nthtenlyprime s = new nthtenlyprime();
-		int x = s.fun_nthtenlyprime(2);
-		System.out.println(x);
+	// public static void main(String[] args) {
+	// 	nthtenlyprime s = new nthtenlyprime();
+	// 	int x = s.fun_nthtenlyprime(1);
 		
-	}
+	// }
 }
