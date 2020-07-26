@@ -6,6 +6,7 @@ class nthtenlyprime {
 		int j = 2;
 		int sum = 0;
 		while(i<n){
+			
 			while(i!=0) {
 				sum += i%10;
 				i = n/10;
