@@ -10,7 +10,23 @@
  
 class hasbalancedparantheses {
 	public boolean fun_hasbalancedparantheses(String s){
-		return false;	
+		// return false;
+		int c1 = 0;
+		int c2 = 0;	
+		for (char ch: s.toCharArray()) {
+			if (ch=='(')
+				c1+=1;
+			else if (ch==')')
+				c2+=1;
+		}
+		System.out.println(c1+" "+c2);
+		if (c1 == c2)
+			return true;
+		return false;
+	}
+	public static void main(String[] args) {
+		hasbalancedparantheses s = new hasbalancedparantheses();
+		boolean x = s.fun_hasbalancedparantheses("( ( ( ( )3))  ");
 	}
 }
 	
