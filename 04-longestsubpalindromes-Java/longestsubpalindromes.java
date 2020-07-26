@@ -39,6 +39,6 @@ class longestsubpalindromes {
 
 	public static void main(String[] args) {
 		longestsubpalindromes s = new longestsubpalindromes();
-		s.fun_longestsubpalindromes("abba");
+		s.fun_longestsubpalindromes("abcbce");
 	}
 }
