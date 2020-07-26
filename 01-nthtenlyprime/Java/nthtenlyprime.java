@@ -17,6 +17,7 @@ class nthtenlyprime {
 		while(i<n){
 			x = isprime(i);
 			if (x == true){
+				System.out.print(x);
 				while(i!=0) {
 					sum += i%10;
 					i = n/10;
