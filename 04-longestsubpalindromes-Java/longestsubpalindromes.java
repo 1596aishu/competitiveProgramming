@@ -31,7 +31,7 @@ class longestsubpalindromes {
                 }
             }
         }
-		System.out.println(s.substring(l));
+		System.out.println(max);
 		System.out.println(s.substring(h+1));
 
         return s.substring(l, h+1);
