@@ -21,7 +21,7 @@ class nthtenlyprime {
 
 	public static void main(String[] args) {
 		nthtenlyprime s = new nthtenlyprime();
-		int x = s.fun_nthtenlyprime(0);
+		int x = s.fun_nthtenlyprime(2);
 		System.out.println(x);
 		
 	}
