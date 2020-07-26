@@ -26,8 +26,8 @@ class largestnumber {
 			// 	System.out.println(high);
 			// }
 		}
-		System.out.println(high);
-		return 0;
+		// System.out.println(high);
+		return high;
 	}
 	public static void main(String[] args) {
 		largestnumber s = new largestnumber();
